@@ -1,0 +1,40 @@
+<!DOCtype html>
+<html>
+
+<head>
+
+    {% load static %}
+    <link rel = "stylesheet" href ="{% static 'css/music.css' %}"> 
+    <script src="{% static 'js/music1.js' %}"></script>
+
+</head>
+
+<body>
+
+   <div id="container">
+
+       {% for x,y in data %}
+        
+       
+
+          <div id="song">
+            <img src="/media/TUSHAR/songs_thumbnail/{{y}}"><br>
+            <audio controls preload="none">
+                <source src="/media/TUSHAR/songs/{{x}}">
+
+            </audio><br>
+            <span id="song_name">{{x}}</span>
+
+          </div>
+          
+        {% endfor %}
+
+
+   </div>   
+    
+
+
+</body>
+
+
+</html>

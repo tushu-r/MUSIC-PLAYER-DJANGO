@@ -1,0 +1,2960 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.040 --> 00:00:03.669 align:start position:0%
+ 
+welcome<00:00:01.360><c> back</c><00:00:01.599><c> friends</c><00:00:02.000><c> so</c><00:00:02.560><c> in</c><00:00:02.720><c> this</c><00:00:03.040><c> video</c><00:00:03.520><c> of</c>
+
+00:00:03.669 --> 00:00:03.679 align:start position:0%
+welcome back friends so in this video of
+ 
+
+00:00:03.679 --> 00:00:05.910 align:start position:0%
+welcome back friends so in this video of
+socket<00:00:04.080><c> programming</c><00:00:04.640><c> i'm</c><00:00:04.799><c> going</c><00:00:05.040><c> to</c>
+
+00:00:05.910 --> 00:00:05.920 align:start position:0%
+socket programming i'm going to
+ 
+
+00:00:05.920 --> 00:00:09.669 align:start position:0%
+socket programming i'm going to
+discuss<00:00:06.399><c> about</c><00:00:06.879><c> the</c><00:00:08.080><c> git</c>
+
+00:00:09.669 --> 00:00:09.679 align:start position:0%
+discuss about the git
+ 
+
+00:00:09.679 --> 00:00:12.549 align:start position:0%
+discuss about the git
+host<00:00:10.000><c> by</c><00:00:10.320><c> name</c><00:00:11.519><c> in</c><00:00:11.679><c> the</c><00:00:11.840><c> previous</c><00:00:12.160><c> video</c><00:00:12.400><c> we</c>
+
+00:00:12.549 --> 00:00:12.559 align:start position:0%
+host by name in the previous video we
+ 
+
+00:00:12.559 --> 00:00:14.709 align:start position:0%
+host by name in the previous video we
+discussed<00:00:12.960><c> about</c><00:00:13.200><c> this</c><00:00:13.440><c> gate</c><00:00:13.679><c> hostname</c>
+
+00:00:14.709 --> 00:00:14.719 align:start position:0%
+discussed about this gate hostname
+ 
+
+00:00:14.719 --> 00:00:16.550 align:start position:0%
+discussed about this gate hostname
+and<00:00:14.880><c> today</c><00:00:15.200><c> i'm</c><00:00:15.360><c> going</c><00:00:15.519><c> to</c><00:00:15.679><c> discuss</c><00:00:16.000><c> about</c><00:00:16.240><c> the</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+and today i'm going to discuss about the
+ 
+
+00:00:16.560 --> 00:00:18.230 align:start position:0%
+and today i'm going to discuss about the
+gate<00:00:17.440><c> host</c>
+
+00:00:18.230 --> 00:00:18.240 align:start position:0%
+gate host
+ 
+
+00:00:18.240 --> 00:00:21.910 align:start position:0%
+gate host
+by<00:00:18.720><c> name</c><00:00:21.199><c> using</c><00:00:21.520><c> this</c>
+
+00:00:21.910 --> 00:00:21.920 align:start position:0%
+by name using this
+ 
+
+00:00:21.920 --> 00:00:25.029 align:start position:0%
+by name using this
+api<00:00:22.720><c> uh</c><00:00:22.960><c> we</c><00:00:23.119><c> can</c><00:00:23.359><c> understand</c><00:00:23.840><c> like</c><00:00:24.320><c> after</c>
+
+00:00:25.029 --> 00:00:25.039 align:start position:0%
+api uh we can understand like after
+ 
+
+00:00:25.039 --> 00:00:26.550 align:start position:0%
+api uh we can understand like after
+after<00:00:25.279><c> whatever</c><00:00:25.599><c> value</c><00:00:25.920><c> will</c><00:00:26.000><c> be</c><00:00:26.080><c> returned</c><00:00:26.400><c> by</c>
+
+00:00:26.550 --> 00:00:26.560 align:start position:0%
+after whatever value will be returned by
+ 
+
+00:00:26.560 --> 00:00:28.790 align:start position:0%
+after whatever value will be returned by
+the<00:00:27.039><c> gate</c><00:00:27.279><c> host</c><00:00:27.519><c> by</c><00:00:27.760><c> name</c><00:00:28.080><c> and</c><00:00:28.240><c> that</c><00:00:28.480><c> is</c><00:00:28.640><c> a</c>
+
+00:00:28.790 --> 00:00:28.800 align:start position:0%
+the gate host by name and that is a
+ 
+
+00:00:28.800 --> 00:00:29.589 align:start position:0%
+the gate host by name and that is a
+structure
+
+00:00:29.589 --> 00:00:29.599 align:start position:0%
+structure
+ 
+
+00:00:29.599 --> 00:00:31.589 align:start position:0%
+structure
+basically<00:00:30.320><c> a</c><00:00:30.480><c> pointer</c><00:00:30.800><c> to</c><00:00:30.960><c> this</c><00:00:31.199><c> structure</c>
+
+00:00:31.589 --> 00:00:31.599 align:start position:0%
+basically a pointer to this structure
+ 
+
+00:00:31.599 --> 00:00:32.630 align:start position:0%
+basically a pointer to this structure
+hosting
+
+00:00:32.630 --> 00:00:32.640 align:start position:0%
+hosting
+ 
+
+00:00:32.640 --> 00:00:34.950 align:start position:0%
+hosting
+so<00:00:33.040><c> this</c><00:00:33.200><c> will</c><00:00:33.360><c> be</c><00:00:33.440><c> written</c><00:00:33.840><c> hosting</c><00:00:34.719><c> after</c>
+
+00:00:34.950 --> 00:00:34.960 align:start position:0%
+so this will be written hosting after
+ 
+
+00:00:34.960 --> 00:00:36.630 align:start position:0%
+so this will be written hosting after
+the<00:00:35.120><c> call</c><00:00:35.360><c> to</c><00:00:35.520><c> get</c><00:00:35.760><c> host</c><00:00:36.000><c> by</c><00:00:36.239><c> name</c>
+
+00:00:36.630 --> 00:00:36.640 align:start position:0%
+the call to get host by name
+ 
+
+00:00:36.640 --> 00:00:39.510 align:start position:0%
+the call to get host by name
+using<00:00:36.960><c> this</c><00:00:37.440><c> api</c><00:00:37.840><c> call</c><00:00:38.160><c> you</c><00:00:38.239><c> can</c><00:00:38.480><c> find</c><00:00:38.800><c> out</c>
+
+00:00:39.510 --> 00:00:39.520 align:start position:0%
+using this api call you can find out
+ 
+
+00:00:39.520 --> 00:00:40.470 align:start position:0%
+using this api call you can find out
+various<00:00:39.920><c> things</c><00:00:40.160><c> like</c>
+
+00:00:40.470 --> 00:00:40.480 align:start position:0%
+various things like
+ 
+
+00:00:40.480 --> 00:00:42.310 align:start position:0%
+various things like
+first<00:00:40.719><c> thing</c><00:00:40.879><c> is</c><00:00:41.040><c> like</c><00:00:41.280><c> what</c><00:00:41.520><c> kind</c><00:00:41.760><c> of</c><00:00:41.920><c> address</c>
+
+00:00:42.310 --> 00:00:42.320 align:start position:0%
+first thing is like what kind of address
+ 
+
+00:00:42.320 --> 00:00:44.310 align:start position:0%
+first thing is like what kind of address
+it<00:00:42.399><c> supports</c><00:00:43.200><c> what</c><00:00:43.360><c> kind</c><00:00:43.600><c> of</c><00:00:43.760><c> address</c><00:00:44.079><c> family</c>
+
+00:00:44.310 --> 00:00:44.320 align:start position:0%
+it supports what kind of address family
+ 
+
+00:00:44.320 --> 00:00:45.270 align:start position:0%
+it supports what kind of address family
+it<00:00:44.399><c> will</c><00:00:44.559><c> support</c><00:00:44.879><c> like</c>
+
+00:00:45.270 --> 00:00:45.280 align:start position:0%
+it will support like
+ 
+
+00:00:45.280 --> 00:00:47.750 align:start position:0%
+it will support like
+if<00:00:45.440><c> it</c><00:00:45.600><c> is</c><00:00:45.840><c> afi</c><00:00:46.320><c> net</c><00:00:46.559><c> or</c><00:00:46.640><c> if</c><00:00:46.800><c> it</c><00:00:46.960><c> is</c><00:00:47.039><c> like</c><00:00:47.280><c> af</c><00:00:47.520><c> net</c>
+
+00:00:47.750 --> 00:00:47.760 align:start position:0%
+if it is afi net or if it is like af net
+ 
+
+00:00:47.760 --> 00:00:48.950 align:start position:0%
+if it is afi net or if it is like af net
+bios
+
+00:00:48.950 --> 00:00:48.960 align:start position:0%
+bios
+ 
+
+00:00:48.960 --> 00:00:52.549 align:start position:0%
+bios
+and<00:00:50.879><c> then</c><00:00:51.280><c> you</c><00:00:51.440><c> can</c><00:00:51.600><c> find</c><00:00:51.920><c> out</c><00:00:52.079><c> like</c>
+
+00:00:52.549 --> 00:00:52.559 align:start position:0%
+and then you can find out like
+ 
+
+00:00:52.559 --> 00:00:55.670 align:start position:0%
+and then you can find out like
+what<00:00:52.800><c> is</c><00:00:52.879><c> the</c><00:00:53.039><c> ip</c><00:00:53.440><c> address</c><00:00:53.920><c> of</c><00:00:54.079><c> your</c>
+
+00:00:55.670 --> 00:00:55.680 align:start position:0%
+what is the ip address of your
+ 
+
+00:00:55.680 --> 00:00:58.470 align:start position:0%
+what is the ip address of your
+machine<00:00:56.640><c> where</c><00:00:57.280><c> your</c><00:00:57.520><c> server</c><00:00:57.920><c> is</c><00:00:58.000><c> going</c><00:00:58.239><c> to</c><00:00:58.320><c> be</c>
+
+00:00:58.470 --> 00:00:58.480 align:start position:0%
+machine where your server is going to be
+ 
+
+00:00:58.480 --> 00:00:58.950 align:start position:0%
+machine where your server is going to be
+running
+
+00:00:58.950 --> 00:00:58.960 align:start position:0%
+running
+ 
+
+00:00:58.960 --> 00:01:01.590 align:start position:0%
+running
+right<00:00:59.199><c> so</c><00:00:59.440><c> based</c><00:00:59.760><c> on</c><00:00:59.920><c> the</c><00:01:00.480><c> name</c><00:01:00.719><c> of</c><00:01:00.879><c> the</c>
+
+00:01:01.590 --> 00:01:01.600 align:start position:0%
+right so based on the name of the
+ 
+
+00:01:01.600 --> 00:01:03.430 align:start position:0%
+right so based on the name of the
+machine<00:01:02.079><c> you</c><00:01:02.239><c> can</c><00:01:02.399><c> find</c><00:01:02.719><c> out</c><00:01:02.879><c> that</c><00:01:03.120><c> what</c><00:01:03.359><c> are</c>
+
+00:01:03.430 --> 00:01:03.440 align:start position:0%
+machine you can find out that what are
+ 
+
+00:01:03.440 --> 00:01:03.750 align:start position:0%
+machine you can find out that what are
+the
+
+00:01:03.750 --> 00:01:03.760 align:start position:0%
+the
+ 
+
+00:01:03.760 --> 00:01:05.750 align:start position:0%
+the
+addresses<00:01:04.320><c> that</c><00:01:04.559><c> have</c><00:01:04.640><c> been</c><00:01:04.799><c> assigned</c><00:01:05.119><c> to</c><00:01:05.280><c> it</c>
+
+00:01:05.750 --> 00:01:05.760 align:start position:0%
+addresses that have been assigned to it
+ 
+
+00:01:05.760 --> 00:01:06.950 align:start position:0%
+addresses that have been assigned to it
+so<00:01:05.920><c> it's</c><00:01:06.159><c> not</c><00:01:06.320><c> only</c>
+
+00:01:06.950 --> 00:01:06.960 align:start position:0%
+so it's not only
+ 
+
+00:01:06.960 --> 00:01:09.510 align:start position:0%
+so it's not only
+like<00:01:07.520><c> your</c><00:01:07.760><c> own</c><00:01:08.000><c> machine</c><00:01:08.640><c> it</c><00:01:09.040><c> can</c><00:01:09.200><c> be</c><00:01:09.360><c> any</c>
+
+00:01:09.510 --> 00:01:09.520 align:start position:0%
+like your own machine it can be any
+ 
+
+00:01:09.520 --> 00:01:11.350 align:start position:0%
+like your own machine it can be any
+machine<00:01:09.840><c> like</c><00:01:10.080><c> if</c><00:01:10.479><c> that</c><00:01:10.640><c> machine</c><00:01:10.960><c> is</c><00:01:11.119><c> on</c><00:01:11.200><c> the</c>
+
+00:01:11.350 --> 00:01:11.360 align:start position:0%
+machine like if that machine is on the
+ 
+
+00:01:11.360 --> 00:01:13.590 align:start position:0%
+machine like if that machine is on the
+network<00:01:11.840><c> and</c><00:01:12.000><c> your</c><00:01:12.240><c> program</c><00:01:12.640><c> is</c><00:01:12.799><c> running</c>
+
+00:01:13.590 --> 00:01:13.600 align:start position:0%
+network and your program is running
+ 
+
+00:01:13.600 --> 00:01:17.830 align:start position:0%
+network and your program is running
+and<00:01:15.040><c> you</c><00:01:15.200><c> get</c><00:01:15.439><c> the</c><00:01:15.600><c> machine</c><00:01:16.080><c> name</c>
+
+00:01:17.830 --> 00:01:17.840 align:start position:0%
+and you get the machine name
+ 
+
+00:01:17.840 --> 00:01:19.830 align:start position:0%
+and you get the machine name
+as<00:01:18.080><c> an</c><00:01:18.240><c> input</c><00:01:18.720><c> in</c><00:01:18.799><c> your</c><00:01:18.960><c> program</c><00:01:19.360><c> then</c><00:01:19.600><c> also</c>
+
+00:01:19.830 --> 00:01:19.840 align:start position:0%
+as an input in your program then also
+ 
+
+00:01:19.840 --> 00:01:21.190 align:start position:0%
+as an input in your program then also
+you<00:01:20.000><c> can</c><00:01:20.240><c> find</c><00:01:20.560><c> out</c>
+
+00:01:21.190 --> 00:01:21.200 align:start position:0%
+you can find out
+ 
+
+00:01:21.200 --> 00:01:23.670 align:start position:0%
+you can find out
+that<00:01:21.439><c> particular</c><00:01:22.000><c> machine</c><00:01:22.720><c> and</c><00:01:23.119><c> you</c><00:01:23.280><c> can</c><00:01:23.439><c> find</c>
+
+00:01:23.670 --> 00:01:23.680 align:start position:0%
+that particular machine and you can find
+ 
+
+00:01:23.680 --> 00:01:24.469 align:start position:0%
+that particular machine and you can find
+out<00:01:23.840><c> that</c>
+
+00:01:24.469 --> 00:01:24.479 align:start position:0%
+out that
+ 
+
+00:01:24.479 --> 00:01:26.710 align:start position:0%
+out that
+how<00:01:24.960><c> uh</c><00:01:25.360><c> what</c><00:01:25.600><c> are</c><00:01:25.680><c> the</c><00:01:25.840><c> various</c><00:01:26.159><c> parameters</c>
+
+00:01:26.710 --> 00:01:26.720 align:start position:0%
+how uh what are the various parameters
+ 
+
+00:01:26.720 --> 00:01:28.469 align:start position:0%
+how uh what are the various parameters
+that<00:01:26.960><c> are</c><00:01:27.040><c> supported</c><00:01:27.520><c> by</c><00:01:27.680><c> the</c>
+
+00:01:28.469 --> 00:01:28.479 align:start position:0%
+that are supported by the
+ 
+
+00:01:28.479 --> 00:01:30.469 align:start position:0%
+that are supported by the
+uh<00:01:28.799><c> separate</c><00:01:29.119><c> machine</c><00:01:29.520><c> by</c><00:01:29.680><c> the</c><00:01:29.759><c> other</c><00:01:30.000><c> machine</c>
+
+00:01:30.469 --> 00:01:30.479 align:start position:0%
+uh separate machine by the other machine
+ 
+
+00:01:30.479 --> 00:01:33.670 align:start position:0%
+uh separate machine by the other machine
+right<00:01:31.119><c> uh</c><00:01:31.360><c> you</c><00:01:31.439><c> can</c><00:01:31.600><c> find</c><00:01:31.840><c> out</c><00:01:32.000><c> if</c><00:01:32.159><c> it</c><00:01:32.320><c> is</c><00:01:32.479><c> uh</c>
+
+00:01:33.670 --> 00:01:33.680 align:start position:0%
+right uh you can find out if it is uh
+ 
+
+00:01:33.680 --> 00:01:35.670 align:start position:0%
+right uh you can find out if it is uh
+with<00:01:33.840><c> this</c><00:01:34.079><c> family</c><00:01:34.560><c> like</c><00:01:34.960><c> if</c><00:01:35.119><c> the</c><00:01:35.200><c> family</c><00:01:35.600><c> of</c>
+
+00:01:35.670 --> 00:01:35.680 align:start position:0%
+with this family like if the family of
+ 
+
+00:01:35.680 --> 00:01:37.510 align:start position:0%
+with this family like if the family of
+the<00:01:35.920><c> address</c><00:01:36.320><c> if</c><00:01:36.400><c> the</c><00:01:36.560><c> address</c><00:01:36.880><c> type</c><00:01:37.119><c> family</c>
+
+00:01:37.510 --> 00:01:37.520 align:start position:0%
+the address if the address type family
+ 
+
+00:01:37.520 --> 00:01:38.230 align:start position:0%
+the address if the address type family
+for<00:01:37.680><c> the</c>
+
+00:01:38.230 --> 00:01:38.240 align:start position:0%
+for the
+ 
+
+00:01:38.240 --> 00:01:41.910 align:start position:0%
+for the
+machine<00:01:38.720><c> is</c><00:01:39.200><c> a</c><00:01:39.439><c> finite</c><00:01:40.000><c> or</c><00:01:41.119><c> you</c><00:01:41.280><c> can</c><00:01:41.439><c> find</c><00:01:41.759><c> out</c>
+
+00:01:41.910 --> 00:01:41.920 align:start position:0%
+machine is a finite or you can find out
+ 
+
+00:01:41.920 --> 00:01:42.870 align:start position:0%
+machine is a finite or you can find out
+what<00:01:42.240><c> what</c><00:01:42.399><c> is</c><00:01:42.560><c> the</c>
+
+00:01:42.870 --> 00:01:42.880 align:start position:0%
+what what is the
+ 
+
+00:01:42.880 --> 00:01:45.190 align:start position:0%
+what what is the
+address<00:01:43.680><c> and</c><00:01:43.840><c> what</c><00:01:44.079><c> are</c><00:01:44.159><c> the</c><00:01:44.399><c> ip</c><00:01:44.799><c> addresses</c>
+
+00:01:45.190 --> 00:01:45.200 align:start position:0%
+address and what are the ip addresses
+ 
+
+00:01:45.200 --> 00:01:46.630 align:start position:0%
+address and what are the ip addresses
+assigned<00:01:45.520><c> to</c><00:01:45.680><c> that</c><00:01:45.840><c> machine</c>
+
+00:01:46.630 --> 00:01:46.640 align:start position:0%
+assigned to that machine
+ 
+
+00:01:46.640 --> 00:01:48.550 align:start position:0%
+assigned to that machine
+if<00:01:46.880><c> only</c><00:01:47.119><c> one</c><00:01:47.360><c> ipad</c><00:01:47.759><c> is</c><00:01:47.840><c> assigned</c><00:01:48.159><c> then</c><00:01:48.320><c> only</c>
+
+00:01:48.550 --> 00:01:48.560 align:start position:0%
+if only one ipad is assigned then only
+ 
+
+00:01:48.560 --> 00:01:50.789 align:start position:0%
+if only one ipad is assigned then only
+one<00:01:48.799><c> ip</c><00:01:49.040><c> address</c><00:01:49.280><c> will</c><00:01:49.439><c> be</c><00:01:49.600><c> visible</c><00:01:49.920><c> here</c>
+
+00:01:50.789 --> 00:01:50.799 align:start position:0%
+one ip address will be visible here
+ 
+
+00:01:50.799 --> 00:01:53.109 align:start position:0%
+one ip address will be visible here
+right<00:01:51.119><c> and</c><00:01:51.439><c> uh</c><00:01:52.240><c> these</c><00:01:52.399><c> are</c><00:01:52.560><c> the</c><00:01:52.720><c> important</c>
+
+00:01:53.109 --> 00:01:53.119 align:start position:0%
+right and uh these are the important
+ 
+
+00:01:53.119 --> 00:01:55.270 align:start position:0%
+right and uh these are the important
+things<00:01:53.600><c> uh</c><00:01:53.920><c> and</c><00:01:54.079><c> apart</c><00:01:54.399><c> from</c><00:01:54.640><c> that</c><00:01:54.880><c> uh</c><00:01:55.040><c> there</c>
+
+00:01:55.270 --> 00:01:55.280 align:start position:0%
+things uh and apart from that uh there
+ 
+
+00:01:55.280 --> 00:01:56.709 align:start position:0%
+things uh and apart from that uh there
+are<00:01:55.360><c> many</c><00:01:55.600><c> other</c><00:01:55.759><c> things</c><00:01:56.000><c> like</c><00:01:56.240><c> there</c>
+
+00:01:56.709 --> 00:01:56.719 align:start position:0%
+are many other things like there
+ 
+
+00:01:56.719 --> 00:01:58.870 align:start position:0%
+are many other things like there
+there<00:01:56.880><c> is</c><00:01:56.960><c> the</c><00:01:57.119><c> alias</c><00:01:57.920><c> uh</c><00:01:58.159><c> you</c><00:01:58.240><c> can</c><00:01:58.399><c> print</c><00:01:58.719><c> the</c>
+
+00:01:58.870 --> 00:01:58.880 align:start position:0%
+there is the alias uh you can print the
+ 
+
+00:01:58.880 --> 00:02:00.310 align:start position:0%
+there is the alias uh you can print the
+alias<00:01:59.360><c> names</c><00:01:59.680><c> as</c><00:01:59.759><c> well</c><00:02:00.000><c> like</c>
+
+00:02:00.310 --> 00:02:00.320 align:start position:0%
+alias names as well like
+ 
+
+00:02:00.320 --> 00:02:01.749 align:start position:0%
+alias names as well like
+what<00:02:00.560><c> are</c><00:02:00.640><c> what</c><00:02:00.799><c> are</c><00:02:00.960><c> the</c><00:02:01.040><c> other</c><00:02:01.280><c> names</c><00:02:01.520><c> for</c>
+
+00:02:01.749 --> 00:02:01.759 align:start position:0%
+what are what are the other names for
+ 
+
+00:02:01.759 --> 00:02:04.149 align:start position:0%
+what are what are the other names for
+this<00:02:02.240><c> host</c><00:02:02.479><c> name</c><00:02:03.119><c> so</c><00:02:03.360><c> all</c><00:02:03.520><c> those</c><00:02:03.759><c> things</c><00:02:04.000><c> are</c>
+
+00:02:04.149 --> 00:02:04.159 align:start position:0%
+this host name so all those things are
+ 
+
+00:02:04.159 --> 00:02:05.030 align:start position:0%
+this host name so all those things are
+very<00:02:04.399><c> important</c>
+
+00:02:05.030 --> 00:02:05.040 align:start position:0%
+very important
+ 
+
+00:02:05.040 --> 00:02:06.709 align:start position:0%
+very important
+uh<00:02:05.360><c> sometimes</c><00:02:05.840><c> you</c><00:02:05.920><c> need</c><00:02:06.159><c> them</c><00:02:06.399><c> in</c><00:02:06.560><c> your</c>
+
+00:02:06.709 --> 00:02:06.719 align:start position:0%
+uh sometimes you need them in your
+ 
+
+00:02:06.719 --> 00:02:08.630 align:start position:0%
+uh sometimes you need them in your
+program<00:02:07.520><c> whenever</c><00:02:07.920><c> you</c><00:02:08.080><c> are</c>
+
+00:02:08.630 --> 00:02:08.640 align:start position:0%
+program whenever you are
+ 
+
+00:02:08.640 --> 00:02:11.029 align:start position:0%
+program whenever you are
+developing<00:02:09.119><c> your</c><00:02:09.840><c> socket</c><00:02:10.160><c> server</c><00:02:10.560><c> and</c><00:02:10.800><c> client</c>
+
+00:02:11.029 --> 00:02:11.039 align:start position:0%
+developing your socket server and client
+ 
+
+00:02:11.039 --> 00:02:11.750 align:start position:0%
+developing your socket server and client
+program
+
+00:02:11.750 --> 00:02:11.760 align:start position:0%
+program
+ 
+
+00:02:11.760 --> 00:02:13.190 align:start position:0%
+program
+in<00:02:11.920><c> that</c><00:02:12.160><c> case</c><00:02:12.400><c> you</c><00:02:12.560><c> may</c><00:02:12.720><c> need</c><00:02:12.959><c> this</c>
+
+00:02:13.190 --> 00:02:13.200 align:start position:0%
+in that case you may need this
+ 
+
+00:02:13.200 --> 00:02:15.910 align:start position:0%
+in that case you may need this
+information<00:02:14.080><c> very</c><00:02:14.400><c> often</c><00:02:14.720><c> right</c><00:02:14.959><c> so</c>
+
+00:02:15.910 --> 00:02:15.920 align:start position:0%
+information very often right so
+ 
+
+00:02:15.920 --> 00:02:17.910 align:start position:0%
+information very often right so
+to<00:02:16.080><c> use</c><00:02:16.319><c> that</c><00:02:16.560><c> information</c><00:02:17.200><c> how</c><00:02:17.360><c> to</c><00:02:17.520><c> properly</c>
+
+00:02:17.910 --> 00:02:17.920 align:start position:0%
+to use that information how to properly
+ 
+
+00:02:17.920 --> 00:02:19.110 align:start position:0%
+to use that information how to properly
+use<00:02:18.160><c> that</c><00:02:18.400><c> api</c>
+
+00:02:19.110 --> 00:02:19.120 align:start position:0%
+use that api
+ 
+
+00:02:19.120 --> 00:02:21.910 align:start position:0%
+use that api
+i<00:02:19.360><c> have</c><00:02:19.520><c> just</c><00:02:19.840><c> prepared</c><00:02:20.239><c> this</c><00:02:20.319><c> video</c><00:02:20.640><c> for</c><00:02:20.840><c> you</c>
+
+00:02:21.910 --> 00:02:21.920 align:start position:0%
+i have just prepared this video for you
+ 
+
+00:02:21.920 --> 00:02:23.589 align:start position:0%
+i have just prepared this video for you
+okay<00:02:22.160><c> so</c><00:02:22.480><c> rest</c><00:02:22.720><c> of</c><00:02:22.800><c> the</c><00:02:22.959><c> things</c>
+
+00:02:23.589 --> 00:02:23.599 align:start position:0%
+okay so rest of the things
+ 
+
+00:02:23.599 --> 00:02:25.990 align:start position:0%
+okay so rest of the things
+before<00:02:23.920><c> you</c><00:02:24.160><c> start</c><00:02:24.720><c> calling</c><00:02:25.040><c> this</c><00:02:25.520><c> gate</c><00:02:25.760><c> force</c>
+
+00:02:25.990 --> 00:02:26.000 align:start position:0%
+before you start calling this gate force
+ 
+
+00:02:26.000 --> 00:02:26.790 align:start position:0%
+before you start calling this gate force
+by<00:02:26.160><c> name</c>
+
+00:02:26.790 --> 00:02:26.800 align:start position:0%
+by name
+ 
+
+00:02:26.800 --> 00:02:28.309 align:start position:0%
+by name
+rest<00:02:27.040><c> of</c><00:02:27.200><c> the</c><00:02:27.280><c> things</c><00:02:27.520><c> are</c><00:02:27.680><c> the</c><00:02:27.760><c> same</c><00:02:28.080><c> you</c><00:02:28.160><c> need</c>
+
+00:02:28.309 --> 00:02:28.319 align:start position:0%
+rest of the things are the same you need
+ 
+
+00:02:28.319 --> 00:02:30.309 align:start position:0%
+rest of the things are the same you need
+to<00:02:28.480><c> call</c><00:02:28.720><c> this</c><00:02:28.879><c> wss</c><00:02:29.440><c> startup</c><00:02:29.840><c> i</c><00:02:29.920><c> have</c><00:02:30.080><c> already</c>
+
+00:02:30.309 --> 00:02:30.319 align:start position:0%
+to call this wss startup i have already
+ 
+
+00:02:30.319 --> 00:02:32.229 align:start position:0%
+to call this wss startup i have already
+told<00:02:30.560><c> you</c><00:02:30.720><c> in</c><00:02:30.800><c> the</c><00:02:30.879><c> previous</c><00:02:31.280><c> video</c>
+
+00:02:32.229 --> 00:02:32.239 align:start position:0%
+told you in the previous video
+ 
+
+00:02:32.239 --> 00:02:35.270 align:start position:0%
+told you in the previous video
+and<00:02:32.800><c> then</c><00:02:33.840><c> here</c><00:02:34.160><c> i</c><00:02:34.400><c> have</c>
+
+00:02:35.270 --> 00:02:35.280 align:start position:0%
+and then here i have
+ 
+
+00:02:35.280 --> 00:02:37.910 align:start position:0%
+and then here i have
+called<00:02:35.519><c> the</c><00:02:35.680><c> function</c><00:02:36.080><c> gate</c><00:02:36.319><c> hostname</c><00:02:37.519><c> to</c><00:02:37.680><c> get</c>
+
+00:02:37.910 --> 00:02:37.920 align:start position:0%
+called the function gate hostname to get
+ 
+
+00:02:37.920 --> 00:02:39.030 align:start position:0%
+called the function gate hostname to get
+my<00:02:38.080><c> own</c><00:02:38.319><c> host</c><00:02:38.560><c> name</c>
+
+00:02:39.030 --> 00:02:39.040 align:start position:0%
+my own host name
+ 
+
+00:02:39.040 --> 00:02:40.869 align:start position:0%
+my own host name
+that<00:02:39.280><c> is</c><00:02:39.360><c> the</c><00:02:39.440><c> machine</c><00:02:39.840><c> name</c><00:02:40.080><c> where</c><00:02:40.319><c> my</c>
+
+00:02:40.869 --> 00:02:40.879 align:start position:0%
+that is the machine name where my
+ 
+
+00:02:40.879 --> 00:02:42.390 align:start position:0%
+that is the machine name where my
+program<00:02:41.360><c> is</c><00:02:41.440><c> running</c><00:02:41.920><c> right</c>
+
+00:02:42.390 --> 00:02:42.400 align:start position:0%
+program is running right
+ 
+
+00:02:42.400 --> 00:02:43.990 align:start position:0%
+program is running right
+so<00:02:42.560><c> this</c><00:02:42.720><c> is</c><00:02:42.879><c> my</c><00:02:43.040><c> personal</c><00:02:43.360><c> machine</c><00:02:43.680><c> where</c><00:02:43.840><c> my</c>
+
+00:02:43.990 --> 00:02:44.000 align:start position:0%
+so this is my personal machine where my
+ 
+
+00:02:44.000 --> 00:02:45.910 align:start position:0%
+so this is my personal machine where my
+server<00:02:44.400><c> is</c><00:02:44.480><c> running</c><00:02:44.800><c> right</c><00:02:45.200><c> so</c>
+
+00:02:45.910 --> 00:02:45.920 align:start position:0%
+server is running right so
+ 
+
+00:02:45.920 --> 00:02:48.710 align:start position:0%
+server is running right so
+i<00:02:46.080><c> will</c><00:02:46.400><c> just</c><00:02:47.280><c> get</c><00:02:47.519><c> the</c><00:02:47.680><c> name</c><00:02:48.000><c> of</c><00:02:48.160><c> my</c><00:02:48.400><c> host</c>
+
+00:02:48.710 --> 00:02:48.720 align:start position:0%
+i will just get the name of my host
+ 
+
+00:02:48.720 --> 00:02:50.550 align:start position:0%
+i will just get the name of my host
+using<00:02:48.959><c> the</c><00:02:49.120><c> guest</c><00:02:49.440><c> host</c><00:02:49.680><c> by</c><00:02:49.920><c> name</c>
+
+00:02:50.550 --> 00:02:50.560 align:start position:0%
+using the guest host by name
+ 
+
+00:02:50.560 --> 00:02:52.630 align:start position:0%
+using the guest host by name
+once<00:02:50.800><c> you</c><00:02:50.959><c> get</c><00:02:51.120><c> the</c><00:02:51.280><c> host</c><00:02:51.840><c> name</c><00:02:52.239><c> in</c><00:02:52.319><c> this</c>
+
+00:02:52.630 --> 00:02:52.640 align:start position:0%
+once you get the host name in this
+ 
+
+00:02:52.640 --> 00:02:54.550 align:start position:0%
+once you get the host name in this
+variable<00:02:53.280><c> sj</c><00:02:53.680><c> host</c><00:02:53.920><c> name</c>
+
+00:02:54.550 --> 00:02:54.560 align:start position:0%
+variable sj host name
+ 
+
+00:02:54.560 --> 00:02:56.470 align:start position:0%
+variable sj host name
+then<00:02:54.800><c> you</c><00:02:54.879><c> can</c><00:02:55.120><c> call</c><00:02:55.360><c> this</c><00:02:55.599><c> function</c><00:02:56.000><c> get</c><00:02:56.239><c> host</c>
+
+00:02:56.470 --> 00:02:56.480 align:start position:0%
+then you can call this function get host
+ 
+
+00:02:56.480 --> 00:02:57.589 align:start position:0%
+then you can call this function get host
+by<00:02:56.720><c> name</c>
+
+00:02:57.589 --> 00:02:57.599 align:start position:0%
+by name
+ 
+
+00:02:57.599 --> 00:02:59.270 align:start position:0%
+by name
+in<00:02:57.680><c> the</c><00:02:57.840><c> gate</c><00:02:58.080><c> host</c><00:02:58.319><c> by</c><00:02:58.480><c> name</c><00:02:58.720><c> you</c><00:02:58.800><c> need</c><00:02:58.959><c> to</c>
+
+00:02:59.270 --> 00:02:59.280 align:start position:0%
+in the gate host by name you need to
+ 
+
+00:02:59.280 --> 00:03:00.869 align:start position:0%
+in the gate host by name you need to
+pass<00:02:59.599><c> the</c><00:02:59.760><c> name</c><00:03:00.000><c> of</c><00:03:00.159><c> the</c><00:03:00.239><c> host</c>
+
+00:03:00.869 --> 00:03:00.879 align:start position:0%
+pass the name of the host
+ 
+
+00:03:00.879 --> 00:03:03.270 align:start position:0%
+pass the name of the host
+once<00:03:01.200><c> you</c><00:03:01.360><c> pass</c><00:03:01.599><c> the</c><00:03:01.760><c> name</c><00:03:02.000><c> of</c><00:03:02.080><c> the</c><00:03:02.239><c> host</c><00:03:03.040><c> and</c>
+
+00:03:03.270 --> 00:03:03.280 align:start position:0%
+once you pass the name of the host and
+ 
+
+00:03:03.280 --> 00:03:04.390 align:start position:0%
+once you pass the name of the host and
+if<00:03:03.519><c> this</c>
+
+00:03:04.390 --> 00:03:04.400 align:start position:0%
+if this
+ 
+
+00:03:04.400 --> 00:03:06.949 align:start position:0%
+if this
+function<00:03:05.040><c> is</c><00:03:05.360><c> returning</c><00:03:05.840><c> successfully</c><00:03:06.800><c> then</c>
+
+00:03:06.949 --> 00:03:06.959 align:start position:0%
+function is returning successfully then
+ 
+
+00:03:06.959 --> 00:03:08.550 align:start position:0%
+function is returning successfully then
+it<00:03:07.040><c> will</c><00:03:07.200><c> return</c><00:03:07.519><c> a</c><00:03:07.599><c> pointer</c><00:03:08.000><c> to</c><00:03:08.159><c> this</c>
+
+00:03:08.550 --> 00:03:08.560 align:start position:0%
+it will return a pointer to this
+ 
+
+00:03:08.560 --> 00:03:10.550 align:start position:0%
+it will return a pointer to this
+hosting<00:03:09.040><c> test</c><00:03:09.280><c> trick</c><00:03:09.760><c> which</c><00:03:10.000><c> is</c><00:03:10.080><c> the</c><00:03:10.239><c> remote</c>
+
+00:03:10.550 --> 00:03:10.560 align:start position:0%
+hosting test trick which is the remote
+ 
+
+00:03:10.560 --> 00:03:13.190 align:start position:0%
+hosting test trick which is the remote
+host<00:03:11.519><c> right</c><00:03:11.760><c> i</c><00:03:11.840><c> have</c><00:03:12.000><c> created</c><00:03:12.319><c> a</c><00:03:12.400><c> variable</c><00:03:12.879><c> of</c>
+
+00:03:13.190 --> 00:03:13.200 align:start position:0%
+host right i have created a variable of
+ 
+
+00:03:13.200 --> 00:03:15.270 align:start position:0%
+host right i have created a variable of
+pointer<00:03:13.519><c> variable</c><00:03:13.920><c> of</c><00:03:14.000><c> remote</c><00:03:14.319><c> host</c><00:03:14.640><c> name</c><00:03:15.120><c> so</c>
+
+00:03:15.270 --> 00:03:15.280 align:start position:0%
+pointer variable of remote host name so
+ 
+
+00:03:15.280 --> 00:03:16.869 align:start position:0%
+pointer variable of remote host name so
+this<00:03:15.440><c> will</c><00:03:15.599><c> be</c><00:03:15.760><c> returned</c><00:03:16.080><c> here</c><00:03:16.400><c> and</c><00:03:16.560><c> in</c><00:03:16.640><c> this</c>
+
+00:03:16.869 --> 00:03:16.879 align:start position:0%
+this will be returned here and in this
+ 
+
+00:03:16.879 --> 00:03:18.630 align:start position:0%
+this will be returned here and in this
+remote<00:03:17.200><c> host</c><00:03:17.519><c> all</c><00:03:17.760><c> the</c><00:03:17.920><c> information</c><00:03:18.480><c> like</c>
+
+00:03:18.630 --> 00:03:18.640 align:start position:0%
+remote host all the information like
+ 
+
+00:03:18.640 --> 00:03:20.470 align:start position:0%
+remote host all the information like
+what<00:03:18.879><c> are</c><00:03:18.959><c> the</c><00:03:19.040><c> aliases</c><00:03:19.680><c> names</c>
+
+00:03:20.470 --> 00:03:20.480 align:start position:0%
+what are the aliases names
+ 
+
+00:03:20.480 --> 00:03:22.070 align:start position:0%
+what are the aliases names
+and<00:03:20.560><c> what</c><00:03:20.800><c> is</c><00:03:20.879><c> the</c><00:03:21.040><c> address</c><00:03:21.440><c> type</c><00:03:21.680><c> if</c><00:03:21.840><c> you</c><00:03:21.920><c> have</c>
+
+00:03:22.070 --> 00:03:22.080 align:start position:0%
+and what is the address type if you have
+ 
+
+00:03:22.080 --> 00:03:23.509 align:start position:0%
+and what is the address type if you have
+to<00:03:22.239><c> access</c><00:03:22.560><c> the</c><00:03:22.640><c> address</c><00:03:22.959><c> type</c><00:03:23.120><c> you</c><00:03:23.200><c> need</c><00:03:23.360><c> to</c>
+
+00:03:23.509 --> 00:03:23.519 align:start position:0%
+to access the address type you need to
+ 
+
+00:03:23.519 --> 00:03:25.350 align:start position:0%
+to access the address type you need to
+address<00:03:23.920><c> this</c><00:03:24.159><c> edge</c><00:03:24.319><c> underscore</c><00:03:24.879><c> under</c><00:03:25.040><c> type</c>
+
+00:03:25.350 --> 00:03:25.360 align:start position:0%
+address this edge underscore under type
+ 
+
+00:03:25.360 --> 00:03:26.149 align:start position:0%
+address this edge underscore under type
+variable
+
+00:03:26.149 --> 00:03:26.159 align:start position:0%
+variable
+ 
+
+00:03:26.159 --> 00:03:27.750 align:start position:0%
+variable
+and<00:03:26.319><c> if</c><00:03:26.400><c> you</c><00:03:26.560><c> have</c><00:03:26.720><c> to</c><00:03:26.879><c> access</c><00:03:27.120><c> the</c><00:03:27.200><c> aliases</c>
+
+00:03:27.750 --> 00:03:27.760 align:start position:0%
+and if you have to access the aliases
+ 
+
+00:03:27.760 --> 00:03:29.670 align:start position:0%
+and if you have to access the aliases
+then<00:03:27.920><c> you</c><00:03:28.000><c> need</c><00:03:28.159><c> to</c><00:03:28.319><c> go</c><00:03:28.480><c> to</c><00:03:28.640><c> this</c><00:03:29.120><c> like</c><00:03:29.440><c> p</c>
+
+00:03:29.670 --> 00:03:29.680 align:start position:0%
+then you need to go to this like p
+ 
+
+00:03:29.680 --> 00:03:31.990 align:start position:0%
+then you need to go to this like p
+alias<00:03:30.080><c> is</c><00:03:30.159><c> equal</c><00:03:30.400><c> to</c><00:03:30.480><c> aliases</c><00:03:31.360><c> you</c><00:03:31.519><c> will</c><00:03:31.680><c> start</c>
+
+00:03:31.990 --> 00:03:32.000 align:start position:0%
+alias is equal to aliases you will start
+ 
+
+00:03:32.000 --> 00:03:33.509 align:start position:0%
+alias is equal to aliases you will start
+from<00:03:32.159><c> the</c><00:03:32.239><c> base</c><00:03:32.480><c> address</c><00:03:32.799><c> of</c><00:03:32.879><c> the</c><00:03:32.959><c> aliases</c>
+
+00:03:33.509 --> 00:03:33.519 align:start position:0%
+from the base address of the aliases
+ 
+
+00:03:33.519 --> 00:03:33.990 align:start position:0%
+from the base address of the aliases
+array
+
+00:03:33.990 --> 00:03:34.000 align:start position:0%
+array
+ 
+
+00:03:34.000 --> 00:03:36.070 align:start position:0%
+array
+and<00:03:34.159><c> then</c><00:03:34.400><c> you</c><00:03:34.480><c> can</c><00:03:34.640><c> move</c><00:03:34.879><c> ahead</c><00:03:35.519><c> in</c><00:03:35.680><c> the</c><00:03:35.840><c> area</c>
+
+00:03:36.070 --> 00:03:36.080 align:start position:0%
+and then you can move ahead in the area
+ 
+
+00:03:36.080 --> 00:03:37.350 align:start position:0%
+and then you can move ahead in the area
+of<00:03:36.159><c> the</c><00:03:36.239><c> aliases</c><00:03:36.879><c> and</c>
+
+00:03:37.350 --> 00:03:37.360 align:start position:0%
+of the aliases and
+ 
+
+00:03:37.360 --> 00:03:39.030 align:start position:0%
+of the aliases and
+it<00:03:37.440><c> will</c><00:03:37.599><c> keep</c><00:03:37.840><c> printing</c><00:03:38.080><c> the</c><00:03:38.239><c> alias</c><00:03:38.640><c> names</c><00:03:38.879><c> of</c>
+
+00:03:39.030 --> 00:03:39.040 align:start position:0%
+it will keep printing the alias names of
+ 
+
+00:03:39.040 --> 00:03:40.390 align:start position:0%
+it will keep printing the alias names of
+this<00:03:39.200><c> boost</c>
+
+00:03:40.390 --> 00:03:40.400 align:start position:0%
+this boost
+ 
+
+00:03:40.400 --> 00:03:43.110 align:start position:0%
+this boost
+okay<00:03:41.040><c> and</c><00:03:41.680><c> this</c><00:03:41.840><c> is</c><00:03:41.920><c> the</c><00:03:42.080><c> address</c><00:03:42.400><c> type</c><00:03:42.879><c> which</c>
+
+00:03:43.110 --> 00:03:43.120 align:start position:0%
+okay and this is the address type which
+ 
+
+00:03:43.120 --> 00:03:45.589 align:start position:0%
+okay and this is the address type which
+is<00:03:43.280><c> afi</c><00:03:43.760><c> net</c><00:03:44.000><c> or</c><00:03:44.239><c> init</c><00:03:44.480><c> bios</c><00:03:44.959><c> whatever</c>
+
+00:03:45.589 --> 00:03:45.599 align:start position:0%
+is afi net or init bios whatever
+ 
+
+00:03:45.599 --> 00:03:48.149 align:start position:0%
+is afi net or init bios whatever
+it<00:03:45.680><c> comes</c><00:03:46.080><c> this</c><00:03:46.239><c> will</c><00:03:46.480><c> print</c><00:03:47.280><c> and</c><00:03:47.519><c> then</c><00:03:47.760><c> we</c><00:03:48.000><c> are</c>
+
+00:03:48.149 --> 00:03:48.159 align:start position:0%
+it comes this will print and then we are
+ 
+
+00:03:48.159 --> 00:03:49.110 align:start position:0%
+it comes this will print and then we are
+just
+
+00:03:49.110 --> 00:03:49.120 align:start position:0%
+just
+ 
+
+00:03:49.120 --> 00:03:50.949 align:start position:0%
+just
+printing<00:03:49.440><c> the</c><00:03:49.599><c> name</c><00:03:49.840><c> of</c><00:03:49.920><c> the</c><00:03:50.560><c> printing</c><00:03:50.879><c> the</c>
+
+00:03:50.949 --> 00:03:50.959 align:start position:0%
+printing the name of the printing the
+ 
+
+00:03:50.959 --> 00:03:52.789 align:start position:0%
+printing the name of the printing the
+length<00:03:51.280><c> of</c><00:03:51.360><c> the</c><00:03:51.519><c> host</c><00:03:51.760><c> name</c>
+
+00:03:52.789 --> 00:03:52.799 align:start position:0%
+length of the host name
+ 
+
+00:03:52.799 --> 00:03:54.630 align:start position:0%
+length of the host name
+right<00:03:53.040><c> remote</c><00:03:53.439><c> host</c><00:03:53.760><c> dot</c><00:03:54.000><c> length</c><00:03:54.319><c> what</c><00:03:54.480><c> is</c><00:03:54.560><c> the</c>
+
+00:03:54.630 --> 00:03:54.640 align:start position:0%
+right remote host dot length what is the
+ 
+
+00:03:54.640 --> 00:03:56.309 align:start position:0%
+right remote host dot length what is the
+length<00:03:54.959><c> of</c><00:03:55.120><c> the</c>
+
+00:03:56.309 --> 00:03:56.319 align:start position:0%
+length of the
+ 
+
+00:03:56.319 --> 00:03:59.350 align:start position:0%
+length of the
+address<00:03:58.319><c> or</c><00:03:58.480><c> you</c><00:03:58.560><c> can</c><00:03:58.720><c> say</c><00:03:58.959><c> the</c>
+
+00:03:59.350 --> 00:03:59.360 align:start position:0%
+address or you can say the
+ 
+
+00:03:59.360 --> 00:04:03.190 align:start position:0%
+address or you can say the
+what<00:03:59.519><c> is</c><00:03:59.599><c> the</c><00:04:00.319><c> length</c><00:04:00.640><c> of</c><00:04:00.799><c> the</c><00:04:02.000><c> uh</c>
+
+00:04:03.190 --> 00:04:03.200 align:start position:0%
+what is the length of the uh
+ 
+
+00:04:03.200 --> 00:04:05.589 align:start position:0%
+what is the length of the uh
+name<00:04:03.519><c> of</c><00:04:03.680><c> the</c><00:04:04.080><c> machine</c><00:04:04.560><c> right</c><00:04:05.120><c> so</c><00:04:05.280><c> that</c><00:04:05.439><c> will</c>
+
+00:04:05.589 --> 00:04:05.599 align:start position:0%
+name of the machine right so that will
+ 
+
+00:04:05.599 --> 00:04:06.789 align:start position:0%
+name of the machine right so that will
+be<00:04:05.760><c> printed</c><00:04:06.159><c> here</c>
+
+00:04:06.789 --> 00:04:06.799 align:start position:0%
+be printed here
+ 
+
+00:04:06.799 --> 00:04:09.589 align:start position:0%
+be printed here
+and<00:04:06.959><c> then</c><00:04:07.760><c> we</c><00:04:07.920><c> are</c><00:04:08.239><c> looking</c><00:04:08.560><c> into</c><00:04:08.799><c> if</c><00:04:09.200><c> if</c><00:04:09.360><c> this</c>
+
+00:04:09.589 --> 00:04:09.599 align:start position:0%
+and then we are looking into if if this
+ 
+
+00:04:09.599 --> 00:04:09.910 align:start position:0%
+and then we are looking into if if this
+is
+
+00:04:09.910 --> 00:04:09.920 align:start position:0%
+is
+ 
+
+00:04:09.920 --> 00:04:11.750 align:start position:0%
+is
+any<00:04:10.239><c> finite</c><00:04:10.640><c> type</c><00:04:10.879><c> of</c><00:04:11.040><c> address</c><00:04:11.280><c> then</c><00:04:11.519><c> in</c><00:04:11.599><c> that</c>
+
+00:04:11.750 --> 00:04:11.760 align:start position:0%
+any finite type of address then in that
+ 
+
+00:04:11.760 --> 00:04:13.670 align:start position:0%
+any finite type of address then in that
+case<00:04:12.000><c> we</c><00:04:12.159><c> are</c><00:04:12.319><c> just</c><00:04:12.560><c> going</c><00:04:12.799><c> to</c>
+
+00:04:13.670 --> 00:04:13.680 align:start position:0%
+case we are just going to
+ 
+
+00:04:13.680 --> 00:04:17.590 align:start position:0%
+case we are just going to
+print<00:04:14.159><c> the</c><00:04:16.079><c> various</c><00:04:16.479><c> ip</c><00:04:16.880><c> addresses</c><00:04:17.280><c> that</c><00:04:17.440><c> have</c>
+
+00:04:17.590 --> 00:04:17.600 align:start position:0%
+print the various ip addresses that have
+ 
+
+00:04:17.600 --> 00:04:19.110 align:start position:0%
+print the various ip addresses that have
+been<00:04:17.840><c> assigned</c><00:04:18.239><c> to</c><00:04:18.400><c> this</c>
+
+00:04:19.110 --> 00:04:19.120 align:start position:0%
+been assigned to this
+ 
+
+00:04:19.120 --> 00:04:22.390 align:start position:0%
+been assigned to this
+remote<00:04:19.519><c> host</c><00:04:20.560><c> right</c><00:04:20.880><c> in</c><00:04:21.040><c> my</c><00:04:21.280><c> case</c><00:04:21.680><c> only</c><00:04:21.919><c> one</c><00:04:22.079><c> ip</c>
+
+00:04:22.390 --> 00:04:22.400 align:start position:0%
+remote host right in my case only one ip
+ 
+
+00:04:22.400 --> 00:04:23.110 align:start position:0%
+remote host right in my case only one ip
+address<00:04:22.720><c> can</c>
+
+00:04:23.110 --> 00:04:23.120 align:start position:0%
+address can
+ 
+
+00:04:23.120 --> 00:04:25.030 align:start position:0%
+address can
+is<00:04:23.280><c> visible</c><00:04:23.680><c> because</c><00:04:23.919><c> there</c><00:04:24.160><c> are</c><00:04:24.320><c> no</c><00:04:24.560><c> subnet</c>
+
+00:04:25.030 --> 00:04:25.040 align:start position:0%
+is visible because there are no subnet
+ 
+
+00:04:25.040 --> 00:04:26.870 align:start position:0%
+is visible because there are no subnet
+and<00:04:25.360><c> anything</c><00:04:25.680><c> i</c><00:04:25.840><c> have</c><00:04:26.000><c> configured</c><00:04:26.479><c> so</c><00:04:26.639><c> it's</c>
+
+00:04:26.870 --> 00:04:26.880 align:start position:0%
+and anything i have configured so it's
+ 
+
+00:04:26.880 --> 00:04:28.550 align:start position:0%
+and anything i have configured so it's
+only<00:04:27.120><c> an</c><00:04:27.280><c> independent</c><00:04:27.840><c> ip</c><00:04:28.160><c> address</c><00:04:28.400><c> which</c>
+
+00:04:28.550 --> 00:04:28.560 align:start position:0%
+only an independent ip address which
+ 
+
+00:04:28.560 --> 00:04:30.070 align:start position:0%
+only an independent ip address which
+will<00:04:28.720><c> be</c><00:04:28.880><c> visible</c><00:04:29.199><c> to</c><00:04:29.360><c> you</c>
+
+00:04:30.070 --> 00:04:30.080 align:start position:0%
+will be visible to you
+ 
+
+00:04:30.080 --> 00:04:32.150 align:start position:0%
+will be visible to you
+and<00:04:30.560><c> this</c><00:04:30.800><c> loop</c><00:04:31.040><c> will</c><00:04:31.199><c> run</c><00:04:31.440><c> only</c><00:04:31.680><c> once</c><00:04:31.919><c> and</c><00:04:32.080><c> you</c>
+
+00:04:32.150 --> 00:04:32.160 align:start position:0%
+and this loop will run only once and you
+ 
+
+00:04:32.160 --> 00:04:34.150 align:start position:0%
+and this loop will run only once and you
+will<00:04:32.320><c> be</c><00:04:32.479><c> able</c><00:04:32.639><c> to</c><00:04:32.880><c> see</c>
+
+00:04:34.150 --> 00:04:34.160 align:start position:0%
+will be able to see
+ 
+
+00:04:34.160 --> 00:04:36.870 align:start position:0%
+will be able to see
+the<00:04:34.320><c> address</c><00:04:34.800><c> here</c><00:04:35.040><c> right</c><00:04:36.000><c> so</c><00:04:36.320><c> this</c><00:04:36.479><c> is</c><00:04:36.560><c> not</c><00:04:36.800><c> a</c>
+
+00:04:36.870 --> 00:04:36.880 align:start position:0%
+the address here right so this is not a
+ 
+
+00:04:36.880 --> 00:04:38.629 align:start position:0%
+the address here right so this is not a
+net<00:04:37.120><c> bios</c><00:04:37.440><c> machine</c><00:04:37.840><c> this</c><00:04:38.000><c> is</c><00:04:38.160><c> it</c><00:04:38.240><c> will</c><00:04:38.400><c> not</c>
+
+00:04:38.629 --> 00:04:38.639 align:start position:0%
+net bios machine this is it will not
+ 
+
+00:04:38.639 --> 00:04:40.469 align:start position:0%
+net bios machine this is it will not
+return<00:04:38.960><c> any</c><00:04:39.120><c> net</c><00:04:39.360><c> bios</c><00:04:39.600><c> type</c><00:04:39.840><c> of</c><00:04:40.000><c> address</c><00:04:40.320><c> so</c>
+
+00:04:40.469 --> 00:04:40.479 align:start position:0%
+return any net bios type of address so
+ 
+
+00:04:40.479 --> 00:04:41.990 align:start position:0%
+return any net bios type of address so
+you<00:04:40.639><c> will</c><00:04:40.800><c> be</c><00:04:40.880><c> able</c><00:04:41.120><c> to</c><00:04:41.280><c> see</c>
+
+00:04:41.990 --> 00:04:42.000 align:start position:0%
+you will be able to see
+ 
+
+00:04:42.000 --> 00:04:43.990 align:start position:0%
+you will be able to see
+only<00:04:42.320><c> one</c><00:04:42.560><c> address</c><00:04:42.880><c> which</c><00:04:43.040><c> will</c><00:04:43.199><c> be</c><00:04:43.440><c> simply</c><00:04:43.840><c> a</c>
+
+00:04:43.990 --> 00:04:44.000 align:start position:0%
+only one address which will be simply a
+ 
+
+00:04:44.000 --> 00:04:45.030 align:start position:0%
+only one address which will be simply a
+finite<00:04:44.400><c> address</c>
+
+00:04:45.030 --> 00:04:45.040 align:start position:0%
+finite address
+ 
+
+00:04:45.040 --> 00:04:47.749 align:start position:0%
+finite address
+so<00:04:45.199><c> let's</c><00:04:45.440><c> run</c><00:04:45.680><c> it</c><00:04:45.840><c> and</c><00:04:46.240><c> let's</c><00:04:46.880><c> just</c><00:04:47.440><c> put</c><00:04:47.600><c> a</c>
+
+00:04:47.749 --> 00:04:47.759 align:start position:0%
+so let's run it and let's just put a
+ 
+
+00:04:47.759 --> 00:04:49.189 align:start position:0%
+so let's run it and let's just put a
+break<00:04:48.000><c> point</c>
+
+00:04:49.189 --> 00:04:49.199 align:start position:0%
+break point
+ 
+
+00:04:49.199 --> 00:04:51.990 align:start position:0%
+break point
+just<00:04:49.440><c> for</c><00:04:49.680><c> the</c><00:04:50.639><c> confirmation</c><00:04:51.280><c> that</c><00:04:51.440><c> whatever</c>
+
+00:04:51.990 --> 00:04:52.000 align:start position:0%
+just for the confirmation that whatever
+ 
+
+00:04:52.000 --> 00:04:52.629 align:start position:0%
+just for the confirmation that whatever
+we<00:04:52.240><c> are</c>
+
+00:04:52.629 --> 00:04:52.639 align:start position:0%
+we are
+ 
+
+00:04:52.639 --> 00:04:55.749 align:start position:0%
+we are
+getting<00:04:53.840><c> that</c><00:04:54.080><c> is</c><00:04:54.400><c> fine</c><00:04:54.720><c> or</c><00:04:54.800><c> not</c><00:04:55.120><c> so</c><00:04:55.360><c> here</c><00:04:55.680><c> i</c>
+
+00:04:55.749 --> 00:04:55.759 align:start position:0%
+getting that is fine or not so here i
+ 
+
+00:04:55.759 --> 00:05:00.550 align:start position:0%
+getting that is fine or not so here i
+need<00:04:55.919><c> to</c><00:04:56.080><c> put</c><00:04:56.320><c> the</c><00:04:56.400><c> breakpoint</c>
+
+00:05:00.550 --> 00:05:00.560 align:start position:0%
+ 
+ 
+
+00:05:00.560 --> 00:05:03.830 align:start position:0%
+ 
+debug<00:05:01.039><c> and</c><00:05:01.440><c> uh</c><00:05:02.720><c> place</c><00:05:03.039><c> the</c><00:05:03.199><c> brick</c><00:05:03.520><c> toggle</c>
+
+00:05:03.830 --> 00:05:03.840 align:start position:0%
+debug and uh place the brick toggle
+ 
+
+00:05:03.840 --> 00:05:05.430 align:start position:0%
+debug and uh place the brick toggle
+breakpoint<00:05:04.320><c> so</c><00:05:04.400><c> i'm</c><00:05:04.560><c> putting</c><00:05:04.880><c> the</c><00:05:04.960><c> breakpoint</c>
+
+00:05:05.430 --> 00:05:05.440 align:start position:0%
+breakpoint so i'm putting the breakpoint
+ 
+
+00:05:05.440 --> 00:05:12.150 align:start position:0%
+breakpoint so i'm putting the breakpoint
+here<00:05:05.759><c> and</c><00:05:05.919><c> now</c><00:05:06.160><c> i'm</c><00:05:06.320><c> just</c><00:05:06.479><c> going</c><00:05:06.720><c> to</c><00:05:06.880><c> start</c><00:05:08.840><c> it</c>
+
+00:05:12.150 --> 00:05:12.160 align:start position:0%
+ 
+ 
+
+00:05:12.160 --> 00:05:15.350 align:start position:0%
+ 
+right<00:05:12.479><c> so</c><00:05:12.800><c> here</c><00:05:13.120><c> i</c><00:05:13.199><c> can</c><00:05:13.520><c> see</c><00:05:13.840><c> that</c><00:05:14.479><c> hostname</c>
+
+00:05:15.350 --> 00:05:15.360 align:start position:0%
+right so here i can see that hostname
+ 
+
+00:05:15.360 --> 00:05:19.270 align:start position:0%
+right so here i can see that hostname
+is<00:05:16.880><c> correct</c><00:05:18.160><c> it</c><00:05:18.320><c> is</c><00:05:18.400><c> coming</c><00:05:18.720><c> here</c>
+
+00:05:19.270 --> 00:05:19.280 align:start position:0%
+is correct it is coming here
+ 
+
+00:05:19.280 --> 00:05:21.029 align:start position:0%
+is correct it is coming here
+i<00:05:19.440><c> have</c><00:05:19.680><c> shown</c><00:05:19.919><c> you</c><00:05:20.160><c> in</c><00:05:20.240><c> the</c><00:05:20.400><c> previous</c><00:05:20.720><c> video</c>
+
+00:05:21.029 --> 00:05:21.039 align:start position:0%
+i have shown you in the previous video
+ 
+
+00:05:21.039 --> 00:05:23.189 align:start position:0%
+i have shown you in the previous video
+itself<00:05:21.919><c> and</c><00:05:22.080><c> now</c><00:05:22.240><c> we</c><00:05:22.400><c> are</c><00:05:22.560><c> coming</c><00:05:22.800><c> to</c><00:05:22.960><c> this</c>
+
+00:05:23.189 --> 00:05:23.199 align:start position:0%
+itself and now we are coming to this
+ 
+
+00:05:23.199 --> 00:05:23.990 align:start position:0%
+itself and now we are coming to this
+gate<00:05:23.440><c> host</c><00:05:23.680><c> by</c>
+
+00:05:23.990 --> 00:05:24.000 align:start position:0%
+gate host by
+ 
+
+00:05:24.000 --> 00:05:27.909 align:start position:0%
+gate host by
+name<00:05:24.240><c> and</c><00:05:24.400><c> here</c><00:05:24.639><c> i</c><00:05:24.720><c> am</c><00:05:24.880><c> getting</c><00:05:25.600><c> uh</c><00:05:26.400><c> alias</c>
+
+00:05:27.909 --> 00:05:27.919 align:start position:0%
+name and here i am getting uh alias
+ 
+
+00:05:27.919 --> 00:05:31.350 align:start position:0%
+name and here i am getting uh alias
+right<00:05:28.400><c> of</c><00:05:28.720><c> all</c><00:05:28.960><c> the</c><00:05:30.160><c> remote</c><00:05:30.560><c> hosts</c><00:05:30.880><c> and</c><00:05:31.120><c> all</c>
+
+00:05:31.350 --> 00:05:31.360 align:start position:0%
+right of all the remote hosts and all
+ 
+
+00:05:31.360 --> 00:05:31.670 align:start position:0%
+right of all the remote hosts and all
+the
+
+00:05:31.670 --> 00:05:31.680 align:start position:0%
+the
+ 
+
+00:05:31.680 --> 00:05:34.070 align:start position:0%
+the
+address<00:05:32.080><c> type</c><00:05:32.560><c> basically</c><00:05:32.960><c> i'm</c><00:05:33.120><c> getting</c><00:05:33.440><c> a</c>
+
+00:05:34.070 --> 00:05:34.080 align:start position:0%
+address type basically i'm getting a
+ 
+
+00:05:34.080 --> 00:05:34.790 align:start position:0%
+address type basically i'm getting a
+very
+
+00:05:34.790 --> 00:05:34.800 align:start position:0%
+very
+ 
+
+00:05:34.800 --> 00:05:37.510 align:start position:0%
+very
+i'm<00:05:34.960><c> getting</c><00:05:35.440><c> a</c><00:05:35.600><c> return</c><00:05:36.000><c> type</c><00:05:36.320><c> of</c><00:05:36.639><c> this</c><00:05:37.039><c> austin</c>
+
+00:05:37.510 --> 00:05:37.520 align:start position:0%
+i'm getting a return type of this austin
+ 
+
+00:05:37.520 --> 00:05:38.710 align:start position:0%
+i'm getting a return type of this austin
+test<00:05:37.759><c> trick</c>
+
+00:05:38.710 --> 00:05:38.720 align:start position:0%
+test trick
+ 
+
+00:05:38.720 --> 00:05:41.430 align:start position:0%
+test trick
+this<00:05:38.960><c> type</c><00:05:39.280><c> right</c><00:05:40.080><c> so</c><00:05:40.240><c> hosting</c><00:05:40.639><c> testing</c><00:05:41.039><c> type</c>
+
+00:05:41.430 --> 00:05:41.440 align:start position:0%
+this type right so hosting testing type
+ 
+
+00:05:41.440 --> 00:05:43.510 align:start position:0%
+this type right so hosting testing type
+is<00:05:41.680><c> for</c><00:05:41.840><c> this</c><00:05:42.080><c> remote</c><00:05:42.479><c> host</c><00:05:42.800><c> and</c><00:05:42.960><c> i'm</c><00:05:43.120><c> getting</c>
+
+00:05:43.510 --> 00:05:43.520 align:start position:0%
+is for this remote host and i'm getting
+ 
+
+00:05:43.520 --> 00:05:45.110 align:start position:0%
+is for this remote host and i'm getting
+the
+
+00:05:45.110 --> 00:05:45.120 align:start position:0%
+the
+ 
+
+00:05:45.120 --> 00:05:48.070 align:start position:0%
+the
+remote<00:05:46.000><c> i'm</c><00:05:46.080><c> getting</c><00:05:46.320><c> the</c><00:05:46.639><c> remote</c><00:05:46.960><c> host</c><00:05:47.280><c> name</c>
+
+00:05:48.070 --> 00:05:48.080 align:start position:0%
+remote i'm getting the remote host name
+ 
+
+00:05:48.080 --> 00:05:48.710 align:start position:0%
+remote i'm getting the remote host name
+so
+
+00:05:48.710 --> 00:05:48.720 align:start position:0%
+so
+ 
+
+00:05:48.720 --> 00:05:50.790 align:start position:0%
+so
+here<00:05:49.039><c> i'm</c><00:05:49.199><c> just</c><00:05:49.440><c> checking</c><00:05:49.759><c> if</c><00:05:49.919><c> my</c><00:05:50.160><c> remote</c><00:05:50.560><c> host</c>
+
+00:05:50.790 --> 00:05:50.800 align:start position:0%
+here i'm just checking if my remote host
+ 
+
+00:05:50.800 --> 00:05:52.790 align:start position:0%
+here i'm just checking if my remote host
+name<00:05:50.960><c> was</c><00:05:51.280><c> correct</c><00:05:51.759><c> and</c>
+
+00:05:52.790 --> 00:05:52.800 align:start position:0%
+name was correct and
+ 
+
+00:05:52.800 --> 00:05:54.629 align:start position:0%
+name was correct and
+i<00:05:52.960><c> got</c><00:05:53.199><c> everything</c><00:05:53.600><c> fine</c><00:05:53.840><c> then</c><00:05:54.080><c> in</c><00:05:54.160><c> that</c><00:05:54.400><c> case</c>
+
+00:05:54.629 --> 00:05:54.639 align:start position:0%
+i got everything fine then in that case
+ 
+
+00:05:54.639 --> 00:05:56.070 align:start position:0%
+i got everything fine then in that case
+what<00:05:54.800><c> i</c><00:05:54.880><c> will</c><00:05:55.039><c> do</c><00:05:55.280><c> i</c><00:05:55.360><c> will</c>
+
+00:05:56.070 --> 00:05:56.080 align:start position:0%
+what i will do i will
+ 
+
+00:05:56.080 --> 00:05:58.550 align:start position:0%
+what i will do i will
+just<00:05:57.039><c> iterate</c><00:05:57.360><c> through</c><00:05:57.520><c> the</c><00:05:57.680><c> aliases</c><00:05:58.400><c> and</c>
+
+00:05:58.550 --> 00:05:58.560 align:start position:0%
+just iterate through the aliases and
+ 
+
+00:05:58.560 --> 00:06:00.790 align:start position:0%
+just iterate through the aliases and
+let's<00:05:58.800><c> see</c><00:05:59.039><c> how</c><00:05:59.199><c> many</c><00:05:59.360><c> aliases</c><00:06:00.000><c> are</c><00:06:00.080><c> there</c>
+
+00:06:00.790 --> 00:06:00.800 align:start position:0%
+let's see how many aliases are there
+ 
+
+00:06:00.800 --> 00:06:02.629 align:start position:0%
+let's see how many aliases are there
+right<00:06:01.039><c> so</c><00:06:01.199><c> there</c><00:06:01.440><c> are</c><00:06:01.520><c> no</c><00:06:01.680><c> aliases</c><00:06:02.319><c> there</c><00:06:02.479><c> is</c>
+
+00:06:02.629 --> 00:06:02.639 align:start position:0%
+right so there are no aliases there is
+ 
+
+00:06:02.639 --> 00:06:04.710 align:start position:0%
+right so there are no aliases there is
+only<00:06:02.880><c> one</c><00:06:03.680><c> which</c><00:06:03.840><c> was</c><00:06:04.080><c> the</c><00:06:04.160><c> name</c><00:06:04.400><c> of</c><00:06:04.560><c> my</c>
+
+00:06:04.710 --> 00:06:04.720 align:start position:0%
+only one which was the name of my
+ 
+
+00:06:04.720 --> 00:06:06.950 align:start position:0%
+only one which was the name of my
+machine<00:06:05.039><c> so</c><00:06:05.280><c> it</c><00:06:05.440><c> will</c><00:06:05.600><c> not</c><00:06:05.759><c> print</c><00:06:06.080><c> anything</c>
+
+00:06:06.950 --> 00:06:06.960 align:start position:0%
+machine so it will not print anything
+ 
+
+00:06:06.960 --> 00:06:08.870 align:start position:0%
+machine so it will not print anything
+now<00:06:07.120><c> i'm</c><00:06:07.360><c> going</c><00:06:07.520><c> to</c><00:06:07.759><c> see</c><00:06:08.080><c> what</c><00:06:08.319><c> is</c><00:06:08.400><c> the</c><00:06:08.560><c> address</c>
+
+00:06:08.870 --> 00:06:08.880 align:start position:0%
+now i'm going to see what is the address
+ 
+
+00:06:08.880 --> 00:06:10.950 align:start position:0%
+now i'm going to see what is the address
+type<00:06:09.039><c> so</c><00:06:09.199><c> this</c><00:06:09.360><c> is</c><00:06:09.520><c> iafinet</c><00:06:10.319><c> so</c><00:06:10.479><c> it</c><00:06:10.560><c> will</c><00:06:10.720><c> print</c>
+
+00:06:10.950 --> 00:06:10.960 align:start position:0%
+type so this is iafinet so it will print
+ 
+
+00:06:10.960 --> 00:06:11.590 align:start position:0%
+type so this is iafinet so it will print
+afine
+
+00:06:11.590 --> 00:06:11.600 align:start position:0%
+afine
+ 
+
+00:06:11.600 --> 00:06:14.230 align:start position:0%
+afine
+here<00:06:12.639><c> right</c><00:06:12.880><c> afinite</c><00:06:13.440><c> has</c><00:06:13.520><c> been</c><00:06:13.680><c> printed</c><00:06:14.000><c> here</c>
+
+00:06:14.230 --> 00:06:14.240 align:start position:0%
+here right afinite has been printed here
+ 
+
+00:06:14.240 --> 00:06:14.710 align:start position:0%
+here right afinite has been printed here
+now<00:06:14.400><c> we</c>
+
+00:06:14.710 --> 00:06:14.720 align:start position:0%
+now we
+ 
+
+00:06:14.720 --> 00:06:17.029 align:start position:0%
+now we
+move<00:06:14.960><c> to</c><00:06:15.120><c> the</c><00:06:15.199><c> next</c><00:06:15.520><c> one</c><00:06:15.840><c> which</c><00:06:16.080><c> is</c><00:06:16.240><c> the</c><00:06:16.720><c> length</c>
+
+00:06:17.029 --> 00:06:17.039 align:start position:0%
+move to the next one which is the length
+ 
+
+00:06:17.039 --> 00:06:18.469 align:start position:0%
+move to the next one which is the length
+of<00:06:17.120><c> the</c><00:06:17.280><c> address</c>
+
+00:06:18.469 --> 00:06:18.479 align:start position:0%
+of the address
+ 
+
+00:06:18.479 --> 00:06:21.590 align:start position:0%
+of the address
+so<00:06:18.639><c> the</c><00:06:18.800><c> address</c><00:06:19.199><c> is</c><00:06:19.440><c> four</c><00:06:20.880><c> right</c><00:06:21.199><c> so</c>
+
+00:06:21.590 --> 00:06:21.600 align:start position:0%
+so the address is four right so
+ 
+
+00:06:21.600 --> 00:06:24.390 align:start position:0%
+so the address is four right so
+length<00:06:21.919><c> of</c><00:06:22.000><c> the</c><00:06:22.080><c> address</c><00:06:22.479><c> is</c><00:06:22.560><c> four</c><00:06:23.680><c> and</c><00:06:23.919><c> then</c>
+
+00:06:24.390 --> 00:06:24.400 align:start position:0%
+length of the address is four and then
+ 
+
+00:06:24.400 --> 00:06:26.870 align:start position:0%
+length of the address is four and then
+address<00:06:24.800><c> type</c><00:06:25.120><c> is</c><00:06:25.360><c> a</c><00:06:25.680><c> finite</c><00:06:26.160><c> then</c><00:06:26.400><c> i'm</c>
+
+00:06:26.870 --> 00:06:26.880 align:start position:0%
+address type is a finite then i'm
+ 
+
+00:06:26.880 --> 00:06:28.550 align:start position:0%
+address type is a finite then i'm
+in<00:06:27.039><c> that</c><00:06:27.280><c> case</c><00:06:27.520><c> i'm</c><00:06:27.680><c> just</c><00:06:27.840><c> going</c><00:06:28.000><c> to</c><00:06:28.160><c> iterate</c>
+
+00:06:28.550 --> 00:06:28.560 align:start position:0%
+in that case i'm just going to iterate
+ 
+
+00:06:28.560 --> 00:06:30.710 align:start position:0%
+in that case i'm just going to iterate
+through<00:06:28.800><c> all</c><00:06:29.039><c> the</c><00:06:29.680><c> ip</c><00:06:30.000><c> addresses</c><00:06:30.479><c> that</c><00:06:30.560><c> have</c>
+
+00:06:30.710 --> 00:06:30.720 align:start position:0%
+through all the ip addresses that have
+ 
+
+00:06:30.720 --> 00:06:32.070 align:start position:0%
+through all the ip addresses that have
+been<00:06:30.960><c> assigned</c><00:06:31.280><c> to</c><00:06:31.440><c> my</c><00:06:31.600><c> machine</c>
+
+00:06:32.070 --> 00:06:32.080 align:start position:0%
+been assigned to my machine
+ 
+
+00:06:32.080 --> 00:06:33.830 align:start position:0%
+been assigned to my machine
+so<00:06:32.319><c> there</c><00:06:32.479><c> is</c><00:06:32.639><c> only</c><00:06:32.800><c> one</c><00:06:33.039><c> ip</c><00:06:33.280><c> address</c><00:06:33.600><c> so</c><00:06:33.680><c> it</c>
+
+00:06:33.830 --> 00:06:33.840 align:start position:0%
+so there is only one ip address so it
+ 
+
+00:06:33.840 --> 00:06:36.990 align:start position:0%
+so there is only one ip address so it
+will<00:06:33.919><c> print</c><00:06:34.240><c> only</c><00:06:34.400><c> one</c><00:06:34.560><c> ip</c><00:06:34.880><c> address</c><00:06:35.199><c> which</c><00:06:35.360><c> is</c>
+
+00:06:36.990 --> 00:06:37.000 align:start position:0%
+will print only one ip address which is
+ 
+
+00:06:37.000 --> 00:06:38.550 align:start position:0%
+will print only one ip address which is
+192.168.1.4
+
+00:06:38.550 --> 00:06:38.560 align:start position:0%
+192.168.1.4
+ 
+
+00:06:38.560 --> 00:06:41.590 align:start position:0%
+192.168.1.4
+right<00:06:38.880><c> so</c><00:06:40.000><c> so</c><00:06:40.160><c> this</c><00:06:40.319><c> is</c><00:06:40.479><c> working</c><00:06:40.800><c> fine</c><00:06:41.120><c> so</c><00:06:41.440><c> it</c>
+
+00:06:41.590 --> 00:06:41.600 align:start position:0%
+right so so this is working fine so it
+ 
+
+00:06:41.600 --> 00:06:42.710 align:start position:0%
+right so so this is working fine so it
+is<00:06:41.680><c> giving</c><00:06:41.919><c> me</c><00:06:42.160><c> all</c><00:06:42.319><c> the</c>
+
+00:06:42.710 --> 00:06:42.720 align:start position:0%
+is giving me all the
+ 
+
+00:06:42.720 --> 00:06:45.350 align:start position:0%
+is giving me all the
+things<00:06:43.039><c> that</c><00:06:43.199><c> i</c><00:06:43.360><c> need</c><00:06:44.240><c> so</c><00:06:44.479><c> rather</c><00:06:44.800><c> than</c><00:06:45.120><c> giving</c>
+
+00:06:45.350 --> 00:06:45.360 align:start position:0%
+things that i need so rather than giving
+ 
+
+00:06:45.360 --> 00:06:47.189 align:start position:0%
+things that i need so rather than giving
+any<00:06:45.600><c> hard</c><00:06:45.840><c> coded</c><00:06:46.160><c> values</c><00:06:46.560><c> if</c><00:06:46.720><c> i</c><00:06:46.720><c> am</c><00:06:46.880><c> creating</c>
+
+00:06:47.189 --> 00:06:47.199 align:start position:0%
+any hard coded values if i am creating
+ 
+
+00:06:47.199 --> 00:06:49.909 align:start position:0%
+any hard coded values if i am creating
+my<00:06:47.440><c> own</c><00:06:47.600><c> server</c><00:06:47.919><c> i</c><00:06:48.080><c> can</c><00:06:48.240><c> provide</c><00:06:48.560><c> these</c><00:06:48.880><c> values</c>
+
+00:06:49.909 --> 00:06:49.919 align:start position:0%
+my own server i can provide these values
+ 
+
+00:06:49.919 --> 00:06:52.150 align:start position:0%
+my own server i can provide these values
+to<00:06:50.080><c> the</c><00:06:50.960><c> srv</c><00:06:51.440><c> structure</c><00:06:51.759><c> which</c><00:06:51.919><c> is</c><00:06:52.080><c> the</c>
+
+00:06:52.150 --> 00:06:52.160 align:start position:0%
+to the srv structure which is the
+ 
+
+00:06:52.160 --> 00:06:55.029 align:start position:0%
+to the srv structure which is the
+instruct
+
+00:06:55.029 --> 00:06:55.039 align:start position:0%
+ 
+ 
+
+00:06:55.039 --> 00:06:59.350 align:start position:0%
+ 
+sock<00:06:55.440><c> editor</c><00:06:56.000><c> if</c><00:06:56.160><c> you</c><00:06:56.319><c> remember</c><00:06:56.720><c> this</c><00:06:56.960><c> is</c><00:06:57.120><c> the</c>
+
+00:06:59.350 --> 00:06:59.360 align:start position:0%
+ 
+ 
+
+00:06:59.360 --> 00:07:02.469 align:start position:0%
+ 
+address<00:06:59.840><c> structure</c><00:07:01.199><c> where</c><00:07:01.440><c> we</c><00:07:01.680><c> store</c><00:07:02.080><c> the</c>
+
+00:07:02.469 --> 00:07:02.479 align:start position:0%
+address structure where we store the
+ 
+
+00:07:02.479 --> 00:07:04.390 align:start position:0%
+address structure where we store the
+information<00:07:03.039><c> about</c><00:07:03.280><c> the</c><00:07:03.440><c> server</c><00:07:03.919><c> so</c><00:07:04.080><c> this</c><00:07:04.240><c> is</c>
+
+00:07:04.390 --> 00:07:04.400 align:start position:0%
+information about the server so this is
+ 
+
+00:07:04.400 --> 00:07:06.950 align:start position:0%
+information about the server so this is
+the<00:07:04.479><c> name</c><00:07:04.720><c> of</c><00:07:04.800><c> the</c><00:07:04.960><c> server</c>
+
+00:07:06.950 --> 00:07:06.960 align:start position:0%
+the name of the server
+ 
+
+00:07:06.960 --> 00:07:10.469 align:start position:0%
+the name of the server
+sort<00:07:07.599><c> and</c><00:07:07.919><c> sock</c><00:07:08.160><c> and</c><00:07:08.639><c> editor</c><00:07:08.960><c> in</c><00:07:09.680><c> and</c><00:07:09.919><c> here</c>
+
+00:07:10.469 --> 00:07:10.479 align:start position:0%
+sort and sock and editor in and here
+ 
+
+00:07:10.479 --> 00:07:11.670 align:start position:0%
+sort and sock and editor in and here
+based<00:07:10.800><c> on</c><00:07:10.880><c> the</c><00:07:11.039><c> values</c><00:07:11.360><c> that</c><00:07:11.440><c> have</c><00:07:11.599><c> been</c>
+
+00:07:11.670 --> 00:07:11.680 align:start position:0%
+based on the values that have been
+ 
+
+00:07:11.680 --> 00:07:14.390 align:start position:0%
+based on the values that have been
+written<00:07:12.080><c> i</c><00:07:12.160><c> will</c><00:07:12.319><c> just</c>
+
+00:07:14.390 --> 00:07:14.400 align:start position:0%
+written i will just
+ 
+
+00:07:14.400 --> 00:07:17.510 align:start position:0%
+written i will just
+print<00:07:14.720><c> it</c><00:07:14.880><c> like</c><00:07:15.120><c> syn</c><00:07:15.520><c> family</c><00:07:16.240><c> i</c><00:07:16.319><c> will</c><00:07:16.560><c> put</c><00:07:16.960><c> af</c>
+
+00:07:17.510 --> 00:07:17.520 align:start position:0%
+print it like syn family i will put af
+ 
+
+00:07:17.520 --> 00:07:21.350 align:start position:0%
+print it like syn family i will put af
+underscore<00:07:18.479><c> in</c><00:07:18.880><c> it</c>
+
+00:07:21.350 --> 00:07:21.360 align:start position:0%
+ 
+ 
+
+00:07:21.360 --> 00:07:24.469 align:start position:0%
+ 
+and<00:07:21.759><c> then</c>
+
+00:07:24.469 --> 00:07:24.479 align:start position:0%
+ 
+ 
+
+00:07:24.479 --> 00:07:28.830 align:start position:0%
+ 
+based<00:07:24.800><c> on</c><00:07:24.960><c> the</c><00:07:25.680><c> address</c><00:07:26.160><c> what</c><00:07:26.319><c> i</c><00:07:26.400><c> will</c><00:07:26.560><c> do</c><00:07:26.960><c> srv</c>
+
+00:07:28.830 --> 00:07:28.840 align:start position:0%
+based on the address what i will do srv
+ 
+
+00:07:28.840 --> 00:07:32.309 align:start position:0%
+based on the address what i will do srv
+dot
+
+00:07:32.309 --> 00:07:32.319 align:start position:0%
+ 
+ 
+
+00:07:32.319 --> 00:07:34.710 align:start position:0%
+ 
+dot<00:07:32.720><c> syn</c><00:07:32.960><c> port</c><00:07:33.280><c> i'm</c><00:07:33.360><c> giving</c><00:07:33.680><c> any</c><00:07:33.919><c> port</c><00:07:34.240><c> right</c>
+
+00:07:34.710 --> 00:07:34.720 align:start position:0%
+dot syn port i'm giving any port right
+ 
+
+00:07:34.720 --> 00:07:35.749 align:start position:0%
+dot syn port i'm giving any port right
+uh<00:07:35.039><c> like</c><00:07:35.360><c> uh</c>
+
+00:07:35.749 --> 00:07:35.759 align:start position:0%
+uh like uh
+ 
+
+00:07:35.759 --> 00:07:39.430 align:start position:0%
+uh like uh
+h2<00:07:36.639><c> ns</c><00:07:37.199><c> i</c><00:07:37.360><c> can</c><00:07:37.520><c> give</c><00:07:37.759><c> any</c><00:07:37.919><c> port</c><00:07:38.160><c> 9999</c>
+
+00:07:39.430 --> 00:07:39.440 align:start position:0%
+h2 ns i can give any port 9999
+ 
+
+00:07:39.440 --> 00:07:44.070 align:start position:0%
+h2 ns i can give any port 9999
+any<00:07:39.680><c> port</c><00:07:40.000><c> i</c><00:07:40.080><c> can</c><00:07:40.240><c> give</c><00:07:41.120><c> and</c><00:07:41.360><c> then</c><00:07:41.599><c> srv</c><00:07:42.840><c> dot</c>
+
+00:07:44.070 --> 00:07:44.080 align:start position:0%
+any port i can give and then srv dot
+ 
+
+00:07:44.080 --> 00:07:47.189 align:start position:0%
+any port i can give and then srv dot
+syn<00:07:44.479><c> editor</c><00:07:44.879><c> dot</c><00:07:45.280><c> s</c><00:07:45.599><c> underscore</c><00:07:46.479><c> editor</c>
+
+00:07:47.189 --> 00:07:47.199 align:start position:0%
+syn editor dot s underscore editor
+ 
+
+00:07:47.199 --> 00:07:51.909 align:start position:0%
+syn editor dot s underscore editor
+is<00:07:47.440><c> equal</c><00:07:47.840><c> to</c><00:07:49.440><c> this</c><00:07:49.759><c> a</c><00:07:49.919><c> double</c><00:07:50.240><c> dr</c>
+
+00:07:51.909 --> 00:07:51.919 align:start position:0%
+is equal to this a double dr
+ 
+
+00:07:51.919 --> 00:07:54.150 align:start position:0%
+is equal to this a double dr
+right<00:07:52.240><c> so</c><00:07:52.400><c> this</c><00:07:52.639><c> will</c><00:07:52.800><c> be</c><00:07:53.120><c> assigned</c><00:07:53.520><c> to</c><00:07:53.840><c> this</c>
+
+00:07:54.150 --> 00:07:54.160 align:start position:0%
+right so this will be assigned to this
+ 
+
+00:07:54.160 --> 00:07:58.309 align:start position:0%
+right so this will be assigned to this
+address<00:07:54.479><c> so</c><00:07:54.639><c> rather</c><00:07:54.960><c> than</c><00:07:55.199><c> providing</c><00:07:55.759><c> it</c><00:07:56.840><c> to</c>
+
+00:07:58.309 --> 00:07:58.319 align:start position:0%
+address so rather than providing it to
+ 
+
+00:07:58.319 --> 00:08:01.830 align:start position:0%
+address so rather than providing it to
+something<00:07:58.800><c> else</c><00:08:00.720><c> i</c><00:08:00.960><c> think</c><00:08:01.280><c> that</c>
+
+00:08:01.830 --> 00:08:01.840 align:start position:0%
+something else i think that
+ 
+
+00:08:01.840 --> 00:08:05.670 align:start position:0%
+something else i think that
+has<00:08:02.319><c> been</c><00:08:02.720><c> given</c><00:08:03.120><c> there</c><00:08:03.680><c> so</c><00:08:04.319><c> editor</c><00:08:04.879><c> is</c><00:08:05.120><c> at</c><00:08:05.280><c> the</c>
+
+00:08:05.670 --> 00:08:05.680 align:start position:0%
+has been given there so editor is at the
+ 
+
+00:08:05.680 --> 00:08:10.869 align:start position:0%
+has been given there so editor is at the
+top
+
+00:08:10.869 --> 00:08:10.879 align:start position:0%
+ 
+ 
+
+00:08:10.879 --> 00:08:13.909 align:start position:0%
+ 
+so<00:08:11.360><c> i</c><00:08:11.599><c> need</c><00:08:11.919><c> underscore</c><00:08:13.280><c> a</c><00:08:13.520><c> to</c>
+
+00:08:13.909 --> 00:08:13.919 align:start position:0%
+so i need underscore a to
+ 
+
+00:08:13.919 --> 00:08:21.830 align:start position:0%
+so i need underscore a to
+n2a<00:08:16.080><c> okay</c><00:08:16.800><c> so</c>
+
+00:08:21.830 --> 00:08:21.840 align:start position:0%
+ 
+ 
+
+00:08:21.840 --> 00:08:27.909 align:start position:0%
+ 
+okay<00:08:22.160><c> i</c><00:08:22.319><c> just</c><00:08:22.560><c> need</c><00:08:22.720><c> to</c><00:08:22.960><c> provide</c><00:08:24.840><c> like</c>
+
+00:08:27.909 --> 00:08:27.919 align:start position:0%
+ 
+ 
+
+00:08:27.919 --> 00:08:31.510 align:start position:0%
+ 
+a<00:08:28.160><c> double</c><00:08:28.560><c> dr</c><00:08:30.240><c> dot</c>
+
+00:08:31.510 --> 00:08:31.520 align:start position:0%
+a double dr dot
+ 
+
+00:08:31.520 --> 00:08:34.790 align:start position:0%
+a double dr dot
+s<00:08:31.919><c> underscore</c><00:08:32.640><c> editor</c><00:08:34.000><c> that</c><00:08:34.240><c> i</c><00:08:34.320><c> have</c><00:08:34.479><c> found</c>
+
+00:08:34.790 --> 00:08:34.800 align:start position:0%
+s underscore editor that i have found
+ 
+
+00:08:34.800 --> 00:08:35.190 align:start position:0%
+s underscore editor that i have found
+here
+
+00:08:35.190 --> 00:08:35.200 align:start position:0%
+here
+ 
+
+00:08:35.200 --> 00:08:37.190 align:start position:0%
+here
+right<00:08:35.519><c> so</c><00:08:35.680><c> this</c><00:08:35.919><c> will</c><00:08:36.080><c> be</c><00:08:36.240><c> assigned</c><00:08:36.640><c> to</c><00:08:36.959><c> this</c>
+
+00:08:37.190 --> 00:08:37.200 align:start position:0%
+right so this will be assigned to this
+ 
+
+00:08:37.200 --> 00:08:38.310 align:start position:0%
+right so this will be assigned to this
+one<00:08:37.440><c> and</c><00:08:37.599><c> then</c>
+
+00:08:38.310 --> 00:08:38.320 align:start position:0%
+one and then
+ 
+
+00:08:38.320 --> 00:08:41.350 align:start position:0%
+one and then
+the<00:08:38.560><c> last</c><00:08:38.800><c> thing</c><00:08:39.039><c> was</c><00:08:39.360><c> mem</c><00:08:39.680><c> set</c>
+
+00:08:41.350 --> 00:08:41.360 align:start position:0%
+the last thing was mem set
+ 
+
+00:08:41.360 --> 00:08:43.350 align:start position:0%
+the last thing was mem set
+if<00:08:41.519><c> you</c><00:08:41.599><c> don't</c><00:08:41.839><c> remember</c><00:08:42.479><c> what</c><00:08:42.719><c> i'm</c><00:08:42.880><c> doing</c>
+
+00:08:43.350 --> 00:08:43.360 align:start position:0%
+if you don't remember what i'm doing
+ 
+
+00:08:43.360 --> 00:08:44.630 align:start position:0%
+if you don't remember what i'm doing
+here<00:08:43.680><c> you</c><00:08:43.839><c> can</c><00:08:44.080><c> just</c>
+
+00:08:44.630 --> 00:08:44.640 align:start position:0%
+here you can just
+ 
+
+00:08:44.640 --> 00:08:47.190 align:start position:0%
+here you can just
+go<00:08:44.880><c> to</c><00:08:45.040><c> the</c><00:08:45.200><c> previous</c><00:08:45.600><c> videos</c><00:08:46.080><c> in</c><00:08:46.160><c> the</c><00:08:46.959><c> same</c>
+
+00:08:47.190 --> 00:08:47.200 align:start position:0%
+go to the previous videos in the same
+ 
+
+00:08:47.200 --> 00:08:50.389 align:start position:0%
+go to the previous videos in the same
+playlist<00:08:47.600><c> and</c><00:08:47.760><c> you</c><00:08:47.839><c> can</c><00:08:48.000><c> see</c><00:08:48.160><c> that</c><00:08:48.399><c> how</c><00:08:48.640><c> i</c><00:08:48.800><c> was</c>
+
+00:08:50.389 --> 00:08:50.399 align:start position:0%
+playlist and you can see that how i was
+ 
+
+00:08:50.399 --> 00:08:52.550 align:start position:0%
+playlist and you can see that how i was
+developing<00:08:50.880><c> my</c><00:08:51.200><c> server</c><00:08:51.680><c> the</c><00:08:51.839><c> socket</c><00:08:52.240><c> server</c>
+
+00:08:52.550 --> 00:08:52.560 align:start position:0%
+developing my server the socket server
+ 
+
+00:08:52.560 --> 00:08:54.550 align:start position:0%
+developing my server the socket server
+in<00:08:52.880><c> um</c><00:08:53.920><c> in</c><00:08:54.080><c> c</c>
+
+00:08:54.550 --> 00:08:54.560 align:start position:0%
+in um in c
+ 
+
+00:08:54.560 --> 00:08:56.310 align:start position:0%
+in um in c
+plus<00:08:55.040><c> right</c><00:08:55.279><c> in</c><00:08:55.360><c> the</c><00:08:55.440><c> same</c><00:08:55.680><c> playlist</c><00:08:56.000><c> you</c><00:08:56.160><c> can</c>
+
+00:08:56.310 --> 00:08:56.320 align:start position:0%
+plus right in the same playlist you can
+ 
+
+00:08:56.320 --> 00:08:58.470 align:start position:0%
+plus right in the same playlist you can
+see<00:08:56.720><c> i</c><00:08:56.800><c> think</c><00:08:57.040><c> it</c><00:08:57.519><c> is</c><00:08:57.680><c> a</c><00:08:57.920><c> only</c>
+
+00:08:58.470 --> 00:08:58.480 align:start position:0%
+see i think it is a only
+ 
+
+00:08:58.480 --> 00:09:01.269 align:start position:0%
+see i think it is a only
+second<00:08:58.880><c> or</c><00:08:59.200><c> third</c><00:09:00.480><c> video</c><00:09:00.800><c> where</c><00:09:01.040><c> you</c><00:09:01.200><c> will</c>
+
+00:09:01.269 --> 00:09:01.279 align:start position:0%
+second or third video where you will
+ 
+
+00:09:01.279 --> 00:09:02.710 align:start position:0%
+second or third video where you will
+find<00:09:01.600><c> all</c><00:09:01.680><c> these</c><00:09:01.920><c> things</c>
+
+00:09:02.710 --> 00:09:02.720 align:start position:0%
+find all these things
+ 
+
+00:09:02.720 --> 00:09:04.870 align:start position:0%
+find all these things
+so<00:09:03.120><c> you</c><00:09:03.279><c> can</c><00:09:03.519><c> see</c><00:09:03.680><c> there</c><00:09:04.080><c> and</c><00:09:04.240><c> you</c><00:09:04.399><c> will</c><00:09:04.560><c> find</c>
+
+00:09:04.870 --> 00:09:04.880 align:start position:0%
+so you can see there and you will find
+ 
+
+00:09:04.880 --> 00:09:06.470 align:start position:0%
+so you can see there and you will find
+that<00:09:05.120><c> what</c><00:09:05.279><c> i</c><00:09:05.360><c> am</c><00:09:05.440><c> doing</c><00:09:05.680><c> here</c><00:09:05.920><c> and</c><00:09:06.000><c> why</c>
+
+00:09:06.470 --> 00:09:06.480 align:start position:0%
+that what i am doing here and why
+ 
+
+00:09:06.480 --> 00:09:09.110 align:start position:0%
+that what i am doing here and why
+this<00:09:06.720><c> is</c><00:09:06.800><c> needed</c><00:09:07.600><c> right</c><00:09:08.000><c> basically</c><00:09:08.399><c> this</c><00:09:08.640><c> srv</c>
+
+00:09:09.110 --> 00:09:09.120 align:start position:0%
+this is needed right basically this srv
+ 
+
+00:09:09.120 --> 00:09:10.710 align:start position:0%
+this is needed right basically this srv
+structure<00:09:09.519><c> is</c><00:09:09.600><c> needed</c><00:09:09.839><c> to</c><00:09:10.000><c> bind</c><00:09:10.240><c> to</c><00:09:10.399><c> a</c><00:09:10.480><c> port</c>
+
+00:09:10.710 --> 00:09:10.720 align:start position:0%
+structure is needed to bind to a port
+ 
+
+00:09:10.720 --> 00:09:10.949 align:start position:0%
+structure is needed to bind to a port
+and
+
+00:09:10.949 --> 00:09:10.959 align:start position:0%
+and
+ 
+
+00:09:10.959 --> 00:09:12.790 align:start position:0%
+and
+start<00:09:11.200><c> listening</c><00:09:11.680><c> right</c><00:09:11.920><c> so</c><00:09:12.160><c> here</c><00:09:12.399><c> i'm</c><00:09:12.640><c> just</c>
+
+00:09:12.790 --> 00:09:12.800 align:start position:0%
+start listening right so here i'm just
+ 
+
+00:09:12.800 --> 00:09:16.949 align:start position:0%
+start listening right so here i'm just
+going<00:09:13.040><c> to</c><00:09:13.120><c> do</c><00:09:13.279><c> something</c><00:09:13.680><c> srv</c><00:09:14.320><c> dot</c>
+
+00:09:16.949 --> 00:09:16.959 align:start position:0%
+ 
+ 
+
+00:09:16.959 --> 00:09:20.230 align:start position:0%
+ 
+sin0<00:09:18.399><c> and</c><00:09:18.800><c> then</c><00:09:19.360><c> it's</c><00:09:19.600><c> like</c>
+
+00:09:20.230 --> 00:09:20.240 align:start position:0%
+sin0 and then it's like
+ 
+
+00:09:20.240 --> 00:09:22.310 align:start position:0%
+sin0 and then it's like
+with<00:09:20.480><c> which</c><00:09:20.720><c> you</c><00:09:20.959><c> are</c><00:09:21.120><c> going</c><00:09:21.360><c> to</c><00:09:21.519><c> fill</c><00:09:21.760><c> it</c><00:09:22.080><c> it's</c>
+
+00:09:22.310 --> 00:09:22.320 align:start position:0%
+with which you are going to fill it it's
+ 
+
+00:09:22.320 --> 00:09:23.750 align:start position:0%
+with which you are going to fill it it's
+like<00:09:22.880><c> four</c>
+
+00:09:23.750 --> 00:09:23.760 align:start position:0%
+like four
+ 
+
+00:09:23.760 --> 00:09:25.750 align:start position:0%
+like four
+it's<00:09:23.920><c> like</c><00:09:24.160><c> zero</c><00:09:24.560><c> and</c><00:09:24.640><c> then</c><00:09:24.880><c> what</c><00:09:25.040><c> is</c><00:09:25.200><c> the</c><00:09:25.360><c> size</c>
+
+00:09:25.750 --> 00:09:25.760 align:start position:0%
+it's like zero and then what is the size
+ 
+
+00:09:25.760 --> 00:09:26.949 align:start position:0%
+it's like zero and then what is the size
+eight<00:09:26.000><c> is</c><00:09:26.080><c> the</c><00:09:26.240><c> size</c>
+
+00:09:26.949 --> 00:09:26.959 align:start position:0%
+eight is the size
+ 
+
+00:09:26.959 --> 00:09:28.949 align:start position:0%
+eight is the size
+i'm<00:09:27.200><c> filling</c><00:09:27.519><c> everything</c><00:09:28.000><c> with</c><00:09:28.160><c> the</c><00:09:28.320><c> zero</c><00:09:28.720><c> so</c>
+
+00:09:28.949 --> 00:09:28.959 align:start position:0%
+i'm filling everything with the zero so
+ 
+
+00:09:28.959 --> 00:09:30.310 align:start position:0%
+i'm filling everything with the zero so
+here<00:09:29.200><c> i'm</c><00:09:29.360><c> just</c><00:09:29.519><c> going</c><00:09:29.680><c> to</c><00:09:29.839><c> provide</c>
+
+00:09:30.310 --> 00:09:30.320 align:start position:0%
+here i'm just going to provide
+ 
+
+00:09:30.320 --> 00:09:41.990 align:start position:0%
+here i'm just going to provide
+address<00:09:30.880><c> of</c><00:09:31.279><c> this</c><00:09:32.560><c> srv</c><00:09:33.040><c> dots</c><00:09:33.440><c> in</c><00:09:34.839><c> zero</c>
+
+00:09:41.990 --> 00:09:42.000 align:start position:0%
+ 
+ 
+
+00:09:42.000 --> 00:09:45.670 align:start position:0%
+ 
+right<00:09:42.399><c> then</c><00:09:42.720><c> what</c><00:09:42.880><c> we</c><00:09:43.040><c> can</c><00:09:43.279><c> do</c><00:09:43.519><c> we</c><00:09:43.760><c> can</c><00:09:44.000><c> just</c>
+
+00:09:45.670 --> 00:09:45.680 align:start position:0%
+right then what we can do we can just
+ 
+
+00:09:45.680 --> 00:09:51.190 align:start position:0%
+right then what we can do we can just
+call<00:09:46.000><c> the</c><00:09:48.839><c> socket</c>
+
+00:09:51.190 --> 00:09:51.200 align:start position:0%
+call the socket
+ 
+
+00:09:51.200 --> 00:09:54.790 align:start position:0%
+call the socket
+and<00:09:52.080><c> and</c><00:09:52.480><c> socket</c>
+
+00:09:54.790 --> 00:09:54.800 align:start position:0%
+and and socket
+ 
+
+00:09:54.800 --> 00:09:58.070 align:start position:0%
+and and socket
+is<00:09:54.959><c> equal</c><00:09:55.360><c> to</c><00:09:55.680><c> socket</c>
+
+00:09:58.070 --> 00:09:58.080 align:start position:0%
+is equal to socket
+ 
+
+00:09:58.080 --> 00:10:01.350 align:start position:0%
+is equal to socket
+af<00:09:58.800><c> underscore</c><00:09:59.519><c> init</c><00:10:00.959><c> and</c>
+
+00:10:01.350 --> 00:10:01.360 align:start position:0%
+af underscore init and
+ 
+
+00:10:01.360 --> 00:10:06.230 align:start position:0%
+af underscore init and
+sock<00:10:01.839><c> underscore</c><00:10:02.839><c> stream</c>
+
+00:10:06.230 --> 00:10:06.240 align:start position:0%
+ 
+ 
+
+00:10:06.240 --> 00:10:08.710 align:start position:0%
+ 
+and<00:10:06.480><c> then</c><00:10:06.720><c> you</c><00:10:06.880><c> can</c><00:10:07.040><c> give</c><00:10:07.360><c> 0</c><00:10:07.760><c> which</c><00:10:08.000><c> is</c><00:10:08.079><c> the</c><00:10:08.240><c> tcp</c>
+
+00:10:08.710 --> 00:10:08.720 align:start position:0%
+and then you can give 0 which is the tcp
+ 
+
+00:10:08.720 --> 00:10:11.030 align:start position:0%
+and then you can give 0 which is the tcp
+protocol<00:10:09.200><c> by</c><00:10:09.440><c> default</c>
+
+00:10:11.030 --> 00:10:11.040 align:start position:0%
+protocol by default
+ 
+
+00:10:11.040 --> 00:10:13.190 align:start position:0%
+protocol by default
+and<00:10:11.279><c> now</c><00:10:11.519><c> if</c><00:10:11.680><c> you</c><00:10:11.920><c> try</c><00:10:12.160><c> to</c><00:10:12.320><c> bind</c><00:10:12.640><c> it</c><00:10:12.880><c> now</c><00:10:13.040><c> you</c>
+
+00:10:13.190 --> 00:10:13.200 align:start position:0%
+and now if you try to bind it now you
+ 
+
+00:10:13.200 --> 00:10:14.790 align:start position:0%
+and now if you try to bind it now you
+will<00:10:13.360><c> be</c><00:10:13.440><c> able</c><00:10:13.680><c> to</c><00:10:13.839><c> bind</c><00:10:14.160><c> everything</c>
+
+00:10:14.790 --> 00:10:14.800 align:start position:0%
+will be able to bind everything
+ 
+
+00:10:14.800 --> 00:10:16.790 align:start position:0%
+will be able to bind everything
+correctly<00:10:15.360><c> so</c><00:10:15.600><c> here</c><00:10:15.839><c> i</c><00:10:16.000><c> am</c><00:10:16.160><c> going</c><00:10:16.399><c> to</c><00:10:16.480><c> just</c>
+
+00:10:16.790 --> 00:10:16.800 align:start position:0%
+correctly so here i am going to just
+ 
+
+00:10:16.800 --> 00:10:18.630 align:start position:0%
+correctly so here i am going to just
+give<00:10:17.040><c> i</c><00:10:17.279><c> result</c>
+
+00:10:18.630 --> 00:10:18.640 align:start position:0%
+give i result
+ 
+
+00:10:18.640 --> 00:10:22.389 align:start position:0%
+give i result
+is<00:10:18.800><c> equal</c><00:10:19.200><c> to</c><00:10:20.800><c> bind</c>
+
+00:10:22.389 --> 00:10:22.399 align:start position:0%
+is equal to bind
+ 
+
+00:10:22.399 --> 00:10:27.750 align:start position:0%
+is equal to bind
+and<00:10:23.200><c> n</c><00:10:23.680><c> socket</c>
+
+00:10:27.750 --> 00:10:27.760 align:start position:0%
+ 
+ 
+
+00:10:27.760 --> 00:10:32.900 align:start position:0%
+ 
+and<00:10:29.440><c> struct</c>
+
+00:10:32.900 --> 00:10:32.910 align:start position:0%
+ 
+ 
+
+00:10:32.910 --> 00:10:35.269 align:start position:0%
+ 
+[Music]
+
+00:10:35.269 --> 00:10:35.279 align:start position:0%
+[Music]
+ 
+
+00:10:35.279 --> 00:10:38.550 align:start position:0%
+[Music]
+and<00:10:36.079><c> you</c><00:10:36.240><c> need</c><00:10:36.480><c> to</c><00:10:36.640><c> pass</c>
+
+00:10:38.550 --> 00:10:38.560 align:start position:0%
+and you need to pass
+ 
+
+00:10:38.560 --> 00:10:41.430 align:start position:0%
+and you need to pass
+address<00:10:38.959><c> of</c><00:10:39.120><c> srv</c><00:10:40.160><c> and</c><00:10:40.480><c> then</c><00:10:40.720><c> what</c><00:10:40.959><c> is</c><00:10:41.040><c> the</c><00:10:41.200><c> last</c>
+
+00:10:41.430 --> 00:10:41.440 align:start position:0%
+address of srv and then what is the last
+ 
+
+00:10:41.440 --> 00:10:42.870 align:start position:0%
+address of srv and then what is the last
+argument
+
+00:10:42.870 --> 00:10:42.880 align:start position:0%
+argument
+ 
+
+00:10:42.880 --> 00:10:47.030 align:start position:0%
+argument
+size<00:10:43.360><c> of</c><00:10:45.440><c> srv</c>
+
+00:10:47.030 --> 00:10:47.040 align:start position:0%
+size of srv
+ 
+
+00:10:47.040 --> 00:10:49.350 align:start position:0%
+size of srv
+right<00:10:47.279><c> so</c><00:10:47.519><c> that</c><00:10:47.760><c> is</c><00:10:47.839><c> the</c><00:10:48.079><c> length</c><00:10:48.480><c> so</c><00:10:48.959><c> we</c><00:10:49.120><c> just</c>
+
+00:10:49.350 --> 00:10:49.360 align:start position:0%
+right so that is the length so we just
+ 
+
+00:10:49.360 --> 00:10:50.310 align:start position:0%
+right so that is the length so we just
+need<00:10:49.519><c> to</c><00:10:49.600><c> see</c><00:10:49.839><c> if</c><00:10:50.000><c> my</c>
+
+00:10:50.310 --> 00:10:50.320 align:start position:0%
+need to see if my
+ 
+
+00:10:50.320 --> 00:10:52.069 align:start position:0%
+need to see if my
+bind<00:10:50.640><c> call</c><00:10:50.880><c> is</c><00:10:50.959><c> successful</c><00:10:51.440><c> or</c><00:10:51.519><c> not</c><00:10:51.760><c> and</c><00:10:51.920><c> then</c>
+
+00:10:52.069 --> 00:10:52.079 align:start position:0%
+bind call is successful or not and then
+ 
+
+00:10:52.079 --> 00:10:53.430 align:start position:0%
+bind call is successful or not and then
+we<00:10:52.240><c> will</c><00:10:52.399><c> just</c><00:10:52.640><c> see</c>
+
+00:10:53.430 --> 00:10:53.440 align:start position:0%
+we will just see
+ 
+
+00:10:53.440 --> 00:10:59.910 align:start position:0%
+we will just see
+if<00:10:53.680><c> i</c><00:10:53.839><c> result</c><00:10:54.240><c> call</c><00:10:54.480><c> is</c><00:10:54.560><c> successful</c><00:10:55.120><c> or</c><00:10:55.279><c> not</c><00:10:58.839><c> so</c>
+
+00:10:59.910 --> 00:10:59.920 align:start position:0%
+if i result call is successful or not so
+ 
+
+00:10:59.920 --> 00:11:02.470 align:start position:0%
+if i result call is successful or not so
+our<00:11:00.079><c> result</c><00:11:00.560><c> is</c><00:11:00.720><c> equal</c><00:11:00.959><c> to</c><00:11:01.040><c> li</c><00:11:01.360><c> s</c><00:11:01.600><c> t</c><00:11:01.839><c> e</c><00:11:02.079><c> n</c>
+
+00:11:02.470 --> 00:11:02.480 align:start position:0%
+our result is equal to li s t e n
+ 
+
+00:11:02.480 --> 00:11:04.710 align:start position:0%
+our result is equal to li s t e n
+listen<00:11:03.040><c> if</c><00:11:03.200><c> it</c><00:11:03.360><c> is</c><00:11:03.519><c> able</c><00:11:03.760><c> to</c><00:11:03.920><c> start</c><00:11:04.240><c> listening</c>
+
+00:11:04.710 --> 00:11:04.720 align:start position:0%
+listen if it is able to start listening
+ 
+
+00:11:04.720 --> 00:11:06.230 align:start position:0%
+listen if it is able to start listening
+so
+
+00:11:06.230 --> 00:11:06.240 align:start position:0%
+so
+ 
+
+00:11:06.240 --> 00:11:09.430 align:start position:0%
+so
+n<00:11:06.720><c> socket</c><00:11:08.640><c> and</c><00:11:08.880><c> then</c>
+
+00:11:09.430 --> 00:11:09.440 align:start position:0%
+n socket and then
+ 
+
+00:11:09.440 --> 00:11:12.710 align:start position:0%
+n socket and then
+10<00:11:09.920><c> we</c><00:11:10.079><c> can</c><00:11:10.240><c> listen</c><00:11:10.720><c> up</c><00:11:10.800><c> to</c><00:11:10.959><c> 10</c><00:11:11.360><c> so</c><00:11:12.000><c> it</c><00:11:12.160><c> is</c><00:11:12.399><c> fine</c>
+
+00:11:12.710 --> 00:11:12.720 align:start position:0%
+10 we can listen up to 10 so it is fine
+ 
+
+00:11:12.720 --> 00:11:14.069 align:start position:0%
+10 we can listen up to 10 so it is fine
+so<00:11:12.880><c> let's</c><00:11:13.120><c> see</c>
+
+00:11:14.069 --> 00:11:14.079 align:start position:0%
+so let's see
+ 
+
+00:11:14.079 --> 00:11:16.310 align:start position:0%
+so let's see
+uh<00:11:14.720><c> whether</c><00:11:15.040><c> i</c><00:11:15.279><c> result</c><00:11:15.600><c> returns</c><00:11:16.000><c> correct</c>
+
+00:11:16.310 --> 00:11:16.320 align:start position:0%
+uh whether i result returns correct
+ 
+
+00:11:16.320 --> 00:11:18.389 align:start position:0%
+uh whether i result returns correct
+value<00:11:16.800><c> i</c><00:11:16.880><c> mean</c><00:11:17.120><c> if</c><00:11:17.279><c> it</c><00:11:17.360><c> returns</c><00:11:17.760><c> 0</c><00:11:18.079><c> then</c><00:11:18.240><c> it</c>
+
+00:11:18.389 --> 00:11:18.399 align:start position:0%
+value i mean if it returns 0 then it
+ 
+
+00:11:18.399 --> 00:11:20.790 align:start position:0%
+value i mean if it returns 0 then it
+means<00:11:18.560><c> that</c><00:11:18.800><c> our</c><00:11:19.040><c> bind</c><00:11:19.279><c> call</c><00:11:19.519><c> is</c><00:11:19.600><c> successful</c>
+
+00:11:20.790 --> 00:11:20.800 align:start position:0%
+means that our bind call is successful
+ 
+
+00:11:20.800 --> 00:11:22.949 align:start position:0%
+means that our bind call is successful
+and<00:11:21.279><c> if</c><00:11:21.440><c> it</c><00:11:21.519><c> returns</c><00:11:21.920><c> minus</c><00:11:22.240><c> 1</c><00:11:22.399><c> then</c><00:11:22.640><c> it</c><00:11:22.720><c> means</c>
+
+00:11:22.949 --> 00:11:22.959 align:start position:0%
+and if it returns minus 1 then it means
+ 
+
+00:11:22.959 --> 00:11:24.710 align:start position:0%
+and if it returns minus 1 then it means
+that<00:11:23.200><c> our</c><00:11:23.360><c> calls</c><00:11:23.680><c> are</c><00:11:23.760><c> not</c><00:11:23.920><c> successful</c>
+
+00:11:24.710 --> 00:11:24.720 align:start position:0%
+that our calls are not successful
+ 
+
+00:11:24.720 --> 00:11:26.870 align:start position:0%
+that our calls are not successful
+and<00:11:24.959><c> if</c><00:11:25.200><c> if</c><00:11:25.360><c> our</c><00:11:25.600><c> bind</c><00:11:26.000><c> and</c><00:11:26.160><c> lesson</c><00:11:26.480><c> calls</c><00:11:26.800><c> are</c>
+
+00:11:26.870 --> 00:11:26.880 align:start position:0%
+and if if our bind and lesson calls are
+ 
+
+00:11:26.880 --> 00:11:28.630 align:start position:0%
+and if if our bind and lesson calls are
+successful<00:11:27.360><c> then</c><00:11:27.600><c> rest</c><00:11:27.839><c> of</c><00:11:28.000><c> the</c><00:11:28.079><c> calls</c>
+
+00:11:28.630 --> 00:11:28.640 align:start position:0%
+successful then rest of the calls
+ 
+
+00:11:28.640 --> 00:11:31.350 align:start position:0%
+successful then rest of the calls
+that<00:11:28.880><c> we</c><00:11:29.120><c> use</c><00:11:29.360><c> to</c><00:11:29.600><c> call</c><00:11:30.560><c> rest</c><00:11:30.800><c> of</c><00:11:30.880><c> the</c><00:11:30.959><c> api</c>
+
+00:11:31.350 --> 00:11:31.360 align:start position:0%
+that we use to call rest of the api
+ 
+
+00:11:31.360 --> 00:11:33.269 align:start position:0%
+that we use to call rest of the api
+calls<00:11:31.680><c> that</c><00:11:31.839><c> we</c><00:11:32.000><c> use</c>
+
+00:11:33.269 --> 00:11:33.279 align:start position:0%
+calls that we use
+ 
+
+00:11:33.279 --> 00:11:36.069 align:start position:0%
+calls that we use
+to<00:11:33.519><c> create</c><00:11:33.839><c> that</c><00:11:34.800><c> server</c><00:11:35.360><c> they</c><00:11:35.600><c> all</c><00:11:35.760><c> will</c><00:11:35.920><c> be</c>
+
+00:11:36.069 --> 00:11:36.079 align:start position:0%
+to create that server they all will be
+ 
+
+00:11:36.079 --> 00:11:38.150 align:start position:0%
+to create that server they all will be
+successful<00:11:36.560><c> like</c><00:11:36.800><c> select</c><00:11:37.120><c> call</c><00:11:37.440><c> or</c><00:11:37.519><c> the</c>
+
+00:11:38.150 --> 00:11:38.160 align:start position:0%
+successful like select call or the
+ 
+
+00:11:38.160 --> 00:11:40.230 align:start position:0%
+successful like select call or the
+any<00:11:38.399><c> other</c><00:11:38.560><c> call</c><00:11:38.880><c> they</c><00:11:39.040><c> will</c><00:11:39.200><c> be</c><00:11:39.279><c> successful</c>
+
+00:11:40.230 --> 00:11:40.240 align:start position:0%
+any other call they will be successful
+ 
+
+00:11:40.240 --> 00:11:42.550 align:start position:0%
+any other call they will be successful
+right<00:11:40.480><c> so</c><00:11:40.640><c> let's</c><00:11:40.880><c> see</c><00:11:41.120><c> if</c><00:11:41.839><c> bind</c><00:11:42.160><c> and</c><00:11:42.320><c> listen</c>
+
+00:11:42.550 --> 00:11:42.560 align:start position:0%
+right so let's see if bind and listen
+ 
+
+00:11:42.560 --> 00:11:44.310 align:start position:0%
+right so let's see if bind and listen
+calls<00:11:42.880><c> are</c><00:11:42.959><c> successful</c><00:11:43.440><c> or</c><00:11:43.519><c> not</c>
+
+00:11:44.310 --> 00:11:44.320 align:start position:0%
+calls are successful or not
+ 
+
+00:11:44.320 --> 00:11:51.590 align:start position:0%
+calls are successful or not
+so<00:11:44.640><c> let</c><00:11:44.800><c> me</c><00:11:45.040><c> put</c><00:11:45.279><c> the</c><00:11:45.440><c> breakpoint</c><00:11:46.079><c> here</c>
+
+00:11:51.590 --> 00:11:51.600 align:start position:0%
+ 
+ 
+
+00:11:51.600 --> 00:11:53.590 align:start position:0%
+ 
+insert<00:11:52.000><c> the</c><00:11:52.160><c> breakpoint</c><00:11:52.800><c> and</c><00:11:52.959><c> just</c><00:11:53.279><c> remove</c>
+
+00:11:53.590 --> 00:11:53.600 align:start position:0%
+insert the breakpoint and just remove
+ 
+
+00:11:53.600 --> 00:11:58.389 align:start position:0%
+insert the breakpoint and just remove
+the<00:11:53.760><c> breakpoint</c><00:11:54.320><c> from</c><00:11:54.839><c> here</c>
+
+00:11:58.389 --> 00:11:58.399 align:start position:0%
+ 
+ 
+
+00:11:58.399 --> 00:12:00.069 align:start position:0%
+ 
+disable<00:11:58.880><c> the</c><00:11:59.040><c> breakpoint</c><00:11:59.519><c> and</c><00:11:59.600><c> enable</c><00:11:59.920><c> the</c>
+
+00:12:00.069 --> 00:12:00.079 align:start position:0%
+disable the breakpoint and enable the
+ 
+
+00:12:00.079 --> 00:12:01.990 align:start position:0%
+disable the breakpoint and enable the
+breakpoint<00:12:00.560><c> here</c><00:12:00.800><c> so</c><00:12:01.120><c> let's</c><00:12:01.360><c> run</c><00:12:01.600><c> it</c>
+
+00:12:01.990 --> 00:12:02.000 align:start position:0%
+breakpoint here so let's run it
+ 
+
+00:12:02.000 --> 00:12:08.310 align:start position:0%
+breakpoint here so let's run it
+press<00:12:02.320><c> f5</c>
+
+00:12:08.310 --> 00:12:08.320 align:start position:0%
+ 
+ 
+
+00:12:08.320 --> 00:12:11.110 align:start position:0%
+ 
+so<00:12:08.560><c> let</c><00:12:08.720><c> us</c><00:12:08.959><c> see</c><00:12:10.079><c> everything</c><00:12:10.480><c> should</c><00:12:10.720><c> be</c><00:12:10.880><c> fine</c>
+
+00:12:11.110 --> 00:12:11.120 align:start position:0%
+so let us see everything should be fine
+ 
+
+00:12:11.120 --> 00:12:11.670 align:start position:0%
+so let us see everything should be fine
+now
+
+00:12:11.670 --> 00:12:11.680 align:start position:0%
+now
+ 
+
+00:12:11.680 --> 00:12:15.269 align:start position:0%
+now
+let<00:12:11.839><c> me</c><00:12:12.160><c> see</c><00:12:12.399><c> if</c><00:12:12.800><c> f10</c><00:12:14.079><c> what</c><00:12:14.240><c> does</c><00:12:14.480><c> f10</c><00:12:14.800><c> returns</c>
+
+00:12:15.269 --> 00:12:15.279 align:start position:0%
+let me see if f10 what does f10 returns
+ 
+
+00:12:15.279 --> 00:12:17.750 align:start position:0%
+let me see if f10 what does f10 returns
+let<00:12:15.440><c> me</c><00:12:15.600><c> just</c>
+
+00:12:17.750 --> 00:12:17.760 align:start position:0%
+let me just
+ 
+
+00:12:17.760 --> 00:12:20.550 align:start position:0%
+let me just
+move<00:12:18.000><c> to</c><00:12:18.160><c> the</c><00:12:18.240><c> next</c><00:12:18.639><c> statement</c><00:12:20.079><c> so</c><00:12:20.320><c> this</c><00:12:20.480><c> is</c>
+
+00:12:20.550 --> 00:12:20.560 align:start position:0%
+move to the next statement so this is
+ 
+
+00:12:20.560 --> 00:12:22.069 align:start position:0%
+move to the next statement so this is
+returning<00:12:21.040><c> -1</c><00:12:21.680><c> okay</c>
+
+00:12:22.069 --> 00:12:22.079 align:start position:0%
+returning -1 okay
+ 
+
+00:12:22.079 --> 00:12:25.430 align:start position:0%
+returning -1 okay
+so<00:12:22.399><c> this</c><00:12:22.639><c> is</c><00:12:23.600><c> not</c><00:12:23.839><c> yet</c><00:12:24.079><c> fine</c>
+
+00:12:25.430 --> 00:12:25.440 align:start position:0%
+so this is not yet fine
+ 
+
+00:12:25.440 --> 00:12:28.470 align:start position:0%
+so this is not yet fine
+so<00:12:25.920><c> let</c><00:12:26.079><c> me</c><00:12:26.480><c> see</c><00:12:26.880><c> why</c><00:12:27.120><c> it</c><00:12:27.279><c> is</c><00:12:27.360><c> not</c><00:12:27.600><c> working</c><00:12:28.079><c> fine</c>
+
+00:12:28.470 --> 00:12:28.480 align:start position:0%
+so let me see why it is not working fine
+ 
+
+00:12:28.480 --> 00:12:31.590 align:start position:0%
+so let me see why it is not working fine
+so
+
+00:12:31.590 --> 00:12:31.600 align:start position:0%
+ 
+ 
+
+00:12:31.600 --> 00:12:47.990 align:start position:0%
+ 
+what<00:12:31.839><c> was</c><00:12:32.079><c> the</c><00:12:36.839><c> problem</c>
+
+00:12:47.990 --> 00:12:48.000 align:start position:0%
+ 
+ 
+
+00:12:48.000 --> 00:12:54.470 align:start position:0%
+ 
+i<00:12:48.160><c> think</c><00:12:48.480><c> it's</c><00:12:48.720><c> like</c><00:12:49.279><c> i</c><00:12:49.519><c> need</c><00:12:50.839><c> underscore</c>
+
+00:12:54.470 --> 00:12:54.480 align:start position:0%
+ 
+ 
+
+00:12:54.480 --> 00:13:09.509 align:start position:0%
+ 
+and<00:12:54.880><c> to</c><00:12:55.440><c> a</c><00:12:56.240><c> then</c><00:12:56.480><c> only</c><00:12:56.880><c> should</c><00:12:57.120><c> work</c><00:13:04.839><c> fine</c>
+
+00:13:09.509 --> 00:13:09.519 align:start position:0%
+ 
+ 
+
+00:13:09.519 --> 00:13:13.110 align:start position:0%
+ 
+it<00:13:09.760><c> should</c><00:13:09.920><c> be</c><00:13:10.160><c> only</c><00:13:10.560><c> this</c>
+
+00:13:13.110 --> 00:13:13.120 align:start position:0%
+ 
+ 
+
+00:13:13.120 --> 00:13:16.150 align:start position:0%
+ 
+and<00:13:13.920><c> here</c><00:13:14.160><c> i</c><00:13:14.399><c> think</c><00:13:14.639><c> it</c><00:13:14.800><c> should</c><00:13:15.120><c> be</c><00:13:15.440><c> like</c>
+
+00:13:16.150 --> 00:13:16.160 align:start position:0%
+and here i think it should be like
+ 
+
+00:13:16.160 --> 00:13:31.670 align:start position:0%
+and here i think it should be like
+this<00:13:18.839><c> one</c>
+
+00:13:31.670 --> 00:13:31.680 align:start position:0%
+ 
+ 
+
+00:13:31.680 --> 00:13:34.470 align:start position:0%
+ 
+okay<00:13:32.160><c> let</c><00:13:32.320><c> me</c><00:13:32.720><c> see</c><00:13:33.040><c> why</c><00:13:33.279><c> it</c><00:13:33.440><c> is</c><00:13:33.600><c> not</c><00:13:33.920><c> working</c>
+
+00:13:34.470 --> 00:13:34.480 align:start position:0%
+okay let me see why it is not working
+ 
+
+00:13:34.480 --> 00:13:39.590 align:start position:0%
+okay let me see why it is not working
+fine
+
+00:13:39.590 --> 00:13:39.600 align:start position:0%
+ 
+ 
+
+00:13:39.600 --> 00:13:49.189 align:start position:0%
+ 
+i<00:13:39.839><c> need</c><00:13:40.079><c> underscore</c><00:13:46.839><c> n2a</c>
+
+00:13:49.189 --> 00:13:49.199 align:start position:0%
+i need underscore n2a
+ 
+
+00:13:49.199 --> 00:13:55.110 align:start position:0%
+i need underscore n2a
+i<00:13:49.440><c> need</c><00:13:49.760><c> underscore</c><00:13:50.959><c> address</c>
+
+00:13:55.110 --> 00:13:55.120 align:start position:0%
+ 
+ 
+
+00:13:55.120 --> 00:13:59.269 align:start position:0%
+ 
+and<00:13:55.920><c> this</c><00:13:56.160><c> one</c><00:13:56.399><c> is</c><00:13:56.560><c> used</c><00:13:56.959><c> here</c>
+
+00:13:59.269 --> 00:13:59.279 align:start position:0%
+ 
+ 
+
+00:13:59.279 --> 00:14:03.030 align:start position:0%
+ 
+okay<00:13:59.680><c> so</c><00:14:00.560><c> this</c><00:14:00.880><c> should</c><00:14:01.120><c> be</c>
+
+00:14:03.030 --> 00:14:03.040 align:start position:0%
+okay so this should be
+ 
+
+00:14:03.040 --> 00:14:06.310 align:start position:0%
+okay so this should be
+init<00:14:04.199><c> underscore</c><00:14:05.920><c> n</c>
+
+00:14:06.310 --> 00:14:06.320 align:start position:0%
+init underscore n
+ 
+
+00:14:06.320 --> 00:14:09.750 align:start position:0%
+init underscore n
+to<00:14:06.639><c> a</c><00:14:07.279><c> and</c><00:14:07.519><c> then</c><00:14:07.839><c> let's</c><00:14:08.160><c> pass</c>
+
+00:14:09.750 --> 00:14:09.760 align:start position:0%
+to a and then let's pass
+ 
+
+00:14:09.760 --> 00:14:14.550 align:start position:0%
+to a and then let's pass
+this<00:14:10.079><c> a</c><00:14:10.240><c> double</c><00:14:10.639><c> dr</c>
+
+00:14:14.550 --> 00:14:14.560 align:start position:0%
+ 
+ 
+
+00:14:14.560 --> 00:14:16.310 align:start position:0%
+ 
+now<00:14:14.800><c> let's</c><00:14:15.040><c> see</c><00:14:15.199><c> what</c><00:14:15.440><c> happens</c><00:14:15.839><c> so</c><00:14:16.079><c> this</c>
+
+00:14:16.310 --> 00:14:16.320 align:start position:0%
+now let's see what happens so this
+ 
+
+00:14:16.320 --> 00:14:18.389 align:start position:0%
+now let's see what happens so this
+returns<00:14:16.639><c> sunset</c><00:14:17.040><c> long</c><00:14:17.279><c> which</c><00:14:17.519><c> is</c><00:14:17.680><c> fine</c><00:14:18.079><c> so</c>
+
+00:14:18.389 --> 00:14:18.399 align:start position:0%
+returns sunset long which is fine so
+ 
+
+00:14:18.399 --> 00:14:19.670 align:start position:0%
+returns sunset long which is fine so
+let's<00:14:18.639><c> see</c>
+
+00:14:19.670 --> 00:14:19.680 align:start position:0%
+let's see
+ 
+
+00:14:19.680 --> 00:14:24.790 align:start position:0%
+let's see
+let's<00:14:19.920><c> run</c><00:14:20.160><c> it</c><00:14:20.240><c> again</c>
+
+00:14:24.790 --> 00:14:24.800 align:start position:0%
+ 
+ 
+
+00:14:24.800 --> 00:14:29.990 align:start position:0%
+ 
+and<00:14:25.120><c> let's</c><00:14:25.360><c> see</c><00:14:25.600><c> what</c><00:14:25.839><c> happens</c><00:14:28.839><c> next</c>
+
+00:14:29.990 --> 00:14:30.000 align:start position:0%
+and let's see what happens next
+ 
+
+00:14:30.000 --> 00:14:34.949 align:start position:0%
+and let's see what happens next
+still<00:14:30.320><c> minus</c><00:14:30.800><c> one</c><00:14:31.360><c> so</c>
+
+00:14:34.949 --> 00:14:34.959 align:start position:0%
+ 
+ 
+
+00:14:34.959 --> 00:14:37.910 align:start position:0%
+ 
+okay<00:14:35.360><c> so</c><00:14:35.600><c> there</c><00:14:35.920><c> is</c><00:14:36.079><c> some</c><00:14:36.320><c> problem</c><00:14:37.120><c> and</c><00:14:37.680><c> the</c>
+
+00:14:37.910 --> 00:14:37.920 align:start position:0%
+okay so there is some problem and the
+ 
+
+00:14:37.920 --> 00:14:41.509 align:start position:0%
+okay so there is some problem and the
+problem<00:14:38.399><c> is</c><00:14:38.639><c> around</c>
+
+00:14:41.509 --> 00:14:41.519 align:start position:0%
+ 
+ 
+
+00:14:41.519 --> 00:14:44.069 align:start position:0%
+ 
+this<00:14:41.839><c> only</c><00:14:42.160><c> the</c><00:14:42.399><c> port</c><00:14:42.800><c> only</c><00:14:43.120><c> i</c><00:14:43.279><c> think</c><00:14:43.680><c> there</c><00:14:43.920><c> is</c>
+
+00:14:44.069 --> 00:14:44.079 align:start position:0%
+this only the port only i think there is
+ 
+
+00:14:44.079 --> 00:14:45.430 align:start position:0%
+this only the port only i think there is
+some<00:14:44.320><c> other</c><00:14:44.560><c> call</c><00:14:44.800><c> i'm</c><00:14:44.959><c> missing</c>
+
+00:14:45.430 --> 00:14:45.440 align:start position:0%
+some other call i'm missing
+ 
+
+00:14:45.440 --> 00:14:50.150 align:start position:0%
+some other call i'm missing
+due<00:14:45.600><c> to</c><00:14:45.680><c> which</c><00:14:45.920><c> it</c><00:14:46.079><c> is</c><00:14:46.160><c> not</c><00:14:47.760><c> binding</c>
+
+00:14:50.150 --> 00:14:50.160 align:start position:0%
+due to which it is not binding
+ 
+
+00:14:50.160 --> 00:14:52.150 align:start position:0%
+due to which it is not binding
+so<00:14:50.399><c> i</c><00:14:50.560><c> need</c><00:14:50.720><c> to</c><00:14:50.880><c> just</c><00:14:51.199><c> check</c><00:14:51.360><c> that</c><00:14:51.600><c> one</c><00:14:51.839><c> so</c><00:14:52.079><c> in</c>
+
+00:14:52.150 --> 00:14:52.160 align:start position:0%
+so i need to just check that one so in
+ 
+
+00:14:52.160 --> 00:14:53.990 align:start position:0%
+so i need to just check that one so in
+the<00:14:52.320><c> next</c><00:14:52.560><c> video</c><00:14:52.880><c> i</c><00:14:53.040><c> will</c><00:14:53.199><c> let</c><00:14:53.440><c> you</c><00:14:53.600><c> know</c><00:14:53.760><c> that</c>
+
+00:14:53.990 --> 00:14:54.000 align:start position:0%
+the next video i will let you know that
+ 
+
+00:14:54.000 --> 00:14:55.189 align:start position:0%
+the next video i will let you know that
+why<00:14:54.240><c> it</c><00:14:54.399><c> is</c>
+
+00:14:55.189 --> 00:14:55.199 align:start position:0%
+why it is
+ 
+
+00:14:55.199 --> 00:14:57.189 align:start position:0%
+why it is
+returning<00:14:55.680><c> -1</c><00:14:56.240><c> and</c><00:14:56.320><c> what</c><00:14:56.480><c> is</c><00:14:56.639><c> the</c><00:14:56.720><c> fix</c><00:14:57.040><c> for</c>
+
+00:14:57.189 --> 00:14:57.199 align:start position:0%
+returning -1 and what is the fix for
+ 
+
+00:14:57.199 --> 00:14:58.710 align:start position:0%
+returning -1 and what is the fix for
+this<00:14:58.160><c> so</c>
+
+00:14:58.710 --> 00:14:58.720 align:start position:0%
+this so
+ 
+
+00:14:58.720 --> 00:15:01.910 align:start position:0%
+this so
+the<00:14:58.880><c> main</c><00:14:59.120><c> purpose</c><00:14:59.519><c> was</c><00:14:59.839><c> to</c><00:15:01.440><c> explain</c><00:15:01.760><c> you</c>
+
+00:15:01.910 --> 00:15:01.920 align:start position:0%
+the main purpose was to explain you
+ 
+
+00:15:01.920 --> 00:15:04.069 align:start position:0%
+the main purpose was to explain you
+about<00:15:02.240><c> this</c><00:15:02.399><c> gate</c><00:15:02.720><c> host</c><00:15:03.040><c> name</c><00:15:03.279><c> git</c><00:15:03.519><c> host</c><00:15:03.760><c> by</c>
+
+00:15:04.069 --> 00:15:04.079 align:start position:0%
+about this gate host name git host by
+ 
+
+00:15:04.079 --> 00:15:05.189 align:start position:0%
+about this gate host name git host by
+name
+
+00:15:05.189 --> 00:15:05.199 align:start position:0%
+name
+ 
+
+00:15:05.199 --> 00:15:07.189 align:start position:0%
+name
+and<00:15:05.600><c> in</c><00:15:05.760><c> the</c><00:15:05.839><c> next</c><00:15:06.079><c> video</c><00:15:06.399><c> you</c><00:15:06.480><c> will</c><00:15:06.639><c> see</c><00:15:06.880><c> that</c>
+
+00:15:07.189 --> 00:15:07.199 align:start position:0%
+and in the next video you will see that
+ 
+
+00:15:07.199 --> 00:15:08.710 align:start position:0%
+and in the next video you will see that
+what<00:15:07.360><c> is</c><00:15:07.519><c> the</c><00:15:07.680><c> fix</c><00:15:07.920><c> for</c><00:15:08.079><c> this</c><00:15:08.320><c> issue</c>
+
+00:15:08.710 --> 00:15:08.720 align:start position:0%
+what is the fix for this issue
+ 
+
+00:15:08.720 --> 00:15:10.150 align:start position:0%
+what is the fix for this issue
+okay<00:15:08.880><c> so</c><00:15:09.040><c> in</c><00:15:09.120><c> the</c><00:15:09.199><c> next</c><00:15:09.440><c> video</c><00:15:09.680><c> i'm</c><00:15:09.839><c> surely</c>
+
+00:15:10.150 --> 00:15:10.160 align:start position:0%
+okay so in the next video i'm surely
+ 
+
+00:15:10.160 --> 00:15:12.069 align:start position:0%
+okay so in the next video i'm surely
+going<00:15:10.399><c> to</c><00:15:11.199><c> fix</c><00:15:11.440><c> this</c><00:15:11.600><c> one</c>
+
+00:15:12.069 --> 00:15:12.079 align:start position:0%
+going to fix this one
+ 
+
+00:15:12.079 --> 00:15:14.629 align:start position:0%
+going to fix this one
+so<00:15:12.720><c> you</c><00:15:12.880><c> just</c><00:15:13.120><c> need</c><00:15:13.279><c> to</c><00:15:13.440><c> take</c><00:15:13.680><c> care</c><00:15:14.079><c> of</c><00:15:14.320><c> these</c>
+
+00:15:14.629 --> 00:15:14.639 align:start position:0%
+so you just need to take care of these
+ 
+
+00:15:14.639 --> 00:15:16.230 align:start position:0%
+so you just need to take care of these
+concepts<00:15:15.040><c> that</c><00:15:15.199><c> i</c><00:15:15.279><c> have</c><00:15:15.519><c> explained</c><00:15:15.839><c> it</c><00:15:15.920><c> to</c><00:15:16.079><c> you</c>
+
+00:15:16.230 --> 00:15:16.240 align:start position:0%
+concepts that i have explained it to you
+ 
+
+00:15:16.240 --> 00:15:17.110 align:start position:0%
+concepts that i have explained it to you
+related<00:15:16.639><c> to</c><00:15:16.800><c> the</c>
+
+00:15:17.110 --> 00:15:17.120 align:start position:0%
+related to the
+ 
+
+00:15:17.120 --> 00:15:20.310 align:start position:0%
+related to the
+get<00:15:17.360><c> host</c><00:15:17.600><c> by</c><00:15:17.839><c> name</c><00:15:18.480><c> okay</c><00:15:18.800><c> so</c><00:15:19.519><c> stay</c><00:15:19.839><c> tuned</c><00:15:20.160><c> with</c>
+
+00:15:20.310 --> 00:15:20.320 align:start position:0%
+get host by name okay so stay tuned with
+ 
+
+00:15:20.320 --> 00:15:21.829 align:start position:0%
+get host by name okay so stay tuned with
+me<00:15:20.560><c> for</c><00:15:20.720><c> the</c><00:15:20.800><c> next</c><00:15:21.040><c> video</c><00:15:21.360><c> because</c><00:15:21.680><c> in</c><00:15:21.760><c> the</c>
+
+00:15:21.829 --> 00:15:21.839 align:start position:0%
+me for the next video because in the
+ 
+
+00:15:21.839 --> 00:15:23.509 align:start position:0%
+me for the next video because in the
+next<00:15:22.079><c> video</c><00:15:22.320><c> i'm</c><00:15:22.480><c> going</c><00:15:22.639><c> to</c><00:15:22.800><c> fix</c><00:15:23.040><c> this</c>
+
+00:15:23.509 --> 00:15:23.519 align:start position:0%
+next video i'm going to fix this
+ 
+
+00:15:23.519 --> 00:15:25.430 align:start position:0%
+next video i'm going to fix this
+i<00:15:23.680><c> need</c><00:15:23.839><c> to</c><00:15:24.000><c> check</c><00:15:24.240><c> what</c><00:15:24.480><c> is</c><00:15:24.720><c> what</c><00:15:24.959><c> what</c><00:15:25.120><c> the</c>
+
+00:15:25.430 --> 00:15:25.440 align:start position:0%
+i need to check what is what what the
+ 
+
+00:15:25.440 --> 00:15:26.949 align:start position:0%
+i need to check what is what what the
+wrong<00:15:25.760><c> angry</c>
+
+00:15:26.949 --> 00:15:26.959 align:start position:0%
+wrong angry
+ 
+
+00:15:26.959 --> 00:15:28.870 align:start position:0%
+wrong angry
+okay<00:15:27.279><c> and</c><00:15:27.519><c> then</c><00:15:27.760><c> in</c><00:15:27.920><c> the</c><00:15:28.079><c> next</c><00:15:28.320><c> video</c><00:15:28.639><c> we</c><00:15:28.720><c> will</c>
+
+00:15:28.870 --> 00:15:28.880 align:start position:0%
+okay and then in the next video we will
+ 
+
+00:15:28.880 --> 00:15:29.990 align:start position:0%
+okay and then in the next video we will
+fix<00:15:29.199><c> it</c>
+
+00:15:29.990 --> 00:15:30.000 align:start position:0%
+fix it
+ 
+
+00:15:30.000 --> 00:15:33.120 align:start position:0%
+fix it
+have<00:15:30.240><c> a</c><00:15:30.320><c> nice</c><00:15:30.480><c> day</c><00:15:30.720><c> and</c><00:15:30.800><c> bye</c>
+

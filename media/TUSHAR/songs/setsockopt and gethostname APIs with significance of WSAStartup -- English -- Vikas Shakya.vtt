@@ -1,0 +1,3552 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.399 --> 00:00:02.389 align:start position:0%
+ 
+hello<00:00:00.719><c> friends</c><00:00:01.280><c> welcome</c><00:00:01.760><c> back</c><00:00:02.080><c> to</c><00:00:02.240><c> this</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+hello friends welcome back to this
+ 
+
+00:00:02.399 --> 00:00:04.309 align:start position:0%
+hello friends welcome back to this
+series<00:00:02.800><c> of</c><00:00:02.960><c> socket</c><00:00:03.360><c> programming</c>
+
+00:00:04.309 --> 00:00:04.319 align:start position:0%
+series of socket programming
+ 
+
+00:00:04.319 --> 00:00:06.710 align:start position:0%
+series of socket programming
+and<00:00:04.880><c> from</c><00:00:05.120><c> today</c><00:00:05.440><c> onwards</c><00:00:05.839><c> i</c><00:00:05.920><c> will</c><00:00:06.080><c> try</c><00:00:06.319><c> to</c><00:00:06.480><c> put</c>
+
+00:00:06.710 --> 00:00:06.720 align:start position:0%
+and from today onwards i will try to put
+ 
+
+00:00:06.720 --> 00:00:08.230 align:start position:0%
+and from today onwards i will try to put
+some<00:00:06.879><c> new</c><00:00:07.120><c> videos</c>
+
+00:00:08.230 --> 00:00:08.240 align:start position:0%
+some new videos
+ 
+
+00:00:08.240 --> 00:00:10.310 align:start position:0%
+some new videos
+around<00:00:08.559><c> socket</c><00:00:08.960><c> programming</c><00:00:09.519><c> so</c><00:00:09.679><c> that</c><00:00:10.000><c> we</c><00:00:10.160><c> can</c>
+
+00:00:10.310 --> 00:00:10.320 align:start position:0%
+around socket programming so that we can
+ 
+
+00:00:10.320 --> 00:00:12.150 align:start position:0%
+around socket programming so that we can
+understand<00:00:10.800><c> few</c><00:00:11.040><c> of</c><00:00:11.120><c> the</c><00:00:11.280><c> apis</c><00:00:11.840><c> which</c><00:00:12.080><c> are</c>
+
+00:00:12.150 --> 00:00:12.160 align:start position:0%
+understand few of the apis which are
+ 
+
+00:00:12.160 --> 00:00:14.390 align:start position:0%
+understand few of the apis which are
+used<00:00:12.480><c> in</c><00:00:12.559><c> the</c><00:00:12.719><c> socket</c><00:00:13.040><c> programming</c>
+
+00:00:14.390 --> 00:00:14.400 align:start position:0%
+used in the socket programming
+ 
+
+00:00:14.400 --> 00:00:16.230 align:start position:0%
+used in the socket programming
+in<00:00:14.480><c> the</c><00:00:14.639><c> real</c><00:00:14.960><c> world</c><00:00:15.440><c> application</c>
+
+00:00:16.230 --> 00:00:16.240 align:start position:0%
+in the real world application
+ 
+
+00:00:16.240 --> 00:00:18.790 align:start position:0%
+in the real world application
+development<00:00:17.199><c> these</c><00:00:17.520><c> apis</c><00:00:18.000><c> are</c><00:00:18.080><c> used</c>
+
+00:00:18.790 --> 00:00:18.800 align:start position:0%
+development these apis are used
+ 
+
+00:00:18.800 --> 00:00:21.109 align:start position:0%
+development these apis are used
+because<00:00:19.119><c> in</c><00:00:19.279><c> our</c><00:00:19.600><c> socket</c><00:00:20.080><c> server</c><00:00:20.560><c> and</c><00:00:20.720><c> socket</c>
+
+00:00:21.109 --> 00:00:21.119 align:start position:0%
+because in our socket server and socket
+ 
+
+00:00:21.119 --> 00:00:22.390 align:start position:0%
+because in our socket server and socket
+client<00:00:21.359><c> program</c>
+
+00:00:22.390 --> 00:00:22.400 align:start position:0%
+client program
+ 
+
+00:00:22.400 --> 00:00:24.310 align:start position:0%
+client program
+we<00:00:22.560><c> have</c><00:00:22.800><c> mostly</c><00:00:23.199><c> used</c><00:00:23.519><c> the</c><00:00:23.680><c> hard</c><00:00:23.920><c> coded</c>
+
+00:00:24.310 --> 00:00:24.320 align:start position:0%
+we have mostly used the hard coded
+ 
+
+00:00:24.320 --> 00:00:26.390 align:start position:0%
+we have mostly used the hard coded
+values<00:00:24.720><c> for</c><00:00:24.880><c> the</c><00:00:25.119><c> server</c><00:00:25.519><c> name</c>
+
+00:00:26.390 --> 00:00:26.400 align:start position:0%
+values for the server name
+ 
+
+00:00:26.400 --> 00:00:29.349 align:start position:0%
+values for the server name
+for<00:00:26.560><c> the</c><00:00:26.720><c> server</c><00:00:27.119><c> ip</c><00:00:28.160><c> but</c><00:00:28.640><c> in</c><00:00:28.800><c> real</c><00:00:29.039><c> world</c>
+
+00:00:29.349 --> 00:00:29.359 align:start position:0%
+for the server ip but in real world
+ 
+
+00:00:29.359 --> 00:00:30.790 align:start position:0%
+for the server ip but in real world
+application
+
+00:00:30.790 --> 00:00:30.800 align:start position:0%
+application
+ 
+
+00:00:30.800 --> 00:00:33.430 align:start position:0%
+application
+you<00:00:30.960><c> need</c><00:00:31.199><c> to</c><00:00:31.439><c> understand</c><00:00:32.239><c> the</c><00:00:32.719><c> use</c><00:00:33.040><c> of</c><00:00:33.200><c> these</c>
+
+00:00:33.430 --> 00:00:33.440 align:start position:0%
+you need to understand the use of these
+ 
+
+00:00:33.440 --> 00:00:34.950 align:start position:0%
+you need to understand the use of these
+apis<00:00:33.920><c> get</c><00:00:34.160><c> host</c><00:00:34.480><c> name</c>
+
+00:00:34.950 --> 00:00:34.960 align:start position:0%
+apis get host name
+ 
+
+00:00:34.960 --> 00:00:36.630 align:start position:0%
+apis get host name
+you<00:00:35.120><c> need</c><00:00:35.280><c> to</c><00:00:35.440><c> understand</c><00:00:35.840><c> the</c><00:00:36.000><c> significance</c>
+
+00:00:36.630 --> 00:00:36.640 align:start position:0%
+you need to understand the significance
+ 
+
+00:00:36.640 --> 00:00:38.630 align:start position:0%
+you need to understand the significance
+of<00:00:36.800><c> this</c><00:00:36.960><c> wss</c><00:00:37.600><c> startup</c>
+
+00:00:38.630 --> 00:00:38.640 align:start position:0%
+of this wss startup
+ 
+
+00:00:38.640 --> 00:00:40.630 align:start position:0%
+of this wss startup
+and<00:00:38.879><c> you</c><00:00:39.040><c> need</c><00:00:39.200><c> to</c><00:00:39.360><c> understand</c><00:00:39.840><c> this</c><00:00:40.079><c> set</c><00:00:40.320><c> sock</c>
+
+00:00:40.630 --> 00:00:40.640 align:start position:0%
+and you need to understand this set sock
+ 
+
+00:00:40.640 --> 00:00:42.549 align:start position:0%
+and you need to understand this set sock
+opt<00:00:40.879><c> so</c><00:00:41.120><c> i</c><00:00:41.200><c> am</c><00:00:41.360><c> going</c><00:00:41.520><c> to</c><00:00:41.680><c> discuss</c><00:00:42.079><c> about</c><00:00:42.320><c> these</c>
+
+00:00:42.549 --> 00:00:42.559 align:start position:0%
+opt so i am going to discuss about these
+ 
+
+00:00:42.559 --> 00:00:44.790 align:start position:0%
+opt so i am going to discuss about these
+two<00:00:42.719><c> things</c><00:00:42.960><c> today</c><00:00:43.920><c> first</c><00:00:44.160><c> i</c><00:00:44.320><c> will</c><00:00:44.480><c> discuss</c>
+
+00:00:44.790 --> 00:00:44.800 align:start position:0%
+two things today first i will discuss
+ 
+
+00:00:44.800 --> 00:00:46.709 align:start position:0%
+two things today first i will discuss
+about<00:00:45.039><c> gate</c><00:00:45.280><c> host</c><00:00:45.600><c> name</c>
+
+00:00:46.709 --> 00:00:46.719 align:start position:0%
+about gate host name
+ 
+
+00:00:46.719 --> 00:00:50.950 align:start position:0%
+about gate host name
+so<00:00:46.879><c> let's</c><00:00:47.120><c> see</c><00:00:47.360><c> quickly</c><00:00:48.239><c> what</c><00:00:48.480><c> does</c><00:00:48.640><c> this</c><00:00:48.879><c> do</c>
+
+00:00:50.950 --> 00:00:50.960 align:start position:0%
+so let's see quickly what does this do
+ 
+
+00:00:50.960 --> 00:00:57.430 align:start position:0%
+so let's see quickly what does this do
+this<00:00:51.199><c> get</c><00:00:51.520><c> host</c><00:00:51.840><c> name</c><00:00:52.559><c> returns</c><00:00:53.120><c> an</c><00:00:53.280><c> integer</c>
+
+00:00:57.430 --> 00:00:57.440 align:start position:0%
+ 
+ 
+
+00:00:57.440 --> 00:01:00.709 align:start position:0%
+ 
+returns<00:00:57.920><c> an</c><00:00:58.079><c> integer</c><00:00:58.559><c> which</c><00:00:58.800><c> returns</c><00:00:59.280><c> whether</c>
+
+00:01:00.709 --> 00:01:00.719 align:start position:0%
+returns an integer which returns whether
+ 
+
+00:01:00.719 --> 00:01:02.229 align:start position:0%
+returns an integer which returns whether
+the<00:01:00.960><c> call</c><00:01:01.199><c> to</c><00:01:01.359><c> gate</c><00:01:01.600><c> host</c><00:01:01.840><c> name</c><00:01:02.079><c> was</c>
+
+00:01:02.229 --> 00:01:02.239 align:start position:0%
+the call to gate host name was
+ 
+
+00:01:02.239 --> 00:01:03.830 align:start position:0%
+the call to gate host name was
+successful<00:01:02.879><c> or</c><00:01:03.039><c> not</c>
+
+00:01:03.830 --> 00:01:03.840 align:start position:0%
+successful or not
+ 
+
+00:01:03.840 --> 00:01:06.550 align:start position:0%
+successful or not
+and<00:01:04.000><c> what</c><00:01:04.239><c> it</c><00:01:04.400><c> actually</c><00:01:04.799><c> does</c><00:01:05.600><c> this</c><00:01:05.920><c> gate</c><00:01:06.240><c> host</c>
+
+00:01:06.550 --> 00:01:06.560 align:start position:0%
+and what it actually does this gate host
+ 
+
+00:01:06.560 --> 00:01:08.630 align:start position:0%
+and what it actually does this gate host
+name
+
+00:01:08.630 --> 00:01:08.640 align:start position:0%
+name
+ 
+
+00:01:08.640 --> 00:01:11.750 align:start position:0%
+name
+can<00:01:09.119><c> give</c><00:01:09.360><c> you</c><00:01:09.680><c> a</c><00:01:09.920><c> name</c><00:01:10.320><c> of</c><00:01:10.560><c> the</c><00:01:11.119><c> machine</c>
+
+00:01:11.750 --> 00:01:11.760 align:start position:0%
+can give you a name of the machine
+ 
+
+00:01:11.760 --> 00:01:14.789 align:start position:0%
+can give you a name of the machine
+your<00:01:12.080><c> name</c><00:01:12.479><c> your</c><00:01:12.720><c> machine</c><00:01:13.119><c> name</c><00:01:14.080><c> which</c><00:01:14.320><c> is</c>
+
+00:01:14.789 --> 00:01:14.799 align:start position:0%
+your name your machine name which is
+ 
+
+00:01:14.799 --> 00:01:16.870 align:start position:0%
+your name your machine name which is
+which<00:01:15.040><c> will</c><00:01:15.200><c> be</c><00:01:15.600><c> stored</c><00:01:16.000><c> in</c><00:01:16.080><c> this</c><00:01:16.479><c> the</c><00:01:16.560><c> first</c>
+
+00:01:16.870 --> 00:01:16.880 align:start position:0%
+which will be stored in this the first
+ 
+
+00:01:16.880 --> 00:01:18.950 align:start position:0%
+which will be stored in this the first
+argument<00:01:17.759><c> right</c><00:01:18.000><c> so</c><00:01:18.159><c> for</c><00:01:18.320><c> that</c><00:01:18.560><c> you</c><00:01:18.640><c> need</c><00:01:18.799><c> to</c>
+
+00:01:18.950 --> 00:01:18.960 align:start position:0%
+argument right so for that you need to
+ 
+
+00:01:18.960 --> 00:01:19.670 align:start position:0%
+argument right so for that you need to
+create
+
+00:01:19.670 --> 00:01:19.680 align:start position:0%
+create
+ 
+
+00:01:19.680 --> 00:01:22.789 align:start position:0%
+create
+a<00:01:19.840><c> character</c><00:01:20.240><c> array</c><00:01:20.560><c> str</c><00:01:21.840><c> host</c><00:01:22.240><c> name</c>
+
+00:01:22.789 --> 00:01:22.799 align:start position:0%
+a character array str host name
+ 
+
+00:01:22.799 --> 00:01:24.390 align:start position:0%
+a character array str host name
+you<00:01:22.960><c> need</c><00:01:23.119><c> to</c><00:01:23.360><c> write</c><00:01:23.600><c> something</c><00:01:23.920><c> like</c><00:01:24.080><c> this</c>
+
+00:01:24.390 --> 00:01:24.400 align:start position:0%
+you need to write something like this
+ 
+
+00:01:24.400 --> 00:01:26.149 align:start position:0%
+you need to write something like this
+and<00:01:25.040><c> the</c><00:01:25.280><c> length</c><00:01:25.600><c> of</c><00:01:25.759><c> the</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+and the length of the
+ 
+
+00:01:26.159 --> 00:01:30.149 align:start position:0%
+and the length of the
+machine<00:01:27.119><c> name</c><00:01:28.000><c> can</c><00:01:28.240><c> be</c><00:01:28.880><c> 32</c>
+
+00:01:30.149 --> 00:01:30.159 align:start position:0%
+machine name can be 32
+ 
+
+00:01:30.159 --> 00:01:32.870 align:start position:0%
+machine name can be 32
+and<00:01:30.240><c> that</c><00:01:30.479><c> is</c><00:01:30.560><c> why</c><00:01:30.880><c> i</c><00:01:30.960><c> have</c><00:01:31.119><c> given</c><00:01:31.759><c> 32</c><00:01:32.320><c> here</c><00:01:32.720><c> you</c>
+
+00:01:32.870 --> 00:01:32.880 align:start position:0%
+and that is why i have given 32 here you
+ 
+
+00:01:32.880 --> 00:01:34.870 align:start position:0%
+and that is why i have given 32 here you
+can<00:01:33.119><c> provide</c><00:01:33.520><c> more</c><00:01:33.680><c> than</c><00:01:33.840><c> 32</c><00:01:34.400><c> but</c><00:01:34.560><c> i</c><00:01:34.720><c> have</c>
+
+00:01:34.870 --> 00:01:34.880 align:start position:0%
+can provide more than 32 but i have
+ 
+
+00:01:34.880 --> 00:01:36.310 align:start position:0%
+can provide more than 32 but i have
+given<00:01:35.119><c> here</c><00:01:35.360><c> 32</c>
+
+00:01:36.310 --> 00:01:36.320 align:start position:0%
+given here 32
+ 
+
+00:01:36.320 --> 00:01:37.990 align:start position:0%
+given here 32
+right<00:01:36.560><c> so</c><00:01:36.720><c> gate</c><00:01:36.960><c> hostname</c><00:01:37.439><c> i</c><00:01:37.520><c> am</c><00:01:37.600><c> just</c><00:01:37.840><c> going</c>
+
+00:01:37.990 --> 00:01:38.000 align:start position:0%
+right so gate hostname i am just going
+ 
+
+00:01:38.000 --> 00:01:42.069 align:start position:0%
+right so gate hostname i am just going
+to<00:01:38.159><c> give</c><00:01:38.320><c> the</c><00:01:38.479><c> name</c><00:01:38.799><c> gate</c><00:01:39.280><c> str</c><00:01:39.920><c> host</c><00:01:40.400><c> name</c>
+
+00:01:42.069 --> 00:01:42.079 align:start position:0%
+to give the name gate str host name
+ 
+
+00:01:42.079 --> 00:01:44.710 align:start position:0%
+to give the name gate str host name
+and<00:01:42.240><c> then</c><00:01:42.479><c> i'm</c><00:01:42.640><c> just</c><00:01:42.880><c> going</c><00:01:43.040><c> to</c><00:01:43.119><c> provide</c><00:01:44.320><c> the</c>
+
+00:01:44.710 --> 00:01:44.720 align:start position:0%
+and then i'm just going to provide the
+ 
+
+00:01:44.720 --> 00:01:45.429 align:start position:0%
+and then i'm just going to provide the
+length
+
+00:01:45.429 --> 00:01:45.439 align:start position:0%
+length
+ 
+
+00:01:45.439 --> 00:01:46.950 align:start position:0%
+length
+what<00:01:45.600><c> will</c><00:01:45.759><c> be</c><00:01:45.920><c> the</c><00:01:46.000><c> maximum</c><00:01:46.399><c> length</c><00:01:46.640><c> what</c><00:01:46.799><c> the</c>
+
+00:01:46.950 --> 00:01:46.960 align:start position:0%
+what will be the maximum length what the
+ 
+
+00:01:46.960 --> 00:01:48.469 align:start position:0%
+what will be the maximum length what the
+maximum<00:01:47.360><c> length</c><00:01:47.600><c> will</c><00:01:47.759><c> be</c>
+
+00:01:48.469 --> 00:01:48.479 align:start position:0%
+maximum length will be
+ 
+
+00:01:48.479 --> 00:01:50.310 align:start position:0%
+maximum length will be
+for<00:01:48.720><c> this</c><00:01:48.960><c> name</c><00:01:49.360><c> that</c><00:01:49.520><c> we</c><00:01:49.680><c> are</c><00:01:49.759><c> going</c><00:01:50.000><c> to</c><00:01:50.079><c> take</c>
+
+00:01:50.310 --> 00:01:50.320 align:start position:0%
+for this name that we are going to take
+ 
+
+00:01:50.320 --> 00:01:52.230 align:start position:0%
+for this name that we are going to take
+in<00:01:50.399><c> this</c><00:01:50.720><c> str</c><00:01:51.119><c> hostname</c>
+
+00:01:52.230 --> 00:01:52.240 align:start position:0%
+in this str hostname
+ 
+
+00:01:52.240 --> 00:01:54.389 align:start position:0%
+in this str hostname
+and<00:01:52.399><c> then</c><00:01:52.640><c> what</c><00:01:52.799><c> we</c><00:01:52.960><c> are</c><00:01:53.040><c> going</c><00:01:53.280><c> to</c><00:01:53.439><c> do</c><00:01:53.840><c> if</c><00:01:54.240><c> an</c>
+
+00:01:54.389 --> 00:01:54.399 align:start position:0%
+and then what we are going to do if an
+ 
+
+00:01:54.399 --> 00:01:57.510 align:start position:0%
+and then what we are going to do if an
+ret<00:01:54.799><c> is</c><00:01:54.880><c> smaller</c><00:01:55.280><c> than</c><00:01:55.520><c> 0</c>
+
+00:01:57.510 --> 00:01:57.520 align:start position:0%
+ret is smaller than 0
+ 
+
+00:01:57.520 --> 00:02:00.950 align:start position:0%
+ret is smaller than 0
+then<00:01:58.399><c> we</c><00:01:58.640><c> will</c><00:01:58.880><c> print</c>
+
+00:02:00.950 --> 00:02:00.960 align:start position:0%
+then we will print
+ 
+
+00:02:00.960 --> 00:02:04.149 align:start position:0%
+then we will print
+that<00:02:01.360><c> our</c><00:02:01.680><c> call</c><00:02:02.079><c> failed</c>
+
+00:02:04.149 --> 00:02:04.159 align:start position:0%
+that our call failed
+ 
+
+00:02:04.159 --> 00:02:08.150 align:start position:0%
+that our call failed
+call<00:02:06.840><c> paid</c>
+
+00:02:08.150 --> 00:02:08.160 align:start position:0%
+call paid
+ 
+
+00:02:08.160 --> 00:02:11.270 align:start position:0%
+call paid
+otherwise<00:02:09.599><c> in</c><00:02:09.840><c> case</c><00:02:10.399><c> android</c><00:02:10.720><c> returns</c>
+
+00:02:11.270 --> 00:02:11.280 align:start position:0%
+otherwise in case android returns
+ 
+
+00:02:11.280 --> 00:02:12.949 align:start position:0%
+otherwise in case android returns
+0<00:02:11.760><c> which</c><00:02:12.000><c> means</c><00:02:12.239><c> that</c><00:02:12.400><c> the</c><00:02:12.560><c> call</c><00:02:12.800><c> was</c>
+
+00:02:12.949 --> 00:02:12.959 align:start position:0%
+0 which means that the call was
+ 
+
+00:02:12.959 --> 00:02:15.750 align:start position:0%
+0 which means that the call was
+successful<00:02:14.160><c> then</c><00:02:14.480><c> in</c><00:02:14.560><c> that</c><00:02:14.879><c> case</c>
+
+00:02:15.750 --> 00:02:15.760 align:start position:0%
+successful then in that case
+ 
+
+00:02:15.760 --> 00:02:19.190 align:start position:0%
+successful then in that case
+it<00:02:15.920><c> will</c><00:02:16.080><c> return</c><00:02:16.879><c> 0</c><00:02:17.280><c> and</c><00:02:17.680><c> we</c><00:02:17.840><c> can</c><00:02:18.400><c> see</c><00:02:18.720><c> the</c><00:02:18.959><c> name</c>
+
+00:02:19.190 --> 00:02:19.200 align:start position:0%
+it will return 0 and we can see the name
+ 
+
+00:02:19.200 --> 00:02:20.869 align:start position:0%
+it will return 0 and we can see the name
+of<00:02:19.440><c> the</c>
+
+00:02:20.869 --> 00:02:20.879 align:start position:0%
+of the
+ 
+
+00:02:20.879 --> 00:02:23.589 align:start position:0%
+of the
+machine<00:02:21.680><c> name</c><00:02:21.920><c> of</c><00:02:22.000><c> the</c><00:02:22.319><c> host</c><00:02:23.040><c> where</c><00:02:23.280><c> my</c>
+
+00:02:23.589 --> 00:02:23.599 align:start position:0%
+machine name of the host where my
+ 
+
+00:02:23.599 --> 00:02:27.670 align:start position:0%
+machine name of the host where my
+application<00:02:24.080><c> is</c><00:02:24.239><c> running</c>
+
+00:02:27.670 --> 00:02:27.680 align:start position:0%
+ 
+ 
+
+00:02:27.680 --> 00:02:32.710 align:start position:0%
+ 
+okay<00:02:29.840><c> name</c><00:02:30.160><c> of</c><00:02:30.319><c> the</c><00:02:30.560><c> host</c>
+
+00:02:32.710 --> 00:02:32.720 align:start position:0%
+okay name of the host
+ 
+
+00:02:32.720 --> 00:02:40.470 align:start position:0%
+okay name of the host
+and<00:02:33.120><c> there</c><00:02:33.440><c> you</c><00:02:33.599><c> need</c><00:02:33.840><c> to</c><00:02:34.000><c> go</c><00:02:35.519><c> sdr</c><00:02:36.160><c> host</c><00:02:36.640><c> name</c>
+
+00:02:40.470 --> 00:02:40.480 align:start position:0%
+ 
+ 
+
+00:02:40.480 --> 00:02:43.589 align:start position:0%
+ 
+so<00:02:41.040><c> you</c><00:02:41.280><c> just</c><00:02:41.440><c> need</c><00:02:41.599><c> to</c><00:02:41.760><c> run</c><00:02:42.000><c> it</c>
+
+00:02:43.589 --> 00:02:43.599 align:start position:0%
+so you just need to run it
+ 
+
+00:02:43.599 --> 00:02:50.150 align:start position:0%
+so you just need to run it
+just<00:02:43.920><c> build</c><00:02:48.840><c> it</c>
+
+00:02:50.150 --> 00:02:50.160 align:start position:0%
+just build it
+ 
+
+00:02:50.160 --> 00:02:53.830 align:start position:0%
+just build it
+and<00:02:50.400><c> just</c><00:02:51.840><c> do</c><00:02:52.000><c> an</c><00:02:52.160><c> f5</c><00:02:52.959><c> you</c><00:02:53.120><c> can</c><00:02:53.280><c> see</c><00:02:53.440><c> that</c><00:02:53.680><c> the</c>
+
+00:02:53.830 --> 00:02:53.840 align:start position:0%
+and just do an f5 you can see that the
+ 
+
+00:02:53.840 --> 00:02:56.070 align:start position:0%
+and just do an f5 you can see that the
+call<00:02:54.080><c> has</c><00:02:54.239><c> been</c><00:02:54.400><c> failed</c><00:02:54.800><c> why</c><00:02:55.040><c> this</c><00:02:55.280><c> failed</c>
+
+00:02:56.070 --> 00:02:56.080 align:start position:0%
+call has been failed why this failed
+ 
+
+00:02:56.080 --> 00:02:57.750 align:start position:0%
+call has been failed why this failed
+let<00:02:56.239><c> me</c><00:02:56.400><c> explain</c><00:02:56.720><c> you</c><00:02:56.959><c> i</c><00:02:57.120><c> have</c><00:02:57.280><c> explained</c><00:02:57.680><c> it</c>
+
+00:02:57.750 --> 00:02:57.760 align:start position:0%
+let me explain you i have explained it
+ 
+
+00:02:57.760 --> 00:02:59.670 align:start position:0%
+let me explain you i have explained it
+earlier<00:02:58.159><c> as</c><00:02:58.239><c> well</c><00:02:58.480><c> in</c><00:02:58.560><c> the</c><00:02:58.640><c> very</c><00:02:58.879><c> first</c><00:02:59.200><c> video</c>
+
+00:02:59.670 --> 00:02:59.680 align:start position:0%
+earlier as well in the very first video
+ 
+
+00:02:59.680 --> 00:03:01.110 align:start position:0%
+earlier as well in the very first video
+when<00:02:59.920><c> i</c><00:03:00.000><c> was</c><00:03:00.319><c> starting</c><00:03:00.640><c> the</c><00:03:00.800><c> socket</c>
+
+00:03:01.110 --> 00:03:01.120 align:start position:0%
+when i was starting the socket
+ 
+
+00:03:01.120 --> 00:03:03.430 align:start position:0%
+when i was starting the socket
+programming<00:03:01.599><c> for</c><00:03:01.840><c> server</c>
+
+00:03:03.430 --> 00:03:03.440 align:start position:0%
+programming for server
+ 
+
+00:03:03.440 --> 00:03:06.710 align:start position:0%
+programming for server
+and<00:03:03.760><c> i</c><00:03:04.000><c> hope</c><00:03:05.280><c> you</c><00:03:05.599><c> still</c><00:03:05.920><c> remember</c><00:03:06.239><c> that</c><00:03:06.480><c> thing</c>
+
+00:03:06.710 --> 00:03:06.720 align:start position:0%
+and i hope you still remember that thing
+ 
+
+00:03:06.720 --> 00:03:07.270 align:start position:0%
+and i hope you still remember that thing
+so
+
+00:03:07.270 --> 00:03:07.280 align:start position:0%
+so
+ 
+
+00:03:07.280 --> 00:03:08.949 align:start position:0%
+so
+the<00:03:07.440><c> reason</c><00:03:07.760><c> is</c><00:03:07.920><c> that</c><00:03:08.080><c> i</c><00:03:08.159><c> have</c><00:03:08.319><c> not</c><00:03:08.560><c> used</c><00:03:08.800><c> this</c>
+
+00:03:08.949 --> 00:03:08.959 align:start position:0%
+the reason is that i have not used this
+ 
+
+00:03:08.959 --> 00:03:10.550 align:start position:0%
+the reason is that i have not used this
+wss<00:03:09.599><c> startup</c>
+
+00:03:10.550 --> 00:03:10.560 align:start position:0%
+wss startup
+ 
+
+00:03:10.560 --> 00:03:13.750 align:start position:0%
+wss startup
+so<00:03:10.959><c> to</c><00:03:11.519><c> make</c><00:03:11.920><c> any</c><00:03:12.239><c> socket</c><00:03:12.640><c> api</c><00:03:13.040><c> call</c><00:03:13.280><c> working</c>
+
+00:03:13.750 --> 00:03:13.760 align:start position:0%
+so to make any socket api call working
+ 
+
+00:03:13.760 --> 00:03:16.229 align:start position:0%
+so to make any socket api call working
+you<00:03:13.920><c> first</c><00:03:14.239><c> need</c><00:03:14.400><c> to</c><00:03:14.560><c> call</c><00:03:14.800><c> this</c><00:03:14.959><c> function</c><00:03:15.599><c> wsa</c>
+
+00:03:16.229 --> 00:03:16.239 align:start position:0%
+you first need to call this function wsa
+ 
+
+00:03:16.239 --> 00:03:17.430 align:start position:0%
+you first need to call this function wsa
+startup
+
+00:03:17.430 --> 00:03:17.440 align:start position:0%
+startup
+ 
+
+00:03:17.440 --> 00:03:19.430 align:start position:0%
+startup
+so<00:03:17.599><c> for</c><00:03:17.840><c> that</c><00:03:18.080><c> i</c><00:03:18.159><c> need</c><00:03:18.319><c> to</c><00:03:18.480><c> do</c><00:03:18.640><c> thing</c><00:03:19.040><c> you</c><00:03:19.280><c> do</c>
+
+00:03:19.430 --> 00:03:19.440 align:start position:0%
+so for that i need to do thing you do
+ 
+
+00:03:19.440 --> 00:03:22.070 align:start position:0%
+so for that i need to do thing you do
+two<00:03:19.599><c> things</c><00:03:20.000><c> wsa</c><00:03:20.640><c> data</c>
+
+00:03:22.070 --> 00:03:22.080 align:start position:0%
+two things wsa data
+ 
+
+00:03:22.080 --> 00:03:25.589 align:start position:0%
+two things wsa data
+w<00:03:23.040><c> and</c><00:03:23.360><c> then</c><00:03:23.680><c> you</c><00:03:23.840><c> need</c><00:03:24.000><c> to</c><00:03:24.159><c> just</c><00:03:24.480><c> call</c><00:03:24.799><c> wsa</c>
+
+00:03:25.589 --> 00:03:25.599 align:start position:0%
+w and then you need to just call wsa
+ 
+
+00:03:25.599 --> 00:03:27.430 align:start position:0%
+w and then you need to just call wsa
+startup
+
+00:03:27.430 --> 00:03:27.440 align:start position:0%
+startup
+ 
+
+00:03:27.440 --> 00:03:29.509 align:start position:0%
+startup
+and<00:03:27.760><c> here</c><00:03:28.000><c> you</c><00:03:28.159><c> need</c><00:03:28.319><c> to</c><00:03:28.480><c> pass</c><00:03:28.799><c> two</c><00:03:29.040><c> arguments</c>
+
+00:03:29.509 --> 00:03:29.519 align:start position:0%
+and here you need to pass two arguments
+ 
+
+00:03:29.519 --> 00:03:30.710 align:start position:0%
+and here you need to pass two arguments
+make<00:03:30.000><c> word</c>
+
+00:03:30.710 --> 00:03:30.720 align:start position:0%
+make word
+ 
+
+00:03:30.720 --> 00:03:32.949 align:start position:0%
+make word
+i'm<00:03:30.959><c> using</c><00:03:31.360><c> to</c><00:03:31.519><c> provide</c><00:03:31.840><c> the</c><00:03:32.000><c> version</c><00:03:32.480><c> minimum</c>
+
+00:03:32.949 --> 00:03:32.959 align:start position:0%
+i'm using to provide the version minimum
+ 
+
+00:03:32.959 --> 00:03:33.910 align:start position:0%
+i'm using to provide the version minimum
+and
+
+00:03:33.910 --> 00:03:33.920 align:start position:0%
+and
+ 
+
+00:03:33.920 --> 00:03:37.509 align:start position:0%
+and
+max<00:03:34.239><c> versions</c><00:03:35.120><c> and</c><00:03:35.360><c> then</c><00:03:35.599><c> address</c><00:03:36.000><c> of</c><00:03:36.239><c> w</c>
+
+00:03:37.509 --> 00:03:37.519 align:start position:0%
+max versions and then address of w
+ 
+
+00:03:37.519 --> 00:03:39.589 align:start position:0%
+max versions and then address of w
+and<00:03:37.760><c> this</c><00:03:38.000><c> function</c><00:03:38.400><c> also</c><00:03:38.640><c> returns</c><00:03:39.040><c> 0</c><00:03:39.440><c> or</c>
+
+00:03:39.589 --> 00:03:39.599 align:start position:0%
+and this function also returns 0 or
+ 
+
+00:03:39.599 --> 00:03:41.430 align:start position:0%
+and this function also returns 0 or
+minus<00:03:40.000><c> 1</c><00:03:40.239><c> minus</c><00:03:40.640><c> 1</c><00:03:40.879><c> if</c><00:03:41.040><c> it</c>
+
+00:03:41.430 --> 00:03:41.440 align:start position:0%
+minus 1 minus 1 if it
+ 
+
+00:03:41.440 --> 00:03:45.350 align:start position:0%
+minus 1 minus 1 if it
+if<00:03:41.920><c> it</c><00:03:42.080><c> fails</c><00:03:42.799><c> and</c><00:03:43.360><c> 0</c><00:03:43.680><c> if</c><00:03:43.840><c> it</c><00:03:43.920><c> passes</c>
+
+00:03:45.350 --> 00:03:45.360 align:start position:0%
+if it fails and 0 if it passes
+ 
+
+00:03:45.360 --> 00:03:47.270 align:start position:0%
+if it fails and 0 if it passes
+if<00:03:45.519><c> it</c><00:03:45.599><c> is</c><00:03:45.680><c> successful</c><00:03:46.239><c> right</c><00:03:46.799><c> i'm</c><00:03:46.959><c> not</c><00:03:47.120><c> going</c>
+
+00:03:47.270 --> 00:03:47.280 align:start position:0%
+if it is successful right i'm not going
+ 
+
+00:03:47.280 --> 00:03:48.869 align:start position:0%
+if it is successful right i'm not going
+to<00:03:47.440><c> check</c><00:03:47.680><c> it</c><00:03:47.760><c> because</c><00:03:48.000><c> i</c><00:03:48.159><c> know</c><00:03:48.319><c> that</c>
+
+00:03:48.869 --> 00:03:48.879 align:start position:0%
+to check it because i know that
+ 
+
+00:03:48.879 --> 00:03:51.110 align:start position:0%
+to check it because i know that
+this<00:03:49.040><c> will</c><00:03:49.200><c> work</c><00:03:49.440><c> fine</c><00:03:49.840><c> so</c><00:03:50.640><c> for</c><00:03:50.879><c> a</c><00:03:50.959><c> good</c>
+
+00:03:51.110 --> 00:03:51.120 align:start position:0%
+this will work fine so for a good
+ 
+
+00:03:51.120 --> 00:03:52.630 align:start position:0%
+this will work fine so for a good
+practice<00:03:51.519><c> you</c><00:03:51.599><c> can</c><00:03:51.760><c> write</c><00:03:52.080><c> the</c><00:03:52.159><c> code</c><00:03:52.400><c> like</c>
+
+00:03:52.630 --> 00:03:52.640 align:start position:0%
+practice you can write the code like
+ 
+
+00:03:52.640 --> 00:03:53.110 align:start position:0%
+practice you can write the code like
+this
+
+00:03:53.110 --> 00:03:53.120 align:start position:0%
+this
+ 
+
+00:03:53.120 --> 00:03:54.710 align:start position:0%
+this
+into<00:03:53.360><c> an</c><00:03:53.519><c> r80</c><00:03:53.920><c> and</c><00:03:54.000><c> then</c><00:03:54.239><c> you</c><00:03:54.319><c> can</c><00:03:54.480><c> check</c>
+
+00:03:54.710 --> 00:03:54.720 align:start position:0%
+into an r80 and then you can check
+ 
+
+00:03:54.720 --> 00:03:56.390 align:start position:0%
+into an r80 and then you can check
+whether<00:03:54.959><c> the</c><00:03:55.120><c> return</c><00:03:55.439><c> value</c><00:03:55.760><c> is</c><00:03:55.840><c> smaller</c><00:03:56.159><c> than</c>
+
+00:03:56.390 --> 00:03:56.400 align:start position:0%
+whether the return value is smaller than
+ 
+
+00:03:56.400 --> 00:03:57.910 align:start position:0%
+whether the return value is smaller than
+0<00:03:56.640><c> or</c><00:03:56.720><c> equal</c><00:03:56.959><c> to</c><00:03:57.120><c> 0.</c>
+
+00:03:57.910 --> 00:03:57.920 align:start position:0%
+0 or equal to 0.
+ 
+
+00:03:57.920 --> 00:04:01.110 align:start position:0%
+0 or equal to 0.
+now<00:03:58.159><c> let's</c><00:03:58.319><c> see</c><00:03:58.480><c> if</c><00:03:58.640><c> it</c><00:03:58.720><c> works</c><00:03:59.120><c> fine</c><00:03:59.439><c> or</c><00:03:59.599><c> not</c><00:04:00.879><c> so</c>
+
+00:04:01.110 --> 00:04:01.120 align:start position:0%
+now let's see if it works fine or not so
+ 
+
+00:04:01.120 --> 00:04:02.869 align:start position:0%
+now let's see if it works fine or not so
+let's<00:04:01.360><c> see</c><00:04:01.599><c> start</c><00:04:01.840><c> debugging</c><00:04:02.400><c> and</c><00:04:02.480><c> let's</c><00:04:02.720><c> see</c>
+
+00:04:02.869 --> 00:04:02.879 align:start position:0%
+let's see start debugging and let's see
+ 
+
+00:04:02.879 --> 00:04:03.750 align:start position:0%
+let's see start debugging and let's see
+what<00:04:03.120><c> is</c><00:04:03.200><c> the</c><00:04:03.280><c> output</c>
+
+00:04:03.750 --> 00:04:03.760 align:start position:0%
+what is the output
+ 
+
+00:04:03.760 --> 00:04:05.270 align:start position:0%
+what is the output
+this<00:04:03.920><c> time</c><00:04:04.159><c> it</c><00:04:04.239><c> should</c><00:04:04.480><c> give</c><00:04:04.560><c> me</c><00:04:04.720><c> the</c><00:04:04.879><c> name</c><00:04:05.200><c> of</c>
+
+00:04:05.270 --> 00:04:05.280 align:start position:0%
+this time it should give me the name of
+ 
+
+00:04:05.280 --> 00:04:06.789 align:start position:0%
+this time it should give me the name of
+the<00:04:05.439><c> host</c>
+
+00:04:06.789 --> 00:04:06.799 align:start position:0%
+the host
+ 
+
+00:04:06.799 --> 00:04:08.710 align:start position:0%
+the host
+okay<00:04:07.200><c> so</c><00:04:07.439><c> this</c><00:04:07.599><c> time</c><00:04:07.840><c> it</c><00:04:08.000><c> has</c><00:04:08.080><c> given</c><00:04:08.319><c> me</c><00:04:08.480><c> the</c>
+
+00:04:08.710 --> 00:04:08.720 align:start position:0%
+okay so this time it has given me the
+ 
+
+00:04:08.720 --> 00:04:10.550 align:start position:0%
+okay so this time it has given me the
+name<00:04:08.959><c> of</c><00:04:09.040><c> the</c><00:04:09.120><c> host</c><00:04:09.439><c> so</c>
+
+00:04:10.550 --> 00:04:10.560 align:start position:0%
+name of the host so
+ 
+
+00:04:10.560 --> 00:04:13.750 align:start position:0%
+name of the host so
+the<00:04:11.200><c> thing</c><00:04:11.439><c> is</c><00:04:11.680><c> that</c><00:04:12.000><c> you</c><00:04:12.159><c> need</c><00:04:12.400><c> to</c><00:04:12.560><c> use</c>
+
+00:04:13.750 --> 00:04:13.760 align:start position:0%
+the thing is that you need to use
+ 
+
+00:04:13.760 --> 00:04:17.030 align:start position:0%
+the thing is that you need to use
+wss<00:04:14.400><c> startup</c><00:04:14.799><c> function</c><00:04:15.200><c> call</c><00:04:15.519><c> before</c><00:04:16.160><c> any</c><00:04:16.560><c> api</c>
+
+00:04:17.030 --> 00:04:17.040 align:start position:0%
+wss startup function call before any api
+ 
+
+00:04:17.040 --> 00:04:18.310 align:start position:0%
+wss startup function call before any api
+call
+
+00:04:18.310 --> 00:04:18.320 align:start position:0%
+call
+ 
+
+00:04:18.320 --> 00:04:20.550 align:start position:0%
+call
+you<00:04:18.479><c> cannot</c><00:04:18.880><c> expect</c><00:04:19.359><c> any</c><00:04:19.600><c> api</c><00:04:20.000><c> call</c><00:04:20.239><c> to</c><00:04:20.320><c> work</c>
+
+00:04:20.550 --> 00:04:20.560 align:start position:0%
+you cannot expect any api call to work
+ 
+
+00:04:20.560 --> 00:04:22.870 align:start position:0%
+you cannot expect any api call to work
+fine<00:04:20.880><c> until</c><00:04:21.199><c> you</c><00:04:21.359><c> call</c><00:04:21.600><c> wss</c><00:04:22.320><c> startup</c>
+
+00:04:22.870 --> 00:04:22.880 align:start position:0%
+fine until you call wss startup
+ 
+
+00:04:22.880 --> 00:04:25.430 align:start position:0%
+fine until you call wss startup
+in<00:04:23.120><c> windows</c><00:04:24.320><c> right</c><00:04:24.560><c> please</c><00:04:24.800><c> remember</c><00:04:25.280><c> that</c>
+
+00:04:25.430 --> 00:04:25.440 align:start position:0%
+in windows right please remember that
+ 
+
+00:04:25.440 --> 00:04:27.350 align:start position:0%
+in windows right please remember that
+this<00:04:25.600><c> is</c><00:04:25.680><c> for</c><00:04:25.919><c> windows</c><00:04:26.320><c> only</c>
+
+00:04:27.350 --> 00:04:27.360 align:start position:0%
+this is for windows only
+ 
+
+00:04:27.360 --> 00:04:29.189 align:start position:0%
+this is for windows only
+in<00:04:27.520><c> case</c><00:04:27.840><c> you</c><00:04:28.000><c> are</c><00:04:28.160><c> not</c><00:04:28.320><c> using</c><00:04:28.639><c> windows</c><00:04:29.040><c> you</c>
+
+00:04:29.189 --> 00:04:29.199 align:start position:0%
+in case you are not using windows you
+ 
+
+00:04:29.199 --> 00:04:32.390 align:start position:0%
+in case you are not using windows you
+are<00:04:29.520><c> writing</c><00:04:29.840><c> a</c><00:04:30.080><c> your</c><00:04:30.320><c> application</c><00:04:30.880><c> for</c><00:04:31.120><c> the</c>
+
+00:04:32.390 --> 00:04:32.400 align:start position:0%
+are writing a your application for the
+ 
+
+00:04:32.400 --> 00:04:34.469 align:start position:0%
+are writing a your application for the
+unix<00:04:32.800><c> platform</c><00:04:33.199><c> or</c><00:04:33.360><c> the</c><00:04:33.440><c> linux</c><00:04:33.840><c> platform</c><00:04:34.240><c> then</c>
+
+00:04:34.469 --> 00:04:34.479 align:start position:0%
+unix platform or the linux platform then
+ 
+
+00:04:34.479 --> 00:04:35.909 align:start position:0%
+unix platform or the linux platform then
+in<00:04:34.639><c> that</c><00:04:34.880><c> case</c><00:04:35.120><c> you</c><00:04:35.280><c> do</c><00:04:35.360><c> not</c><00:04:35.440><c> need</c><00:04:35.600><c> to</c><00:04:35.759><c> call</c>
+
+00:04:35.909 --> 00:04:35.919 align:start position:0%
+in that case you do not need to call
+ 
+
+00:04:35.919 --> 00:04:36.629 align:start position:0%
+in that case you do not need to call
+this<00:04:36.080><c> ws</c>
+
+00:04:36.629 --> 00:04:36.639 align:start position:0%
+this ws
+ 
+
+00:04:36.639 --> 00:04:38.950 align:start position:0%
+this ws
+startup<00:04:37.040><c> there</c><00:04:37.199><c> is</c><00:04:37.360><c> no</c><00:04:37.520><c> need</c><00:04:37.759><c> of</c><00:04:37.919><c> this</c><00:04:38.400><c> wss</c>
+
+00:04:38.950 --> 00:04:38.960 align:start position:0%
+startup there is no need of this wss
+ 
+
+00:04:38.960 --> 00:04:40.550 align:start position:0%
+startup there is no need of this wss
+startup<00:04:39.360><c> but</c><00:04:39.520><c> in</c><00:04:39.600><c> case</c><00:04:39.840><c> of</c><00:04:39.919><c> windows</c><00:04:40.400><c> if</c><00:04:40.479><c> you</c>
+
+00:04:40.550 --> 00:04:40.560 align:start position:0%
+startup but in case of windows if you
+ 
+
+00:04:40.560 --> 00:04:41.670 align:start position:0%
+startup but in case of windows if you
+are<00:04:40.720><c> writing</c><00:04:41.040><c> your</c>
+
+00:04:41.670 --> 00:04:41.680 align:start position:0%
+are writing your
+ 
+
+00:04:41.680 --> 00:04:44.870 align:start position:0%
+are writing your
+socket<00:04:42.080><c> programming</c><00:04:42.800><c> for</c><00:04:42.960><c> the</c><00:04:44.400><c> windows</c>
+
+00:04:44.870 --> 00:04:44.880 align:start position:0%
+socket programming for the windows
+ 
+
+00:04:44.880 --> 00:04:46.629 align:start position:0%
+socket programming for the windows
+platform<00:04:45.280><c> then</c><00:04:45.520><c> in</c><00:04:45.600><c> that</c><00:04:45.840><c> case</c><00:04:46.080><c> you</c><00:04:46.240><c> must</c><00:04:46.479><c> need</c>
+
+00:04:46.629 --> 00:04:46.639 align:start position:0%
+platform then in that case you must need
+ 
+
+00:04:46.639 --> 00:04:48.550 align:start position:0%
+platform then in that case you must need
+to<00:04:46.720><c> call</c><00:04:46.960><c> this</c><00:04:47.120><c> wss</c><00:04:47.680><c> startup</c><00:04:48.000><c> before</c><00:04:48.320><c> any</c>
+
+00:04:48.550 --> 00:04:48.560 align:start position:0%
+to call this wss startup before any
+ 
+
+00:04:48.560 --> 00:04:50.629 align:start position:0%
+to call this wss startup before any
+socket<00:04:48.960><c> api</c><00:04:49.280><c> call</c>
+
+00:04:50.629 --> 00:04:50.639 align:start position:0%
+socket api call
+ 
+
+00:04:50.639 --> 00:04:53.749 align:start position:0%
+socket api call
+okay<00:04:51.440><c> so</c><00:04:51.759><c> let's</c><00:04:52.000><c> see</c><00:04:52.560><c> let's</c><00:04:52.880><c> verify</c><00:04:53.360><c> what</c>
+
+00:04:53.749 --> 00:04:53.759 align:start position:0%
+okay so let's see let's verify what
+ 
+
+00:04:53.759 --> 00:04:56.870 align:start position:0%
+okay so let's see let's verify what
+what<00:04:54.000><c> is</c><00:04:54.080><c> the</c><00:04:54.880><c> name</c><00:04:55.199><c> of</c><00:04:56.080><c> my</c><00:04:56.240><c> laptop</c>
+
+00:04:56.870 --> 00:04:56.880 align:start position:0%
+what is the name of my laptop
+ 
+
+00:04:56.880 --> 00:04:58.710 align:start position:0%
+what is the name of my laptop
+on<00:04:57.040><c> which</c><00:04:57.280><c> i</c><00:04:57.360><c> am</c><00:04:57.440><c> recording</c><00:04:57.919><c> this</c><00:04:58.080><c> so</c><00:04:58.320><c> yes</c><00:04:58.560><c> the</c>
+
+00:04:58.710 --> 00:04:58.720 align:start position:0%
+on which i am recording this so yes the
+ 
+
+00:04:58.720 --> 00:05:00.550 align:start position:0%
+on which i am recording this so yes the
+name<00:04:58.960><c> of</c><00:04:59.040><c> the</c><00:04:59.199><c> laptop</c><00:04:59.680><c> is</c><00:04:59.759><c> this</c>
+
+00:05:00.550 --> 00:05:00.560 align:start position:0%
+name of the laptop is this
+ 
+
+00:05:00.560 --> 00:05:03.670 align:start position:0%
+name of the laptop is this
+which<00:05:00.800><c> is</c><00:05:01.039><c> again</c><00:05:01.440><c> same</c><00:05:02.000><c> as</c><00:05:02.960><c> my</c><00:05:03.199><c> application</c>
+
+00:05:03.670 --> 00:05:03.680 align:start position:0%
+which is again same as my application
+ 
+
+00:05:03.680 --> 00:05:04.310 align:start position:0%
+which is again same as my application
+return
+
+00:05:04.310 --> 00:05:04.320 align:start position:0%
+return
+ 
+
+00:05:04.320 --> 00:05:07.670 align:start position:0%
+return
+right<00:05:04.560><c> so</c><00:05:04.800><c> let's</c><00:05:05.600><c> close</c><00:05:05.919><c> this</c><00:05:06.560><c> so</c>
+
+00:05:07.670 --> 00:05:07.680 align:start position:0%
+right so let's close this so
+ 
+
+00:05:07.680 --> 00:05:09.830 align:start position:0%
+right so let's close this so
+this<00:05:07.919><c> is</c><00:05:08.000><c> the</c><00:05:08.080><c> significance</c><00:05:08.720><c> of</c><00:05:08.800><c> wss</c><00:05:09.360><c> startup</c>
+
+00:05:09.830 --> 00:05:09.840 align:start position:0%
+this is the significance of wss startup
+ 
+
+00:05:09.840 --> 00:05:11.270 align:start position:0%
+this is the significance of wss startup
+and<00:05:10.000><c> this</c><00:05:10.160><c> is</c><00:05:10.320><c> how</c><00:05:10.479><c> you</c><00:05:10.560><c> can</c><00:05:10.720><c> use</c><00:05:10.960><c> the</c><00:05:11.039><c> gate</c>
+
+00:05:11.270 --> 00:05:11.280 align:start position:0%
+and this is how you can use the gate
+ 
+
+00:05:11.280 --> 00:05:13.270 align:start position:0%
+and this is how you can use the gate
+hostname<00:05:11.759><c> you</c><00:05:11.919><c> can</c><00:05:12.160><c> use</c><00:05:12.400><c> the</c><00:05:12.479><c> gate</c><00:05:12.800><c> hostname</c>
+
+00:05:13.270 --> 00:05:13.280 align:start position:0%
+hostname you can use the gate hostname
+ 
+
+00:05:13.280 --> 00:05:14.710 align:start position:0%
+hostname you can use the gate hostname
+function
+
+00:05:14.710 --> 00:05:14.720 align:start position:0%
+function
+ 
+
+00:05:14.720 --> 00:05:16.070 align:start position:0%
+function
+when<00:05:14.960><c> you</c><00:05:15.120><c> are</c><00:05:15.360><c> creating</c><00:05:15.680><c> your</c><00:05:15.919><c> own</c>
+
+00:05:16.070 --> 00:05:16.080 align:start position:0%
+when you are creating your own
+ 
+
+00:05:16.080 --> 00:05:17.749 align:start position:0%
+when you are creating your own
+application<00:05:16.560><c> rather</c><00:05:16.880><c> than</c><00:05:17.120><c> putting</c><00:05:17.440><c> the</c>
+
+00:05:17.749 --> 00:05:17.759 align:start position:0%
+application rather than putting the
+ 
+
+00:05:17.759 --> 00:05:20.150 align:start position:0%
+application rather than putting the
+hard-coded<00:05:18.479><c> ip</c><00:05:18.880><c> because</c><00:05:19.360><c> that</c><00:05:19.600><c> is</c><00:05:19.680><c> not</c><00:05:19.919><c> a</c><00:05:20.000><c> good</c>
+
+00:05:20.150 --> 00:05:20.160 align:start position:0%
+hard-coded ip because that is not a good
+ 
+
+00:05:20.160 --> 00:05:21.110 align:start position:0%
+hard-coded ip because that is not a good
+practice<00:05:20.479><c> at</c><00:05:20.639><c> all</c>
+
+00:05:21.110 --> 00:05:21.120 align:start position:0%
+practice at all
+ 
+
+00:05:21.120 --> 00:05:22.950 align:start position:0%
+practice at all
+so<00:05:21.280><c> you</c><00:05:21.440><c> can</c><00:05:21.680><c> get</c><00:05:21.840><c> the</c><00:05:22.080><c> hostname</c><00:05:22.639><c> of</c><00:05:22.800><c> your</c>
+
+00:05:22.950 --> 00:05:22.960 align:start position:0%
+so you can get the hostname of your
+ 
+
+00:05:22.960 --> 00:05:24.950 align:start position:0%
+so you can get the hostname of your
+application<00:05:23.600><c> and</c><00:05:23.759><c> using</c><00:05:24.080><c> the</c><00:05:24.240><c> other</c><00:05:24.479><c> apis</c>
+
+00:05:24.950 --> 00:05:24.960 align:start position:0%
+application and using the other apis
+ 
+
+00:05:24.960 --> 00:05:26.870 align:start position:0%
+application and using the other apis
+which<00:05:25.120><c> i</c><00:05:25.199><c> will</c><00:05:25.360><c> discuss</c><00:05:25.680><c> in</c><00:05:25.840><c> the</c><00:05:25.919><c> later</c><00:05:26.240><c> videos</c>
+
+00:05:26.870 --> 00:05:26.880 align:start position:0%
+which i will discuss in the later videos
+ 
+
+00:05:26.880 --> 00:05:29.350 align:start position:0%
+which i will discuss in the later videos
+using<00:05:27.199><c> those</c><00:05:27.520><c> apis</c><00:05:28.400><c> like</c><00:05:28.720><c> i</c><00:05:28.880><c> think</c><00:05:29.039><c> the</c><00:05:29.199><c> name</c>
+
+00:05:29.350 --> 00:05:29.360 align:start position:0%
+using those apis like i think the name
+ 
+
+00:05:29.360 --> 00:05:31.510 align:start position:0%
+using those apis like i think the name
+of<00:05:29.520><c> the</c><00:05:29.600><c> api</c><00:05:29.919><c> is</c><00:05:30.000><c> get</c><00:05:30.240><c> host</c><00:05:30.560><c> by</c><00:05:30.800><c> name</c><00:05:31.039><c> so</c><00:05:31.280><c> using</c>
+
+00:05:31.510 --> 00:05:31.520 align:start position:0%
+of the api is get host by name so using
+ 
+
+00:05:31.520 --> 00:05:33.590 align:start position:0%
+of the api is get host by name so using
+that<00:05:31.759><c> you</c><00:05:31.840><c> can</c><00:05:32.000><c> get</c><00:05:32.240><c> the</c><00:05:32.400><c> ip</c><00:05:32.720><c> addresses</c>
+
+00:05:33.590 --> 00:05:33.600 align:start position:0%
+that you can get the ip addresses
+ 
+
+00:05:33.600 --> 00:05:36.310 align:start position:0%
+that you can get the ip addresses
+so<00:05:34.000><c> using</c><00:05:34.320><c> those</c><00:05:34.560><c> apis</c><00:05:35.199><c> and</c><00:05:35.360><c> using</c><00:05:35.680><c> this</c><00:05:35.840><c> api</c>
+
+00:05:36.310 --> 00:05:36.320 align:start position:0%
+so using those apis and using this api
+ 
+
+00:05:36.320 --> 00:05:37.430 align:start position:0%
+so using those apis and using this api
+you<00:05:36.400><c> can</c><00:05:36.639><c> create</c>
+
+00:05:37.430 --> 00:05:37.440 align:start position:0%
+you can create
+ 
+
+00:05:37.440 --> 00:05:39.350 align:start position:0%
+you can create
+the<00:05:37.680><c> ip</c><00:05:38.000><c> address</c><00:05:38.479><c> you</c><00:05:38.560><c> can</c><00:05:38.720><c> get</c><00:05:38.960><c> the</c><00:05:39.039><c> ip</c>
+
+00:05:39.350 --> 00:05:39.360 align:start position:0%
+the ip address you can get the ip
+ 
+
+00:05:39.360 --> 00:05:40.550 align:start position:0%
+the ip address you can get the ip
+address<00:05:39.759><c> of</c><00:05:39.919><c> your</c><00:05:40.160><c> own</c>
+
+00:05:40.550 --> 00:05:40.560 align:start position:0%
+address of your own
+ 
+
+00:05:40.560 --> 00:05:42.790 align:start position:0%
+address of your own
+server<00:05:41.039><c> and</c><00:05:41.199><c> then</c><00:05:41.440><c> you</c><00:05:41.520><c> can</c><00:05:41.759><c> use</c><00:05:42.000><c> those</c><00:05:42.400><c> bind</c>
+
+00:05:42.790 --> 00:05:42.800 align:start position:0%
+server and then you can use those bind
+ 
+
+00:05:42.800 --> 00:05:43.749 align:start position:0%
+server and then you can use those bind
+and
+
+00:05:43.749 --> 00:05:43.759 align:start position:0%
+and
+ 
+
+00:05:43.759 --> 00:05:46.310 align:start position:0%
+and
+connect<00:05:44.160><c> calls</c><00:05:44.479><c> and</c><00:05:44.639><c> listen</c><00:05:44.960><c> calls</c><00:05:45.360><c> for</c><00:05:46.080><c> for</c>
+
+00:05:46.310 --> 00:05:46.320 align:start position:0%
+connect calls and listen calls for for
+ 
+
+00:05:46.320 --> 00:05:47.510 align:start position:0%
+connect calls and listen calls for for
+the<00:05:46.479><c> server</c><00:05:46.880><c> okay</c>
+
+00:05:47.510 --> 00:05:47.520 align:start position:0%
+the server okay
+ 
+
+00:05:47.520 --> 00:05:50.469 align:start position:0%
+the server okay
+so<00:05:47.840><c> as</c><00:05:48.080><c> of</c><00:05:48.240><c> now</c><00:05:49.039><c> when</c><00:05:49.280><c> i</c><00:05:49.440><c> created</c><00:05:49.840><c> the</c><00:05:49.919><c> demo</c><00:05:50.320><c> for</c>
+
+00:05:50.469 --> 00:05:50.479 align:start position:0%
+so as of now when i created the demo for
+ 
+
+00:05:50.479 --> 00:05:51.749 align:start position:0%
+so as of now when i created the demo for
+the<00:05:50.560><c> client</c><00:05:50.880><c> and</c><00:05:50.960><c> server</c><00:05:51.280><c> you</c><00:05:51.440><c> might</c><00:05:51.600><c> have</c>
+
+00:05:51.749 --> 00:05:51.759 align:start position:0%
+the client and server you might have
+ 
+
+00:05:51.759 --> 00:05:51.990 align:start position:0%
+the client and server you might have
+seen
+
+00:05:51.990 --> 00:05:52.000 align:start position:0%
+seen
+ 
+
+00:05:52.000 --> 00:05:55.110 align:start position:0%
+seen
+that<00:05:52.160><c> i</c><00:05:52.240><c> have</c><00:05:52.400><c> used</c><00:05:52.720><c> the</c><00:05:54.000><c> hard</c><00:05:54.320><c> coded</c><00:05:54.639><c> values</c>
+
+00:05:55.110 --> 00:05:55.120 align:start position:0%
+that i have used the hard coded values
+ 
+
+00:05:55.120 --> 00:05:55.670 align:start position:0%
+that i have used the hard coded values
+or<00:05:55.360><c> the</c>
+
+00:05:55.670 --> 00:05:55.680 align:start position:0%
+or the
+ 
+
+00:05:55.680 --> 00:05:57.749 align:start position:0%
+or the
+macro<00:05:56.080><c> like</c><00:05:56.319><c> in</c><00:05:56.560><c> adder</c><00:05:56.960><c> any</c><00:05:57.360><c> there</c><00:05:57.520><c> was</c><00:05:57.680><c> a</c>
+
+00:05:57.749 --> 00:05:57.759 align:start position:0%
+macro like in adder any there was a
+ 
+
+00:05:57.759 --> 00:05:59.749 align:start position:0%
+macro like in adder any there was a
+micro<00:05:58.080><c> in</c><00:05:58.240><c> editor</c><00:05:58.560><c> any</c><00:05:58.800><c> if</c><00:05:58.880><c> you</c><00:05:59.039><c> remember</c>
+
+00:05:59.749 --> 00:05:59.759 align:start position:0%
+micro in editor any if you remember
+ 
+
+00:05:59.759 --> 00:06:01.270 align:start position:0%
+micro in editor any if you remember
+in<00:05:59.919><c> editor</c><00:06:00.240><c> underscore</c><00:06:00.720><c> any</c><00:06:00.880><c> so</c><00:06:01.039><c> if</c><00:06:01.120><c> you</c>
+
+00:06:01.270 --> 00:06:01.280 align:start position:0%
+in editor underscore any so if you
+ 
+
+00:06:01.280 --> 00:06:02.870 align:start position:0%
+in editor underscore any so if you
+remember<00:06:01.680><c> that</c><00:06:02.000><c> we</c><00:06:02.240><c> have</c><00:06:02.400><c> used</c>
+
+00:06:02.870 --> 00:06:02.880 align:start position:0%
+remember that we have used
+ 
+
+00:06:02.880 --> 00:06:04.870 align:start position:0%
+remember that we have used
+for<00:06:03.039><c> the</c><00:06:03.199><c> server</c><00:06:03.520><c> side</c><00:06:03.759><c> program</c><00:06:04.160><c> so</c><00:06:04.639><c> those</c>
+
+00:06:04.870 --> 00:06:04.880 align:start position:0%
+for the server side program so those
+ 
+
+00:06:04.880 --> 00:06:06.469 align:start position:0%
+for the server side program so those
+things<00:06:05.120><c> are</c><00:06:05.280><c> not</c>
+
+00:06:06.469 --> 00:06:06.479 align:start position:0%
+things are not
+ 
+
+00:06:06.479 --> 00:06:08.870 align:start position:0%
+things are not
+not<00:06:06.720><c> the</c><00:06:06.800><c> good</c><00:06:07.039><c> practice</c><00:06:07.520><c> at</c><00:06:07.680><c> all</c><00:06:08.560><c> when</c><00:06:08.720><c> you</c>
+
+00:06:08.870 --> 00:06:08.880 align:start position:0%
+not the good practice at all when you
+ 
+
+00:06:08.880 --> 00:06:10.390 align:start position:0%
+not the good practice at all when you
+are<00:06:08.960><c> writing</c><00:06:09.360><c> a</c><00:06:09.440><c> good</c>
+
+00:06:10.390 --> 00:06:10.400 align:start position:0%
+are writing a good
+ 
+
+00:06:10.400 --> 00:06:12.710 align:start position:0%
+are writing a good
+socket<00:06:10.720><c> server</c><00:06:11.039><c> programming</c><00:06:12.000><c> so</c><00:06:12.240><c> you</c><00:06:12.400><c> need</c><00:06:12.560><c> to</c>
+
+00:06:12.710 --> 00:06:12.720 align:start position:0%
+socket server programming so you need to
+ 
+
+00:06:12.720 --> 00:06:13.670 align:start position:0%
+socket server programming so you need to
+know<00:06:12.960><c> about</c><00:06:13.199><c> these</c>
+
+00:06:13.670 --> 00:06:13.680 align:start position:0%
+know about these
+ 
+
+00:06:13.680 --> 00:06:15.990 align:start position:0%
+know about these
+apis<00:06:14.080><c> so</c><00:06:14.240><c> that</c><00:06:14.400><c> is</c><00:06:14.479><c> why</c><00:06:14.720><c> i</c><00:06:14.880><c> have</c><00:06:15.280><c> just</c><00:06:15.520><c> decided</c>
+
+00:06:15.990 --> 00:06:16.000 align:start position:0%
+apis so that is why i have just decided
+ 
+
+00:06:16.000 --> 00:06:16.250 align:start position:0%
+apis so that is why i have just decided
+to
+
+00:06:16.250 --> 00:06:16.260 align:start position:0%
+to
+ 
+
+00:06:16.260 --> 00:06:17.830 align:start position:0%
+to
+[Music]
+
+00:06:17.830 --> 00:06:17.840 align:start position:0%
+[Music]
+ 
+
+00:06:17.840 --> 00:06:19.990 align:start position:0%
+[Music]
+create<00:06:18.160><c> some</c><00:06:18.319><c> videos</c><00:06:18.720><c> around</c><00:06:18.960><c> these</c><00:06:19.199><c> apis</c>
+
+00:06:19.990 --> 00:06:20.000 align:start position:0%
+create some videos around these apis
+ 
+
+00:06:20.000 --> 00:06:22.309 align:start position:0%
+create some videos around these apis
+okay<00:06:20.560><c> so</c><00:06:20.800><c> this</c><00:06:20.960><c> was</c><00:06:21.199><c> all</c><00:06:21.360><c> about</c><00:06:21.520><c> the</c><00:06:21.759><c> gate</c><00:06:22.000><c> host</c>
+
+00:06:22.309 --> 00:06:22.319 align:start position:0%
+okay so this was all about the gate host
+ 
+
+00:06:22.319 --> 00:06:22.790 align:start position:0%
+okay so this was all about the gate host
+name
+
+00:06:22.790 --> 00:06:22.800 align:start position:0%
+name
+ 
+
+00:06:22.800 --> 00:06:25.909 align:start position:0%
+name
+and<00:06:23.759><c> now</c><00:06:24.000><c> i</c><00:06:24.160><c> will</c><00:06:24.319><c> discuss</c><00:06:25.280><c> about</c><00:06:25.520><c> this</c><00:06:25.680><c> set</c>
+
+00:06:25.909 --> 00:06:25.919 align:start position:0%
+and now i will discuss about this set
+ 
+
+00:06:25.919 --> 00:06:27.749 align:start position:0%
+and now i will discuss about this set
+stock<00:06:26.240><c> opt</c>
+
+00:06:27.749 --> 00:06:27.759 align:start position:0%
+stock opt
+ 
+
+00:06:27.759 --> 00:06:31.670 align:start position:0%
+stock opt
+okay<00:06:28.880><c> so</c><00:06:30.000><c> to</c>
+
+00:06:31.670 --> 00:06:31.680 align:start position:0%
+okay so to
+ 
+
+00:06:31.680 --> 00:06:34.070 align:start position:0%
+okay so to
+not<00:06:31.919><c> waste</c><00:06:32.479><c> more</c><00:06:32.720><c> time</c><00:06:33.039><c> i</c><00:06:33.120><c> have</c><00:06:33.360><c> just</c><00:06:33.759><c> written</c>
+
+00:06:34.070 --> 00:06:34.080 align:start position:0%
+not waste more time i have just written
+ 
+
+00:06:34.080 --> 00:06:36.230 align:start position:0%
+not waste more time i have just written
+this<00:06:34.240><c> piece</c><00:06:34.479><c> of</c><00:06:34.639><c> code</c><00:06:34.880><c> for</c><00:06:35.039><c> you</c><00:06:35.280><c> already</c>
+
+00:06:36.230 --> 00:06:36.240 align:start position:0%
+this piece of code for you already
+ 
+
+00:06:36.240 --> 00:06:37.990 align:start position:0%
+this piece of code for you already
+so<00:06:36.479><c> i</c><00:06:36.560><c> will</c><00:06:36.720><c> just</c><00:06:36.960><c> copy</c><00:06:37.280><c> it</c><00:06:37.440><c> and</c><00:06:37.600><c> i</c><00:06:37.680><c> will</c><00:06:37.759><c> just</c>
+
+00:06:37.990 --> 00:06:38.000 align:start position:0%
+so i will just copy it and i will just
+ 
+
+00:06:38.000 --> 00:06:39.510 align:start position:0%
+so i will just copy it and i will just
+paste<00:06:38.319><c> it</c>
+
+00:06:39.510 --> 00:06:39.520 align:start position:0%
+paste it
+ 
+
+00:06:39.520 --> 00:06:41.270 align:start position:0%
+paste it
+so<00:06:39.840><c> just</c><00:06:40.000><c> to</c><00:06:40.160><c> save</c><00:06:40.400><c> the</c><00:06:40.479><c> time</c><00:06:40.720><c> i</c><00:06:40.880><c> have</c><00:06:40.960><c> written</c>
+
+00:06:41.270 --> 00:06:41.280 align:start position:0%
+so just to save the time i have written
+ 
+
+00:06:41.280 --> 00:06:44.070 align:start position:0%
+so just to save the time i have written
+it<00:06:41.440><c> already</c><00:06:41.840><c> so</c><00:06:42.080><c> wsa</c><00:06:42.639><c> data</c><00:06:42.960><c> wss</c><00:06:43.440><c> startup</c><00:06:43.919><c> all</c>
+
+00:06:44.070 --> 00:06:44.080 align:start position:0%
+it already so wsa data wss startup all
+ 
+
+00:06:44.080 --> 00:06:45.670 align:start position:0%
+it already so wsa data wss startup all
+these<00:06:44.319><c> things</c><00:06:44.560><c> are</c><00:06:44.720><c> fine</c><00:06:45.039><c> these</c><00:06:45.280><c> things</c><00:06:45.520><c> you</c>
+
+00:06:45.670 --> 00:06:45.680 align:start position:0%
+these things are fine these things you
+ 
+
+00:06:45.680 --> 00:06:46.629 align:start position:0%
+these things are fine these things you
+already<00:06:46.080><c> know</c>
+
+00:06:46.629 --> 00:06:46.639 align:start position:0%
+already know
+ 
+
+00:06:46.639 --> 00:06:49.110 align:start position:0%
+already know
+if<00:06:46.800><c> you</c><00:06:46.960><c> don't</c><00:06:47.120><c> know</c><00:06:47.280><c> you</c><00:06:47.520><c> need</c><00:06:47.680><c> to</c><00:06:47.759><c> go</c><00:06:48.000><c> to</c><00:06:48.720><c> my</c>
+
+00:06:49.110 --> 00:06:49.120 align:start position:0%
+if you don't know you need to go to my
+ 
+
+00:06:49.120 --> 00:06:50.710 align:start position:0%
+if you don't know you need to go to my
+uh<00:06:49.520><c> you</c><00:06:49.599><c> need</c><00:06:49.759><c> to</c><00:06:50.000><c> go</c><00:06:50.160><c> to</c><00:06:50.319><c> the</c>
+
+00:06:50.710 --> 00:06:50.720 align:start position:0%
+uh you need to go to the
+ 
+
+00:06:50.720 --> 00:06:52.469 align:start position:0%
+uh you need to go to the
+previous<00:06:51.120><c> videos</c><00:06:51.520><c> or</c><00:06:51.680><c> you</c><00:06:51.759><c> can</c><00:06:51.919><c> say</c><00:06:52.080><c> the</c><00:06:52.240><c> first</c>
+
+00:06:52.469 --> 00:06:52.479 align:start position:0%
+previous videos or you can say the first
+ 
+
+00:06:52.479 --> 00:06:54.150 align:start position:0%
+previous videos or you can say the first
+or<00:06:52.639><c> second</c><00:06:52.960><c> video</c><00:06:53.199><c> where</c><00:06:53.440><c> i</c><00:06:53.520><c> have</c><00:06:53.759><c> explained</c>
+
+00:06:54.150 --> 00:06:54.160 align:start position:0%
+or second video where i have explained
+ 
+
+00:06:54.160 --> 00:06:55.270 align:start position:0%
+or second video where i have explained
+all<00:06:54.240><c> these</c><00:06:54.479><c> things</c>
+
+00:06:55.270 --> 00:06:55.280 align:start position:0%
+all these things
+ 
+
+00:06:55.280 --> 00:06:56.870 align:start position:0%
+all these things
+right<00:06:55.599><c> i</c><00:06:55.759><c> have</c><00:06:55.919><c> not</c><00:06:56.160><c> explained</c><00:06:56.479><c> this</c><00:06:56.639><c> thing</c>
+
+00:06:56.870 --> 00:06:56.880 align:start position:0%
+right i have not explained this thing
+ 
+
+00:06:56.880 --> 00:06:58.790 align:start position:0%
+right i have not explained this thing
+said<00:06:57.120><c> sock</c><00:06:57.360><c> opt</c><00:06:58.080><c> right</c>
+
+00:06:58.790 --> 00:06:58.800 align:start position:0%
+said sock opt right
+ 
+
+00:06:58.800 --> 00:07:00.870 align:start position:0%
+said sock opt right
+and<00:06:59.360><c> i</c><00:06:59.440><c> have</c><00:06:59.599><c> called</c><00:06:59.840><c> this</c><00:07:00.080><c> bind</c><00:07:00.400><c> and</c><00:07:00.560><c> listen</c>
+
+00:07:00.870 --> 00:07:00.880 align:start position:0%
+and i have called this bind and listen
+ 
+
+00:07:00.880 --> 00:07:03.029 align:start position:0%
+and i have called this bind and listen
+here<00:07:01.440><c> right</c><00:07:01.680><c> so</c><00:07:01.919><c> i'm</c><00:07:02.160><c> just</c><00:07:02.319><c> going</c><00:07:02.560><c> to</c><00:07:02.639><c> explain</c>
+
+00:07:03.029 --> 00:07:03.039 align:start position:0%
+here right so i'm just going to explain
+ 
+
+00:07:03.039 --> 00:07:03.270 align:start position:0%
+here right so i'm just going to explain
+you
+
+00:07:03.270 --> 00:07:03.280 align:start position:0%
+you
+ 
+
+00:07:03.280 --> 00:07:05.990 align:start position:0%
+you
+about<00:07:03.520><c> the</c><00:07:03.680><c> sets</c><00:07:04.000><c> of</c><00:07:04.400><c> what</c><00:07:04.639><c> it</c><00:07:04.880><c> what</c><00:07:05.120><c> it</c><00:07:05.199><c> does</c>
+
+00:07:05.990 --> 00:07:06.000 align:start position:0%
+about the sets of what it what it does
+ 
+
+00:07:06.000 --> 00:07:06.629 align:start position:0%
+about the sets of what it what it does
+okay<00:07:06.319><c> so</c>
+
+00:07:06.629 --> 00:07:06.639 align:start position:0%
+okay so
+ 
+
+00:07:06.639 --> 00:07:09.029 align:start position:0%
+okay so
+to<00:07:06.880><c> ex</c><00:07:07.280><c> to</c><00:07:07.440><c> understand</c><00:07:07.919><c> what</c><00:07:08.319><c> is</c><00:07:08.479><c> the</c><00:07:08.639><c> purpose</c>
+
+00:07:09.029 --> 00:07:09.039 align:start position:0%
+to ex to understand what is the purpose
+ 
+
+00:07:09.039 --> 00:07:10.790 align:start position:0%
+to ex to understand what is the purpose
+of<00:07:09.199><c> state</c><00:07:09.440><c> stock</c><00:07:09.759><c> opt</c>
+
+00:07:10.790 --> 00:07:10.800 align:start position:0%
+of state stock opt
+ 
+
+00:07:10.800 --> 00:07:13.189 align:start position:0%
+of state stock opt
+uh<00:07:11.280><c> if</c><00:07:11.360><c> you</c><00:07:11.520><c> want</c><00:07:11.680><c> to</c><00:07:12.400><c> study</c><00:07:12.720><c> this</c><00:07:12.880><c> thing</c><00:07:13.120><c> in</c>
+
+00:07:13.189 --> 00:07:13.199 align:start position:0%
+uh if you want to study this thing in
+ 
+
+00:07:13.199 --> 00:07:15.350 align:start position:0%
+uh if you want to study this thing in
+detail<00:07:13.599><c> you</c><00:07:13.759><c> can</c><00:07:14.000><c> go</c><00:07:14.160><c> to</c><00:07:14.319><c> the</c><00:07:14.400><c> msdn</c><00:07:14.960><c> site</c><00:07:15.199><c> and</c>
+
+00:07:15.350 --> 00:07:15.360 align:start position:0%
+detail you can go to the msdn site and
+ 
+
+00:07:15.360 --> 00:07:17.270 align:start position:0%
+detail you can go to the msdn site and
+you<00:07:15.440><c> can</c><00:07:15.599><c> just</c><00:07:15.840><c> type</c><00:07:16.160><c> it</c><00:07:16.319><c> says</c><00:07:16.800><c> opt</c><00:07:17.039><c> and</c><00:07:17.199><c> you</c>
+
+00:07:17.270 --> 00:07:17.280 align:start position:0%
+you can just type it says opt and you
+ 
+
+00:07:17.280 --> 00:07:18.710 align:start position:0%
+you can just type it says opt and you
+can<00:07:17.440><c> see</c><00:07:17.599><c> the</c><00:07:17.759><c> details</c>
+
+00:07:18.710 --> 00:07:18.720 align:start position:0%
+can see the details
+ 
+
+00:07:18.720 --> 00:07:20.870 align:start position:0%
+can see the details
+but<00:07:18.880><c> i'm</c><00:07:19.120><c> not</c><00:07:19.280><c> going</c><00:07:19.599><c> in</c><00:07:19.759><c> that</c><00:07:20.000><c> much</c><00:07:20.160><c> detail</c>
+
+00:07:20.870 --> 00:07:20.880 align:start position:0%
+but i'm not going in that much detail
+ 
+
+00:07:20.880 --> 00:07:22.950 align:start position:0%
+but i'm not going in that much detail
+i'm<00:07:21.120><c> just</c><00:07:21.360><c> going</c><00:07:21.520><c> to</c><00:07:21.759><c> tell</c><00:07:21.919><c> you</c>
+
+00:07:22.950 --> 00:07:22.960 align:start position:0%
+i'm just going to tell you
+ 
+
+00:07:22.960 --> 00:07:26.150 align:start position:0%
+i'm just going to tell you
+uh<00:07:24.319><c> on</c><00:07:24.560><c> a</c><00:07:24.639><c> broader</c><00:07:25.039><c> perspective</c><00:07:25.599><c> that</c>
+
+00:07:26.150 --> 00:07:26.160 align:start position:0%
+uh on a broader perspective that
+ 
+
+00:07:26.160 --> 00:07:27.909 align:start position:0%
+uh on a broader perspective that
+how<00:07:26.400><c> this</c><00:07:26.639><c> call</c><00:07:26.880><c> is</c><00:07:27.039><c> used</c><00:07:27.360><c> and</c><00:07:27.520><c> what</c><00:07:27.680><c> is</c><00:07:27.759><c> the</c>
+
+00:07:27.909 --> 00:07:27.919 align:start position:0%
+how this call is used and what is the
+ 
+
+00:07:27.919 --> 00:07:30.550 align:start position:0%
+how this call is used and what is the
+purpose<00:07:28.319><c> of</c><00:07:28.479><c> using</c><00:07:28.720><c> this</c><00:07:28.880><c> function</c><00:07:29.360><c> this</c><00:07:29.599><c> api</c>
+
+00:07:30.550 --> 00:07:30.560 align:start position:0%
+purpose of using this function this api
+ 
+
+00:07:30.560 --> 00:07:32.790 align:start position:0%
+purpose of using this function this api
+right<00:07:30.960><c> so</c><00:07:31.120><c> let</c><00:07:31.280><c> me</c><00:07:31.360><c> give</c><00:07:31.520><c> you</c><00:07:31.680><c> an</c><00:07:31.840><c> example</c><00:07:32.560><c> i</c><00:07:32.639><c> am</c>
+
+00:07:32.790 --> 00:07:32.800 align:start position:0%
+right so let me give you an example i am
+ 
+
+00:07:32.800 --> 00:07:33.909 align:start position:0%
+right so let me give you an example i am
+just<00:07:32.960><c> going</c><00:07:33.199><c> to</c>
+
+00:07:33.909 --> 00:07:33.919 align:start position:0%
+just going to
+ 
+
+00:07:33.919 --> 00:07:36.150 align:start position:0%
+just going to
+comment<00:07:34.319><c> it</c><00:07:35.120><c> comment</c><00:07:35.440><c> the</c><00:07:35.520><c> call</c><00:07:35.759><c> to</c><00:07:35.919><c> search</c>
+
+00:07:36.150 --> 00:07:36.160 align:start position:0%
+comment it comment the call to search
+ 
+
+00:07:36.160 --> 00:07:37.110 align:start position:0%
+comment it comment the call to search
+sock<00:07:36.400><c> opt</c>
+
+00:07:37.110 --> 00:07:37.120 align:start position:0%
+sock opt
+ 
+
+00:07:37.120 --> 00:07:40.070 align:start position:0%
+sock opt
+right<00:07:37.360><c> and</c><00:07:37.520><c> let's</c><00:07:37.759><c> see</c><00:07:38.319><c> one</c><00:07:38.560><c> scenario</c><00:07:39.919><c> and</c>
+
+00:07:40.070 --> 00:07:40.080 align:start position:0%
+right and let's see one scenario and
+ 
+
+00:07:40.080 --> 00:07:41.589 align:start position:0%
+right and let's see one scenario and
+with<00:07:40.240><c> that</c><00:07:40.479><c> scenario</c><00:07:40.880><c> you</c><00:07:41.039><c> can</c><00:07:41.199><c> understand</c>
+
+00:07:41.589 --> 00:07:41.599 align:start position:0%
+with that scenario you can understand
+ 
+
+00:07:41.599 --> 00:07:42.309 align:start position:0%
+with that scenario you can understand
+that<00:07:41.840><c> why</c>
+
+00:07:42.309 --> 00:07:42.319 align:start position:0%
+that why
+ 
+
+00:07:42.319 --> 00:07:45.110 align:start position:0%
+that why
+we<00:07:42.479><c> should</c><00:07:42.639><c> use</c><00:07:42.960><c> it</c><00:07:43.120><c> sockopt</c><00:07:44.479><c> ok</c><00:07:44.720><c> suppose</c>
+
+00:07:45.110 --> 00:07:45.120 align:start position:0%
+we should use it sockopt ok suppose
+ 
+
+00:07:45.120 --> 00:07:45.670 align:start position:0%
+we should use it sockopt ok suppose
+there<00:07:45.440><c> is</c>
+
+00:07:45.670 --> 00:07:45.680 align:start position:0%
+there is
+ 
+
+00:07:45.680 --> 00:07:48.309 align:start position:0%
+there is
+a<00:07:46.960><c> there</c><00:07:47.120><c> is</c><00:07:47.199><c> a</c><00:07:47.280><c> server</c><00:07:47.680><c> application</c><00:07:48.080><c> that</c><00:07:48.240><c> i</c>
+
+00:07:48.309 --> 00:07:48.319 align:start position:0%
+a there is a server application that i
+ 
+
+00:07:48.319 --> 00:07:49.270 align:start position:0%
+a there is a server application that i
+am<00:07:48.400><c> going</c><00:07:48.639><c> to</c><00:07:48.800><c> write</c>
+
+00:07:49.270 --> 00:07:49.280 align:start position:0%
+am going to write
+ 
+
+00:07:49.280 --> 00:07:51.350 align:start position:0%
+am going to write
+and<00:07:49.440><c> if</c><00:07:49.599><c> i</c><00:07:49.680><c> am</c><00:07:49.759><c> writing</c><00:07:50.160><c> a</c><00:07:50.560><c> server</c><00:07:50.879><c> application</c>
+
+00:07:51.350 --> 00:07:51.360 align:start position:0%
+and if i am writing a server application
+ 
+
+00:07:51.360 --> 00:07:53.110 align:start position:0%
+and if i am writing a server application
+then<00:07:51.520><c> i</c><00:07:51.599><c> need</c><00:07:51.759><c> to</c><00:07:52.000><c> bind</c><00:07:52.400><c> my</c>
+
+00:07:53.110 --> 00:07:53.120 align:start position:0%
+then i need to bind my
+ 
+
+00:07:53.120 --> 00:07:55.430 align:start position:0%
+then i need to bind my
+bind<00:07:53.360><c> my</c><00:07:53.520><c> socket</c><00:07:53.840><c> to</c><00:07:54.000><c> a</c><00:07:54.080><c> particular</c><00:07:54.720><c> address</c>
+
+00:07:55.430 --> 00:07:55.440 align:start position:0%
+bind my socket to a particular address
+ 
+
+00:07:55.440 --> 00:07:57.189 align:start position:0%
+bind my socket to a particular address
+to<00:07:55.599><c> a</c><00:07:55.680><c> particular</c><00:07:56.160><c> port</c><00:07:56.479><c> address</c>
+
+00:07:57.189 --> 00:07:57.199 align:start position:0%
+to a particular port address
+ 
+
+00:07:57.199 --> 00:07:59.110 align:start position:0%
+to a particular port address
+and<00:07:57.440><c> then</c><00:07:57.759><c> i</c><00:07:58.000><c> just</c><00:07:58.160><c> need</c><00:07:58.319><c> to</c><00:07:58.560><c> start</c><00:07:58.800><c> listening</c>
+
+00:07:59.110 --> 00:07:59.120 align:start position:0%
+and then i just need to start listening
+ 
+
+00:07:59.120 --> 00:08:00.629 align:start position:0%
+and then i just need to start listening
+to<00:07:59.280><c> that</c><00:07:59.440><c> particular</c><00:07:59.919><c> port</c><00:08:00.160><c> for</c><00:08:00.319><c> the</c>
+
+00:08:00.629 --> 00:08:00.639 align:start position:0%
+to that particular port for the
+ 
+
+00:08:00.639 --> 00:08:02.790 align:start position:0%
+to that particular port for the
+incoming<00:08:01.039><c> connection</c><00:08:01.440><c> from</c><00:08:01.599><c> the</c><00:08:01.680><c> clients</c>
+
+00:08:02.790 --> 00:08:02.800 align:start position:0%
+incoming connection from the clients
+ 
+
+00:08:02.800 --> 00:08:03.990 align:start position:0%
+incoming connection from the clients
+okay<00:08:03.440><c> so</c>
+
+00:08:03.990 --> 00:08:04.000 align:start position:0%
+okay so
+ 
+
+00:08:04.000 --> 00:08:05.670 align:start position:0%
+okay so
+this<00:08:04.240><c> is</c><00:08:04.319><c> the</c><00:08:04.479><c> port</c><00:08:04.800><c> number</c><00:08:05.120><c> on</c><00:08:05.280><c> which</c><00:08:05.440><c> my</c>
+
+00:08:05.670 --> 00:08:05.680 align:start position:0%
+this is the port number on which my
+ 
+
+00:08:05.680 --> 00:08:07.350 align:start position:0%
+this is the port number on which my
+server<00:08:06.080><c> is</c><00:08:06.160><c> listening</c>
+
+00:08:07.350 --> 00:08:07.360 align:start position:0%
+server is listening
+ 
+
+00:08:07.360 --> 00:08:10.309 align:start position:0%
+server is listening
+right<00:08:08.639><c> is</c><00:08:08.800><c> it</c><00:08:08.960><c> possible</c><00:08:09.599><c> for</c><00:08:09.840><c> the</c><00:08:10.000><c> other</c>
+
+00:08:10.309 --> 00:08:10.319 align:start position:0%
+right is it possible for the other
+ 
+
+00:08:10.319 --> 00:08:11.110 align:start position:0%
+right is it possible for the other
+server
+
+00:08:11.110 --> 00:08:11.120 align:start position:0%
+server
+ 
+
+00:08:11.120 --> 00:08:14.390 align:start position:0%
+server
+or<00:08:11.360><c> any</c><00:08:11.599><c> other</c><00:08:11.840><c> application</c><00:08:12.639><c> which</c><00:08:12.879><c> is</c>
+
+00:08:14.390 --> 00:08:14.400 align:start position:0%
+or any other application which is
+ 
+
+00:08:14.400 --> 00:08:16.309 align:start position:0%
+or any other application which is
+trying<00:08:14.720><c> to</c><00:08:15.039><c> which</c><00:08:15.280><c> is</c><00:08:15.440><c> trying</c><00:08:15.680><c> to</c><00:08:15.840><c> listen</c><00:08:16.160><c> to</c>
+
+00:08:16.309 --> 00:08:16.319 align:start position:0%
+trying to which is trying to listen to
+ 
+
+00:08:16.319 --> 00:08:18.550 align:start position:0%
+trying to which is trying to listen to
+the<00:08:16.560><c> new</c>
+
+00:08:18.550 --> 00:08:18.560 align:start position:0%
+the new
+ 
+
+00:08:18.560 --> 00:08:20.309 align:start position:0%
+the new
+connections<00:08:19.120><c> from</c><00:08:19.280><c> the</c><00:08:19.440><c> client</c><00:08:19.759><c> on</c><00:08:19.919><c> the</c><00:08:20.080><c> same</c>
+
+00:08:20.309 --> 00:08:20.319 align:start position:0%
+connections from the client on the same
+ 
+
+00:08:20.319 --> 00:08:23.589 align:start position:0%
+connections from the client on the same
+port<00:08:21.440><c> will</c><00:08:21.680><c> it</c><00:08:21.759><c> be</c><00:08:21.919><c> allowed</c>
+
+00:08:23.589 --> 00:08:23.599 align:start position:0%
+port will it be allowed
+ 
+
+00:08:23.599 --> 00:08:25.909 align:start position:0%
+port will it be allowed
+right<00:08:24.560><c> will</c><00:08:24.800><c> it</c><00:08:24.879><c> be</c><00:08:24.960><c> allowed</c><00:08:25.360><c> or</c><00:08:25.440><c> not</c><00:08:25.680><c> we</c><00:08:25.840><c> are</c>
+
+00:08:25.909 --> 00:08:25.919 align:start position:0%
+right will it be allowed or not we are
+ 
+
+00:08:25.919 --> 00:08:26.869 align:start position:0%
+right will it be allowed or not we are
+going<00:08:26.160><c> to</c><00:08:26.319><c> see</c><00:08:26.479><c> that</c>
+
+00:08:26.869 --> 00:08:26.879 align:start position:0%
+going to see that
+ 
+
+00:08:26.879 --> 00:08:29.430 align:start position:0%
+going to see that
+the<00:08:27.120><c> answer</c><00:08:27.520><c> is</c><00:08:28.319><c> the</c><00:08:28.479><c> simple</c><00:08:28.800><c> answer</c><00:08:29.120><c> is</c><00:08:29.280><c> that</c>
+
+00:08:29.430 --> 00:08:29.440 align:start position:0%
+the answer is the simple answer is that
+ 
+
+00:08:29.440 --> 00:08:31.589 align:start position:0%
+the answer is the simple answer is that
+no<00:08:29.840><c> you</c><00:08:30.000><c> cannot</c><00:08:30.560><c> allow</c>
+
+00:08:31.589 --> 00:08:31.599 align:start position:0%
+no you cannot allow
+ 
+
+00:08:31.599 --> 00:08:33.670 align:start position:0%
+no you cannot allow
+two<00:08:31.919><c> servers</c><00:08:32.560><c> or</c><00:08:32.719><c> you</c><00:08:32.800><c> can</c><00:08:33.039><c> say</c><00:08:33.200><c> the</c><00:08:33.360><c> same</c>
+
+00:08:33.670 --> 00:08:33.680 align:start position:0%
+two servers or you can say the same
+ 
+
+00:08:33.680 --> 00:08:35.269 align:start position:0%
+two servers or you can say the same
+instance<00:08:34.560><c> of</c><00:08:34.800><c> one</c>
+
+00:08:35.269 --> 00:08:35.279 align:start position:0%
+instance of one
+ 
+
+00:08:35.279 --> 00:08:37.909 align:start position:0%
+instance of one
+say<00:08:35.519><c> two</c><00:08:35.680><c> instances</c><00:08:36.159><c> of</c><00:08:36.240><c> the</c><00:08:36.399><c> same</c><00:08:36.640><c> server</c><00:08:37.680><c> to</c>
+
+00:08:37.909 --> 00:08:37.919 align:start position:0%
+say two instances of the same server to
+ 
+
+00:08:37.919 --> 00:08:39.909 align:start position:0%
+say two instances of the same server to
+listen<00:08:38.240><c> to</c><00:08:38.399><c> the</c><00:08:38.560><c> same</c><00:08:38.800><c> port</c><00:08:39.200><c> and</c><00:08:39.360><c> bind</c><00:08:39.599><c> to</c><00:08:39.760><c> the</c>
+
+00:08:39.909 --> 00:08:39.919 align:start position:0%
+listen to the same port and bind to the
+ 
+
+00:08:39.919 --> 00:08:40.709 align:start position:0%
+listen to the same port and bind to the
+same<00:08:40.159><c> port</c>
+
+00:08:40.709 --> 00:08:40.719 align:start position:0%
+same port
+ 
+
+00:08:40.719 --> 00:08:43.589 align:start position:0%
+same port
+right<00:08:41.039><c> the</c><00:08:41.200><c> simple</c><00:08:41.599><c> answer</c><00:08:41.919><c> is</c><00:08:42.000><c> that</c><00:08:42.719><c> this</c><00:08:42.959><c> one</c>
+
+00:08:43.589 --> 00:08:43.599 align:start position:0%
+right the simple answer is that this one
+ 
+
+00:08:43.599 --> 00:08:45.509 align:start position:0%
+right the simple answer is that this one
+and
+
+00:08:45.509 --> 00:08:45.519 align:start position:0%
+and
+ 
+
+00:08:45.519 --> 00:08:47.829 align:start position:0%
+and
+the<00:08:45.760><c> more</c><00:08:46.000><c> detailed</c><00:08:46.480><c> answer</c><00:08:46.800><c> is</c><00:08:47.040><c> that</c><00:08:47.279><c> yes</c><00:08:47.680><c> we</c>
+
+00:08:47.829 --> 00:08:47.839 align:start position:0%
+the more detailed answer is that yes we
+ 
+
+00:08:47.839 --> 00:08:49.430 align:start position:0%
+the more detailed answer is that yes we
+have<00:08:48.399><c> an</c><00:08:48.640><c> api</c>
+
+00:08:49.430 --> 00:08:49.440 align:start position:0%
+have an api
+ 
+
+00:08:49.440 --> 00:08:51.910 align:start position:0%
+have an api
+which<00:08:49.680><c> is</c><00:08:49.839><c> called</c><00:08:50.160><c> set</c><00:08:50.480><c> sock</c><00:08:50.800><c> opt</c><00:08:51.360><c> using</c><00:08:51.680><c> this</c>
+
+00:08:51.910 --> 00:08:51.920 align:start position:0%
+which is called set sock opt using this
+ 
+
+00:08:51.920 --> 00:08:52.790 align:start position:0%
+which is called set sock opt using this
+api
+
+00:08:52.790 --> 00:08:52.800 align:start position:0%
+api
+ 
+
+00:08:52.800 --> 00:08:56.389 align:start position:0%
+api
+we<00:08:52.959><c> can</c><00:08:53.600><c> set</c><00:08:53.920><c> our</c><00:08:54.560><c> server</c><00:08:55.120><c> we</c><00:08:55.279><c> can</c><00:08:55.760><c> provide</c><00:08:56.160><c> the</c>
+
+00:08:56.389 --> 00:08:56.399 align:start position:0%
+we can set our server we can provide the
+ 
+
+00:08:56.399 --> 00:08:58.310 align:start position:0%
+we can set our server we can provide the
+option<00:08:56.800><c> to</c><00:08:56.959><c> our</c><00:08:57.200><c> server</c><00:08:57.600><c> to</c><00:08:57.760><c> let</c><00:08:58.080><c> other</c>
+
+00:08:58.310 --> 00:08:58.320 align:start position:0%
+option to our server to let other
+ 
+
+00:08:58.320 --> 00:08:59.030 align:start position:0%
+option to our server to let other
+servers
+
+00:08:59.030 --> 00:08:59.040 align:start position:0%
+servers
+ 
+
+00:08:59.040 --> 00:09:00.870 align:start position:0%
+servers
+or<00:08:59.279><c> to</c><00:08:59.440><c> let</c><00:08:59.680><c> other</c><00:08:59.920><c> instance</c><00:09:00.399><c> of</c><00:09:00.480><c> the</c><00:09:00.560><c> same</c>
+
+00:09:00.870 --> 00:09:00.880 align:start position:0%
+or to let other instance of the same
+ 
+
+00:09:00.880 --> 00:09:03.509 align:start position:0%
+or to let other instance of the same
+server<00:09:01.519><c> to</c><00:09:01.760><c> listen</c><00:09:02.080><c> to</c><00:09:02.240><c> the</c><00:09:02.320><c> same</c><00:09:02.560><c> port</c>
+
+00:09:03.509 --> 00:09:03.519 align:start position:0%
+server to listen to the same port
+ 
+
+00:09:03.519 --> 00:09:07.269 align:start position:0%
+server to listen to the same port
+okay<00:09:04.160><c> so</c><00:09:04.560><c> first</c><00:09:04.880><c> let's</c><00:09:05.120><c> see</c><00:09:05.920><c> if</c><00:09:06.160><c> we</c><00:09:06.320><c> can</c>
+
+00:09:07.269 --> 00:09:07.279 align:start position:0%
+okay so first let's see if we can
+ 
+
+00:09:07.279 --> 00:09:09.430 align:start position:0%
+okay so first let's see if we can
+listen<00:09:07.680><c> if</c><00:09:07.920><c> our</c><00:09:08.240><c> application</c><00:09:08.800><c> server</c><00:09:09.200><c> can</c>
+
+00:09:09.430 --> 00:09:09.440 align:start position:0%
+listen if our application server can
+ 
+
+00:09:09.440 --> 00:09:11.590 align:start position:0%
+listen if our application server can
+listen<00:09:09.920><c> to</c><00:09:10.080><c> the</c><00:09:10.240><c> new</c><00:09:10.480><c> clients</c><00:09:10.959><c> on</c><00:09:11.120><c> the</c><00:09:11.279><c> same</c>
+
+00:09:11.590 --> 00:09:11.600 align:start position:0%
+listen to the new clients on the same
+ 
+
+00:09:11.600 --> 00:09:12.070 align:start position:0%
+listen to the new clients on the same
+port
+
+00:09:12.070 --> 00:09:12.080 align:start position:0%
+port
+ 
+
+00:09:12.080 --> 00:09:14.070 align:start position:0%
+port
+if<00:09:12.320><c> two</c><00:09:12.560><c> servers</c><00:09:13.040><c> which</c><00:09:13.279><c> are</c><00:09:13.360><c> running</c><00:09:13.760><c> on</c><00:09:13.920><c> the</c>
+
+00:09:14.070 --> 00:09:14.080 align:start position:0%
+if two servers which are running on the
+ 
+
+00:09:14.080 --> 00:09:15.670 align:start position:0%
+if two servers which are running on the
+same<00:09:14.399><c> port</c>
+
+00:09:15.670 --> 00:09:15.680 align:start position:0%
+same port
+ 
+
+00:09:15.680 --> 00:09:17.829 align:start position:0%
+same port
+will<00:09:15.920><c> they</c><00:09:16.080><c> be</c><00:09:16.320><c> able</c><00:09:16.560><c> to</c><00:09:16.800><c> listen</c><00:09:17.200><c> to</c><00:09:17.360><c> the</c><00:09:17.519><c> same</c>
+
+00:09:17.829 --> 00:09:17.839 align:start position:0%
+will they be able to listen to the same
+ 
+
+00:09:17.839 --> 00:09:18.870 align:start position:0%
+will they be able to listen to the same
+port
+
+00:09:18.870 --> 00:09:18.880 align:start position:0%
+port
+ 
+
+00:09:18.880 --> 00:09:21.350 align:start position:0%
+port
+for<00:09:19.120><c> the</c><00:09:19.519><c> new</c><00:09:19.760><c> connections</c><00:09:20.399><c> or</c><00:09:20.560><c> not</c><00:09:20.959><c> let's</c><00:09:21.120><c> see</c>
+
+00:09:21.350 --> 00:09:21.360 align:start position:0%
+for the new connections or not let's see
+ 
+
+00:09:21.360 --> 00:09:22.070 align:start position:0%
+for the new connections or not let's see
+that
+
+00:09:22.070 --> 00:09:22.080 align:start position:0%
+that
+ 
+
+00:09:22.080 --> 00:09:26.790 align:start position:0%
+that
+so<00:09:22.480><c> just</c><00:09:22.720><c> press</c><00:09:22.959><c> f5</c><00:09:24.480><c> and</c><00:09:24.640><c> let's</c><00:09:24.959><c> see</c>
+
+00:09:26.790 --> 00:09:26.800 align:start position:0%
+so just press f5 and let's see
+ 
+
+00:09:26.800 --> 00:09:30.389 align:start position:0%
+so just press f5 and let's see
+what<00:09:27.040><c> happens</c><00:09:28.080><c> so</c><00:09:28.560><c> this</c><00:09:28.880><c> one</c>
+
+00:09:30.389 --> 00:09:30.399 align:start position:0%
+what happens so this one
+ 
+
+00:09:30.399 --> 00:09:32.949 align:start position:0%
+what happens so this one
+is<00:09:30.560><c> listening</c><00:09:31.120><c> let</c><00:09:31.279><c> me</c><00:09:31.440><c> just</c><00:09:32.320><c> introduce</c><00:09:32.720><c> some</c>
+
+00:09:32.949 --> 00:09:32.959 align:start position:0%
+is listening let me just introduce some
+ 
+
+00:09:32.959 --> 00:09:34.790 align:start position:0%
+is listening let me just introduce some
+more<00:09:33.279><c> code</c>
+
+00:09:34.790 --> 00:09:34.800 align:start position:0%
+more code
+ 
+
+00:09:34.800 --> 00:09:36.710 align:start position:0%
+more code
+so<00:09:34.959><c> that</c><00:09:35.200><c> we</c><00:09:35.360><c> are</c><00:09:35.440><c> able</c><00:09:35.680><c> to</c><00:09:35.839><c> see</c><00:09:36.000><c> some</c><00:09:36.320><c> output</c>
+
+00:09:36.710 --> 00:09:36.720 align:start position:0%
+so that we are able to see some output
+ 
+
+00:09:36.720 --> 00:09:38.790 align:start position:0%
+so that we are able to see some output
+so<00:09:36.880><c> here</c><00:09:37.120><c> i</c><00:09:37.200><c> am</c><00:09:37.360><c> just</c><00:09:37.519><c> going</c><00:09:37.760><c> to</c><00:09:37.839><c> write</c><00:09:38.160><c> like</c>
+
+00:09:38.790 --> 00:09:38.800 align:start position:0%
+so here i am just going to write like
+ 
+
+00:09:38.800 --> 00:09:41.990 align:start position:0%
+so here i am just going to write like
+bind<00:09:39.200><c> successful</c>
+
+00:09:41.990 --> 00:09:42.000 align:start position:0%
+ 
+ 
+
+00:09:42.000 --> 00:09:45.110 align:start position:0%
+ 
+the<00:09:42.240><c> bind</c>
+
+00:09:45.110 --> 00:09:45.120 align:start position:0%
+ 
+ 
+
+00:09:45.120 --> 00:09:49.110 align:start position:0%
+ 
+successful<00:09:46.480><c> and</c><00:09:47.680><c> here</c><00:09:48.080><c> also</c><00:09:48.399><c> i</c><00:09:48.480><c> am</c><00:09:48.640><c> going</c><00:09:48.959><c> to</c>
+
+00:09:49.110 --> 00:09:49.120 align:start position:0%
+successful and here also i am going to
+ 
+
+00:09:49.120 --> 00:09:50.389 align:start position:0%
+successful and here also i am going to
+provide<00:09:49.519><c> an</c><00:09:49.680><c> else</c><00:09:49.920><c> part</c>
+
+00:09:50.389 --> 00:09:50.399 align:start position:0%
+provide an else part
+ 
+
+00:09:50.399 --> 00:09:54.389 align:start position:0%
+provide an else part
+and<00:09:50.720><c> here</c><00:09:50.959><c> i</c><00:09:51.040><c> will</c><00:09:51.279><c> provide</c><00:09:53.360><c> the</c><00:09:53.600><c> lesson</c>
+
+00:09:54.389 --> 00:09:54.399 align:start position:0%
+and here i will provide the lesson
+ 
+
+00:09:54.399 --> 00:10:01.190 align:start position:0%
+and here i will provide the lesson
+was<00:09:54.720><c> successful</c>
+
+00:10:01.190 --> 00:10:01.200 align:start position:0%
+ 
+ 
+
+00:10:01.200 --> 00:10:06.630 align:start position:0%
+ 
+okay<00:10:01.519><c> so</c><00:10:02.079><c> let's</c><00:10:02.320><c> see</c><00:10:02.959><c> what</c><00:10:03.200><c> happens</c><00:10:03.600><c> so</c><00:10:03.920><c> builds</c>
+
+00:10:06.630 --> 00:10:06.640 align:start position:0%
+ 
+ 
+
+00:10:06.640 --> 00:10:09.110 align:start position:0%
+ 
+build<00:10:06.959><c> solution</c><00:10:07.440><c> and</c><00:10:07.600><c> then</c><00:10:08.240><c> we</c><00:10:08.399><c> will</c><00:10:08.560><c> just</c><00:10:08.880><c> run</c>
+
+00:10:09.110 --> 00:10:09.120 align:start position:0%
+build solution and then we will just run
+ 
+
+00:10:09.120 --> 00:10:09.990 align:start position:0%
+build solution and then we will just run
+it
+
+00:10:09.990 --> 00:10:10.000 align:start position:0%
+it
+ 
+
+00:10:10.000 --> 00:10:13.030 align:start position:0%
+it
+so<00:10:10.160><c> press</c><00:10:10.480><c> f5</c><00:10:11.600><c> it</c><00:10:11.680><c> will</c><00:10:12.000><c> start</c><00:10:12.160><c> debugging</c><00:10:12.720><c> so</c>
+
+00:10:13.030 --> 00:10:13.040 align:start position:0%
+so press f5 it will start debugging so
+ 
+
+00:10:13.040 --> 00:10:15.350 align:start position:0%
+so press f5 it will start debugging so
+bind<00:10:13.360><c> successful</c><00:10:13.920><c> and</c><00:10:14.000><c> listen</c><00:10:14.320><c> successful</c>
+
+00:10:15.350 --> 00:10:15.360 align:start position:0%
+bind successful and listen successful
+ 
+
+00:10:15.360 --> 00:10:17.350 align:start position:0%
+bind successful and listen successful
+let's<00:10:15.680><c> go</c><00:10:15.920><c> to</c><00:10:16.079><c> the</c>
+
+00:10:17.350 --> 00:10:17.360 align:start position:0%
+let's go to the
+ 
+
+00:10:17.360 --> 00:10:20.069 align:start position:0%
+let's go to the
+path<00:10:17.920><c> where</c><00:10:18.160><c> the</c><00:10:18.320><c> same</c><00:10:18.640><c> application</c><00:10:19.440><c> exe</c><00:10:19.920><c> has</c>
+
+00:10:20.069 --> 00:10:20.079 align:start position:0%
+path where the same application exe has
+ 
+
+00:10:20.079 --> 00:10:21.590 align:start position:0%
+path where the same application exe has
+been<00:10:20.240><c> placed</c><00:10:20.640><c> socket</c><00:10:20.959><c> server</c><00:10:21.279><c> has</c><00:10:21.440><c> been</c>
+
+00:10:21.590 --> 00:10:21.600 align:start position:0%
+been placed socket server has been
+ 
+
+00:10:21.600 --> 00:10:22.550 align:start position:0%
+been placed socket server has been
+placed<00:10:21.839><c> here</c>
+
+00:10:22.550 --> 00:10:22.560 align:start position:0%
+placed here
+ 
+
+00:10:22.560 --> 00:10:24.470 align:start position:0%
+placed here
+and<00:10:22.800><c> here</c><00:10:23.120><c> also</c><00:10:23.440><c> i'm</c><00:10:23.600><c> going</c><00:10:23.760><c> to</c><00:10:23.920><c> run</c><00:10:24.160><c> the</c><00:10:24.240><c> same</c>
+
+00:10:24.470 --> 00:10:24.480 align:start position:0%
+and here also i'm going to run the same
+ 
+
+00:10:24.480 --> 00:10:26.389 align:start position:0%
+and here also i'm going to run the same
+application
+
+00:10:26.389 --> 00:10:26.399 align:start position:0%
+application
+ 
+
+00:10:26.399 --> 00:10:28.710 align:start position:0%
+application
+right<00:10:26.720><c> so</c><00:10:27.120><c> the</c><00:10:27.360><c> second</c><00:10:27.760><c> instance</c><00:10:28.160><c> of</c><00:10:28.320><c> the</c><00:10:28.399><c> same</c>
+
+00:10:28.710 --> 00:10:28.720 align:start position:0%
+right so the second instance of the same
+ 
+
+00:10:28.720 --> 00:10:29.750 align:start position:0%
+right so the second instance of the same
+server
+
+00:10:29.750 --> 00:10:29.760 align:start position:0%
+server
+ 
+
+00:10:29.760 --> 00:10:33.269 align:start position:0%
+server
+here<00:10:30.240><c> the</c><00:10:30.399><c> bind</c><00:10:30.800><c> and</c><00:10:30.959><c> listen</c><00:10:31.360><c> both</c><00:10:31.600><c> fail</c><00:10:32.560><c> right</c>
+
+00:10:33.269 --> 00:10:33.279 align:start position:0%
+here the bind and listen both fail right
+ 
+
+00:10:33.279 --> 00:10:36.550 align:start position:0%
+here the bind and listen both fail right
+why<00:10:34.320><c> because</c><00:10:35.040><c> we</c><00:10:35.200><c> cannot</c><00:10:35.680><c> listen</c><00:10:36.000><c> to</c><00:10:36.160><c> the</c><00:10:36.320><c> same</c>
+
+00:10:36.550 --> 00:10:36.560 align:start position:0%
+why because we cannot listen to the same
+ 
+
+00:10:36.560 --> 00:10:37.750 align:start position:0%
+why because we cannot listen to the same
+port<00:10:36.959><c> again</c>
+
+00:10:37.750 --> 00:10:37.760 align:start position:0%
+port again
+ 
+
+00:10:37.760 --> 00:10:40.710 align:start position:0%
+port again
+and<00:10:37.920><c> again</c><00:10:39.040><c> right</c><00:10:39.680><c> if</c><00:10:39.839><c> we</c><00:10:40.000><c> want</c><00:10:40.240><c> to</c><00:10:40.320><c> allow</c><00:10:40.640><c> it</c>
+
+00:10:40.710 --> 00:10:40.720 align:start position:0%
+and again right if we want to allow it
+ 
+
+00:10:40.720 --> 00:10:41.750 align:start position:0%
+and again right if we want to allow it
+to<00:10:40.880><c> happen</c>
+
+00:10:41.750 --> 00:10:41.760 align:start position:0%
+to happen
+ 
+
+00:10:41.760 --> 00:10:43.509 align:start position:0%
+to happen
+then<00:10:42.079><c> in</c><00:10:42.240><c> that</c><00:10:42.480><c> case</c><00:10:42.720><c> we</c><00:10:42.880><c> just</c><00:10:43.040><c> need</c><00:10:43.200><c> to</c><00:10:43.360><c> do</c>
+
+00:10:43.509 --> 00:10:43.519 align:start position:0%
+then in that case we just need to do
+ 
+
+00:10:43.519 --> 00:10:45.190 align:start position:0%
+then in that case we just need to do
+this<00:10:44.079><c> we</c><00:10:44.240><c> just</c><00:10:44.480><c> need</c><00:10:44.720><c> to</c>
+
+00:10:45.190 --> 00:10:45.200 align:start position:0%
+this we just need to
+ 
+
+00:10:45.200 --> 00:10:47.750 align:start position:0%
+this we just need to
+call<00:10:45.440><c> this</c><00:10:45.600><c> function</c><00:10:46.000><c> set</c><00:10:46.240><c> sock</c><00:10:46.560><c> opt</c><00:10:47.360><c> this</c><00:10:47.519><c> set</c>
+
+00:10:47.750 --> 00:10:47.760 align:start position:0%
+call this function set sock opt this set
+ 
+
+00:10:47.760 --> 00:10:49.030 align:start position:0%
+call this function set sock opt this set
+saw<00:10:48.000><c> cop</c><00:10:48.240><c> takes</c><00:10:48.480><c> the</c><00:10:48.640><c> first</c>
+
+00:10:49.030 --> 00:10:49.040 align:start position:0%
+saw cop takes the first
+ 
+
+00:10:49.040 --> 00:10:51.590 align:start position:0%
+saw cop takes the first
+argument<00:10:49.440><c> as</c><00:10:49.680><c> socket</c><00:10:50.560><c> the</c><00:10:50.720><c> second</c><00:10:51.120><c> argument</c>
+
+00:10:51.590 --> 00:10:51.600 align:start position:0%
+argument as socket the second argument
+ 
+
+00:10:51.600 --> 00:10:52.790 align:start position:0%
+argument as socket the second argument
+has<00:10:51.760><c> the</c><00:10:51.839><c> level</c><00:10:52.160><c> of</c><00:10:52.240><c> the</c><00:10:52.320><c> socket</c>
+
+00:10:52.790 --> 00:10:52.800 align:start position:0%
+has the level of the socket
+ 
+
+00:10:52.800 --> 00:10:54.949 align:start position:0%
+has the level of the socket
+soul<00:10:53.120><c> socket</c><00:10:53.440><c> i</c><00:10:53.519><c> have</c><00:10:53.680><c> provided</c><00:10:54.079><c> here</c><00:10:54.560><c> you</c><00:10:54.720><c> can</c>
+
+00:10:54.949 --> 00:10:54.959 align:start position:0%
+soul socket i have provided here you can
+ 
+
+00:10:54.959 --> 00:10:56.710 align:start position:0%
+soul socket i have provided here you can
+go<00:10:55.120><c> to</c><00:10:55.200><c> the</c><00:10:55.360><c> details</c><00:10:55.839><c> of</c><00:10:56.000><c> this</c><00:10:56.320><c> uh</c>
+
+00:10:56.710 --> 00:10:56.720 align:start position:0%
+go to the details of this uh
+ 
+
+00:10:56.720 --> 00:10:59.590 align:start position:0%
+go to the details of this uh
+these<00:10:57.279><c> values</c><00:10:58.079><c> or</c><00:10:58.399><c> other</c><00:10:58.640><c> options</c><00:10:59.360><c> on</c><00:10:59.440><c> the</c>
+
+00:10:59.590 --> 00:10:59.600 align:start position:0%
+these values or other options on the
+ 
+
+00:10:59.600 --> 00:11:00.790 align:start position:0%
+these values or other options on the
+msdn
+
+00:11:00.790 --> 00:11:00.800 align:start position:0%
+msdn
+ 
+
+00:11:00.800 --> 00:11:03.269 align:start position:0%
+msdn
+but<00:11:01.600><c> in</c><00:11:01.760><c> this</c><00:11:02.240><c> video</c><00:11:02.640><c> i'm</c><00:11:02.800><c> not</c><00:11:02.959><c> going</c><00:11:03.120><c> to</c>
+
+00:11:03.269 --> 00:11:03.279 align:start position:0%
+but in this video i'm not going to
+ 
+
+00:11:03.279 --> 00:11:06.389 align:start position:0%
+but in this video i'm not going to
+explain<00:11:03.600><c> them</c><00:11:03.839><c> in</c><00:11:04.000><c> detail</c>
+
+00:11:06.389 --> 00:11:06.399 align:start position:0%
+explain them in detail
+ 
+
+00:11:06.399 --> 00:11:09.030 align:start position:0%
+explain them in detail
+the<00:11:06.560><c> next</c><00:11:06.800><c> one</c><00:11:07.120><c> is</c><00:11:07.519><c> the</c><00:11:07.760><c> option</c><00:11:08.399><c> like</c><00:11:08.640><c> how</c><00:11:08.880><c> you</c>
+
+00:11:09.030 --> 00:11:09.040 align:start position:0%
+the next one is the option like how you
+ 
+
+00:11:09.040 --> 00:11:10.949 align:start position:0%
+the next one is the option like how you
+can<00:11:09.360><c> how</c><00:11:09.519><c> you</c><00:11:09.680><c> want</c><00:11:09.920><c> to</c><00:11:10.079><c> use</c><00:11:10.240><c> this</c><00:11:10.399><c> set</c><00:11:10.640><c> stock</c>
+
+00:11:10.949 --> 00:11:10.959 align:start position:0%
+can how you want to use this set stock
+ 
+
+00:11:10.959 --> 00:11:12.310 align:start position:0%
+can how you want to use this set stock
+opt
+
+00:11:12.310 --> 00:11:12.320 align:start position:0%
+opt
+ 
+
+00:11:12.320 --> 00:11:14.150 align:start position:0%
+opt
+the<00:11:12.560><c> instruction</c><00:11:13.120><c> to</c><00:11:13.200><c> the</c><00:11:13.360><c> state</c><00:11:13.600><c> sockopt</c><00:11:14.079><c> is</c>
+
+00:11:14.150 --> 00:11:14.160 align:start position:0%
+the instruction to the state sockopt is
+ 
+
+00:11:14.160 --> 00:11:16.310 align:start position:0%
+the instruction to the state sockopt is
+provided<00:11:14.720><c> by</c><00:11:14.959><c> this</c><00:11:15.200><c> argument</c><00:11:15.600><c> so</c><00:11:15.760><c> here</c><00:11:16.000><c> i</c><00:11:16.160><c> have</c>
+
+00:11:16.310 --> 00:11:16.320 align:start position:0%
+provided by this argument so here i have
+ 
+
+00:11:16.320 --> 00:11:18.069 align:start position:0%
+provided by this argument so here i have
+provided<00:11:16.720><c> the</c><00:11:16.880><c> instruction</c><00:11:17.360><c> that</c><00:11:17.600><c> i</c><00:11:17.680><c> want</c><00:11:17.920><c> to</c>
+
+00:11:18.069 --> 00:11:18.079 align:start position:0%
+provided the instruction that i want to
+ 
+
+00:11:18.079 --> 00:11:19.030 align:start position:0%
+provided the instruction that i want to
+reuse
+
+00:11:19.030 --> 00:11:19.040 align:start position:0%
+reuse
+ 
+
+00:11:19.040 --> 00:11:22.230 align:start position:0%
+reuse
+the<00:11:19.279><c> port</c><00:11:19.519><c> address</c><00:11:20.000><c> i</c><00:11:20.160><c> want</c><00:11:21.120><c> the</c><00:11:21.360><c> others</c><00:11:22.000><c> the</c>
+
+00:11:22.230 --> 00:11:22.240 align:start position:0%
+the port address i want the others the
+ 
+
+00:11:22.240 --> 00:11:24.230 align:start position:0%
+the port address i want the others the
+other<00:11:22.480><c> servers</c><00:11:22.800><c> to</c><00:11:23.040><c> other</c><00:11:23.279><c> server</c><00:11:23.680><c> to</c><00:11:23.920><c> reuse</c>
+
+00:11:24.230 --> 00:11:24.240 align:start position:0%
+other servers to other server to reuse
+ 
+
+00:11:24.240 --> 00:11:25.750 align:start position:0%
+other servers to other server to reuse
+this<00:11:24.480><c> port</c><00:11:24.720><c> address</c>
+
+00:11:25.750 --> 00:11:25.760 align:start position:0%
+this port address
+ 
+
+00:11:25.760 --> 00:11:28.470 align:start position:0%
+this port address
+right<00:11:26.079><c> and</c><00:11:26.240><c> the</c><00:11:26.480><c> next</c><00:11:26.800><c> argument</c><00:11:27.279><c> is</c><00:11:27.360><c> this</c><00:11:27.519><c> one</c>
+
+00:11:28.470 --> 00:11:28.480 align:start position:0%
+right and the next argument is this one
+ 
+
+00:11:28.480 --> 00:11:30.230 align:start position:0%
+right and the next argument is this one
+you<00:11:28.640><c> need</c><00:11:28.800><c> to</c><00:11:28.959><c> remember</c><00:11:29.360><c> this</c><00:11:29.519><c> one</c><00:11:29.680><c> opt</c><00:11:30.000><c> value</c>
+
+00:11:30.230 --> 00:11:30.240 align:start position:0%
+you need to remember this one opt value
+ 
+
+00:11:30.240 --> 00:11:31.910 align:start position:0%
+you need to remember this one opt value
+is<00:11:30.320><c> zero</c><00:11:30.720><c> and</c><00:11:30.800><c> the</c><00:11:30.959><c> length</c><00:11:31.279><c> of</c><00:11:31.360><c> this</c><00:11:31.600><c> is</c>
+
+00:11:31.910 --> 00:11:31.920 align:start position:0%
+is zero and the length of this is
+ 
+
+00:11:31.920 --> 00:11:34.230 align:start position:0%
+is zero and the length of this is
+of<00:11:32.399><c> size</c><00:11:32.640><c> of</c><00:11:32.800><c> opt</c><00:11:33.040><c> value</c><00:11:33.680><c> i</c><00:11:33.760><c> just</c><00:11:34.000><c> need</c><00:11:34.160><c> to</c>
+
+00:11:34.230 --> 00:11:34.240 align:start position:0%
+of size of opt value i just need to
+ 
+
+00:11:34.240 --> 00:11:35.670 align:start position:0%
+of size of opt value i just need to
+provide<00:11:34.560><c> the</c><00:11:34.720><c> address</c><00:11:35.120><c> of</c><00:11:35.279><c> length</c>
+
+00:11:35.670 --> 00:11:35.680 align:start position:0%
+provide the address of length
+ 
+
+00:11:35.680 --> 00:11:37.750 align:start position:0%
+provide the address of length
+type<00:11:35.920><c> cast</c><00:11:36.160><c> it</c><00:11:36.320><c> to</c><00:11:36.399><c> const</c><00:11:36.720><c> characteristic</c><00:11:37.360><c> and</c>
+
+00:11:37.750 --> 00:11:37.760 align:start position:0%
+type cast it to const characteristic and
+ 
+
+00:11:37.760 --> 00:11:40.470 align:start position:0%
+type cast it to const characteristic and
+the<00:11:37.920><c> last</c><00:11:38.240><c> argument</c><00:11:38.640><c> is</c><00:11:38.720><c> the</c><00:11:38.800><c> length</c><00:11:39.120><c> itself</c>
+
+00:11:40.470 --> 00:11:40.480 align:start position:0%
+the last argument is the length itself
+ 
+
+00:11:40.480 --> 00:11:43.670 align:start position:0%
+the last argument is the length itself
+right<00:11:41.200><c> so</c><00:11:41.519><c> opt</c><00:11:42.000><c> value</c><00:11:42.720><c> is</c><00:11:43.120><c> that</c><00:11:43.279><c> what</c><00:11:43.519><c> is</c><00:11:43.600><c> the</c>
+
+00:11:43.670 --> 00:11:43.680 align:start position:0%
+right so opt value is that what is the
+ 
+
+00:11:43.680 --> 00:11:45.269 align:start position:0%
+right so opt value is that what is the
+significance<00:11:44.240><c> of</c><00:11:44.399><c> opt</c><00:11:44.720><c> value</c>
+
+00:11:45.269 --> 00:11:45.279 align:start position:0%
+significance of opt value
+ 
+
+00:11:45.279 --> 00:11:48.630 align:start position:0%
+significance of opt value
+if<00:11:45.440><c> i</c><00:11:45.600><c> provide</c><00:11:45.920><c> it</c><00:11:46.079><c> to</c><00:11:46.240><c> 1</c><00:11:46.640><c> then</c><00:11:46.880><c> it</c><00:11:47.040><c> means</c><00:11:47.279><c> that</c>
+
+00:11:48.630 --> 00:11:48.640 align:start position:0%
+if i provide it to 1 then it means that
+ 
+
+00:11:48.640 --> 00:11:50.629 align:start position:0%
+if i provide it to 1 then it means that
+other<00:11:48.880><c> servers</c><00:11:49.279><c> will</c><00:11:49.519><c> not</c><00:11:49.760><c> only</c><00:11:50.079><c> be</c><00:11:50.240><c> able</c><00:11:50.480><c> to</c>
+
+00:11:50.629 --> 00:11:50.639 align:start position:0%
+other servers will not only be able to
+ 
+
+00:11:50.639 --> 00:11:52.629 align:start position:0%
+other servers will not only be able to
+bind<00:11:51.040><c> and</c><00:11:51.200><c> listen</c><00:11:51.519><c> to</c><00:11:51.680><c> the</c><00:11:51.839><c> same</c><00:11:52.079><c> port</c>
+
+00:11:52.629 --> 00:11:52.639 align:start position:0%
+bind and listen to the same port
+ 
+
+00:11:52.639 --> 00:11:55.269 align:start position:0%
+bind and listen to the same port
+but<00:11:52.880><c> they</c><00:11:53.040><c> will</c><00:11:53.200><c> be</c><00:11:53.440><c> also</c><00:11:53.760><c> able</c><00:11:54.000><c> to</c><00:11:54.240><c> connect</c><00:11:55.120><c> to</c>
+
+00:11:55.269 --> 00:11:55.279 align:start position:0%
+but they will be also able to connect to
+ 
+
+00:11:55.279 --> 00:11:56.870 align:start position:0%
+but they will be also able to connect to
+the<00:11:55.440><c> new</c><00:11:55.680><c> connections</c><00:11:56.320><c> connect</c>
+
+00:11:56.870 --> 00:11:56.880 align:start position:0%
+the new connections connect
+ 
+
+00:11:56.880 --> 00:11:58.870 align:start position:0%
+the new connections connect
+will<00:11:57.200><c> they</c><00:11:57.360><c> will</c><00:11:57.519><c> be</c><00:11:57.680><c> able</c><00:11:57.839><c> to</c><00:11:58.079><c> allow</c><00:11:58.320><c> the</c><00:11:58.480><c> new</c>
+
+00:11:58.870 --> 00:11:58.880 align:start position:0%
+will they will be able to allow the new
+ 
+
+00:11:58.880 --> 00:12:00.629 align:start position:0%
+will they will be able to allow the new
+connections<00:11:59.440><c> to</c><00:11:59.600><c> connect</c>
+
+00:12:00.629 --> 00:12:00.639 align:start position:0%
+connections to connect
+ 
+
+00:12:00.639 --> 00:12:03.030 align:start position:0%
+connections to connect
+new<00:12:00.800><c> client</c><00:12:01.120><c> to</c><00:12:01.279><c> connect</c><00:12:01.600><c> to</c><00:12:01.680><c> this</c><00:12:01.920><c> port</c><00:12:02.399><c> right</c>
+
+00:12:03.030 --> 00:12:03.040 align:start position:0%
+new client to connect to this port right
+ 
+
+00:12:03.040 --> 00:12:04.790 align:start position:0%
+new client to connect to this port right
+so<00:12:03.200><c> there</c><00:12:03.440><c> are</c><00:12:03.519><c> two</c><00:12:03.680><c> things</c><00:12:04.000><c> one</c><00:12:04.160><c> is</c><00:12:04.399><c> you</c><00:12:04.560><c> can</c>
+
+00:12:04.790 --> 00:12:04.800 align:start position:0%
+so there are two things one is you can
+ 
+
+00:12:04.800 --> 00:12:06.069 align:start position:0%
+so there are two things one is you can
+bind<00:12:05.040><c> to</c><00:12:05.200><c> you</c>
+
+00:12:06.069 --> 00:12:06.079 align:start position:0%
+bind to you
+ 
+
+00:12:06.079 --> 00:12:08.310 align:start position:0%
+bind to you
+one<00:12:06.320><c> server</c><00:12:06.720><c> other</c><00:12:06.959><c> server</c><00:12:07.279><c> can</c><00:12:07.519><c> bind</c><00:12:07.920><c> to</c><00:12:08.079><c> one</c>
+
+00:12:08.310 --> 00:12:08.320 align:start position:0%
+one server other server can bind to one
+ 
+
+00:12:08.320 --> 00:12:09.750 align:start position:0%
+one server other server can bind to one
+of<00:12:08.399><c> the</c><00:12:08.560><c> ports</c>
+
+00:12:09.750 --> 00:12:09.760 align:start position:0%
+of the ports
+ 
+
+00:12:09.760 --> 00:12:11.350 align:start position:0%
+of the ports
+the<00:12:09.920><c> same</c><00:12:10.160><c> port</c><00:12:10.480><c> on</c><00:12:10.560><c> which</c><00:12:10.800><c> you</c><00:12:10.880><c> are</c><00:12:10.959><c> listening</c>
+
+00:12:11.350 --> 00:12:11.360 align:start position:0%
+the same port on which you are listening
+ 
+
+00:12:11.360 --> 00:12:13.030 align:start position:0%
+the same port on which you are listening
+and<00:12:11.519><c> the</c><00:12:11.680><c> other</c><00:12:11.920><c> thing</c><00:12:12.160><c> is</c><00:12:12.320><c> that</c><00:12:12.639><c> you</c><00:12:12.800><c> can</c>
+
+00:12:13.030 --> 00:12:13.040 align:start position:0%
+and the other thing is that you can
+ 
+
+00:12:13.040 --> 00:12:14.710 align:start position:0%
+and the other thing is that you can
+connect<00:12:13.440><c> as</c><00:12:13.600><c> well</c><00:12:13.839><c> so</c><00:12:14.000><c> there</c><00:12:14.160><c> are</c><00:12:14.240><c> two</c><00:12:14.399><c> things</c>
+
+00:12:14.710 --> 00:12:14.720 align:start position:0%
+connect as well so there are two things
+ 
+
+00:12:14.720 --> 00:12:16.389 align:start position:0%
+connect as well so there are two things
+if<00:12:14.880><c> we</c><00:12:15.040><c> provide</c><00:12:15.440><c> one</c>
+
+00:12:16.389 --> 00:12:16.399 align:start position:0%
+if we provide one
+ 
+
+00:12:16.399 --> 00:12:18.949 align:start position:0%
+if we provide one
+then<00:12:16.639><c> in</c><00:12:16.800><c> that</c><00:12:17.040><c> case</c><00:12:17.440><c> we</c><00:12:17.680><c> allow</c><00:12:17.920><c> both</c><00:12:18.720><c> the</c>
+
+00:12:18.949 --> 00:12:18.959 align:start position:0%
+then in that case we allow both the
+ 
+
+00:12:18.959 --> 00:12:20.870 align:start position:0%
+then in that case we allow both the
+servers<00:12:19.360><c> the</c><00:12:19.519><c> other</c><00:12:19.680><c> servers</c><00:12:20.160><c> can</c><00:12:20.399><c> listen</c><00:12:20.720><c> to</c>
+
+00:12:20.870 --> 00:12:20.880 align:start position:0%
+servers the other servers can listen to
+ 
+
+00:12:20.880 --> 00:12:21.430 align:start position:0%
+servers the other servers can listen to
+the
+
+00:12:21.430 --> 00:12:21.440 align:start position:0%
+the
+ 
+
+00:12:21.440 --> 00:12:23.110 align:start position:0%
+the
+same<00:12:21.680><c> port</c><00:12:22.000><c> and</c><00:12:22.160><c> they</c><00:12:22.320><c> can</c><00:12:22.480><c> also</c><00:12:22.800><c> accept</c><00:12:23.040><c> the</c>
+
+00:12:23.110 --> 00:12:23.120 align:start position:0%
+same port and they can also accept the
+ 
+
+00:12:23.120 --> 00:12:24.870 align:start position:0%
+same port and they can also accept the
+connection<00:12:23.519><c> but</c><00:12:23.760><c> if</c><00:12:23.839><c> we</c><00:12:24.000><c> provide</c><00:12:24.320><c> zero</c><00:12:24.639><c> then</c>
+
+00:12:24.870 --> 00:12:24.880 align:start position:0%
+connection but if we provide zero then
+ 
+
+00:12:24.880 --> 00:12:25.829 align:start position:0%
+connection but if we provide zero then
+in<00:12:24.959><c> that</c><00:12:25.200><c> case</c>
+
+00:12:25.829 --> 00:12:25.839 align:start position:0%
+in that case
+ 
+
+00:12:25.839 --> 00:12:29.190 align:start position:0%
+in that case
+the<00:12:26.079><c> other</c><00:12:26.560><c> servers</c><00:12:27.680><c> can</c><00:12:28.079><c> only</c><00:12:28.720><c> bind</c><00:12:29.040><c> and</c>
+
+00:12:29.190 --> 00:12:29.200 align:start position:0%
+the other servers can only bind and
+ 
+
+00:12:29.200 --> 00:12:30.629 align:start position:0%
+the other servers can only bind and
+listen<00:12:29.519><c> to</c><00:12:29.680><c> the</c><00:12:29.839><c> port</c>
+
+00:12:30.629 --> 00:12:30.639 align:start position:0%
+listen to the port
+ 
+
+00:12:30.639 --> 00:12:33.670 align:start position:0%
+listen to the port
+but<00:12:30.880><c> they</c><00:12:31.040><c> cannot</c><00:12:31.519><c> accept</c><00:12:31.920><c> a</c><00:12:32.000><c> new</c><00:12:32.160><c> connection</c>
+
+00:12:33.670 --> 00:12:33.680 align:start position:0%
+but they cannot accept a new connection
+ 
+
+00:12:33.680 --> 00:12:35.750 align:start position:0%
+but they cannot accept a new connection
+okay<00:12:34.320><c> so</c><00:12:34.639><c> this</c><00:12:34.959><c> this</c><00:12:35.120><c> value</c><00:12:35.440><c> has</c><00:12:35.600><c> this</c>
+
+00:12:35.750 --> 00:12:35.760 align:start position:0%
+okay so this this value has this
+ 
+
+00:12:35.760 --> 00:12:37.590 align:start position:0%
+okay so this this value has this
+significance<00:12:36.560><c> right</c><00:12:36.720><c> so</c><00:12:36.880><c> as</c><00:12:37.120><c> of</c><00:12:37.200><c> now</c><00:12:37.360><c> i</c><00:12:37.440><c> am</c>
+
+00:12:37.590 --> 00:12:37.600 align:start position:0%
+significance right so as of now i am
+ 
+
+00:12:37.600 --> 00:12:38.710 align:start position:0%
+significance right so as of now i am
+going<00:12:37.760><c> to</c><00:12:37.839><c> provide</c><00:12:38.240><c> it</c><00:12:38.399><c> 1</c>
+
+00:12:38.710 --> 00:12:38.720 align:start position:0%
+going to provide it 1
+ 
+
+00:12:38.720 --> 00:12:40.870 align:start position:0%
+going to provide it 1
+and<00:12:38.800><c> we</c><00:12:38.959><c> will</c><00:12:39.120><c> test</c><00:12:39.360><c> it</c><00:12:39.440><c> with</c><00:12:39.600><c> 0</c><00:12:39.920><c> as</c><00:12:40.079><c> well</c><00:12:40.639><c> right</c>
+
+00:12:40.870 --> 00:12:40.880 align:start position:0%
+and we will test it with 0 as well right
+ 
+
+00:12:40.880 --> 00:12:42.550 align:start position:0%
+and we will test it with 0 as well right
+so<00:12:41.120><c> i</c><00:12:41.279><c> hope</c><00:12:41.519><c> you</c><00:12:41.760><c> are</c><00:12:41.839><c> able</c><00:12:42.079><c> to</c><00:12:42.160><c> understand</c>
+
+00:12:42.550 --> 00:12:42.560 align:start position:0%
+so i hope you are able to understand
+ 
+
+00:12:42.560 --> 00:12:44.550 align:start position:0%
+so i hope you are able to understand
+what<00:12:42.720><c> is</c><00:12:42.800><c> the</c><00:12:43.040><c> significance</c><00:12:43.600><c> of</c><00:12:43.680><c> this</c><00:12:43.920><c> value</c>
+
+00:12:44.550 --> 00:12:44.560 align:start position:0%
+what is the significance of this value
+ 
+
+00:12:44.560 --> 00:12:47.670 align:start position:0%
+what is the significance of this value
+and<00:12:44.720><c> let's</c><00:12:44.959><c> see</c><00:12:45.920><c> again</c><00:12:46.480><c> what</c><00:12:46.800><c> this</c>
+
+00:12:47.670 --> 00:12:47.680 align:start position:0%
+and let's see again what this
+ 
+
+00:12:47.680 --> 00:12:51.110 align:start position:0%
+and let's see again what this
+program<00:12:48.240><c> does</c><00:12:48.800><c> if</c><00:12:48.959><c> i</c><00:12:49.120><c> run</c><00:12:49.279><c> it</c><00:12:49.440><c> again</c><00:12:50.560><c> just</c><00:12:50.959><c> need</c>
+
+00:12:51.110 --> 00:12:51.120 align:start position:0%
+program does if i run it again just need
+ 
+
+00:12:51.120 --> 00:12:53.030 align:start position:0%
+program does if i run it again just need
+to<00:12:51.279><c> comment</c><00:12:51.680><c> it</c><00:12:51.760><c> i</c><00:12:51.839><c> just</c><00:12:52.000><c> need</c><00:12:52.160><c> to</c><00:12:52.320><c> remove</c><00:12:52.639><c> this</c>
+
+00:12:53.030 --> 00:12:53.040 align:start position:0%
+to comment it i just need to remove this
+ 
+
+00:12:53.040 --> 00:12:54.790 align:start position:0%
+to comment it i just need to remove this
+because<00:12:53.440><c> android</c><00:12:53.839><c> has</c><00:12:54.000><c> already</c><00:12:54.240><c> been</c><00:12:54.399><c> defined</c>
+
+00:12:54.790 --> 00:12:54.800 align:start position:0%
+because android has already been defined
+ 
+
+00:12:54.800 --> 00:12:56.870 align:start position:0%
+because android has already been defined
+so<00:12:54.959><c> let's</c><00:12:55.680><c> press</c><00:12:56.000><c> f5</c>
+
+00:12:56.870 --> 00:12:56.880 align:start position:0%
+so let's press f5
+ 
+
+00:12:56.880 --> 00:12:59.030 align:start position:0%
+so let's press f5
+so<00:12:57.120><c> the</c><00:12:57.200><c> first</c><00:12:57.519><c> instance</c><00:12:58.079><c> as</c><00:12:58.320><c> usual</c><00:12:58.800><c> is</c><00:12:58.880><c> going</c>
+
+00:12:59.030 --> 00:12:59.040 align:start position:0%
+so the first instance as usual is going
+ 
+
+00:12:59.040 --> 00:13:00.550 align:start position:0%
+so the first instance as usual is going
+to<00:12:59.279><c> run</c><00:12:59.519><c> fine</c>
+
+00:13:00.550 --> 00:13:00.560 align:start position:0%
+to run fine
+ 
+
+00:13:00.560 --> 00:13:02.870 align:start position:0%
+to run fine
+it<00:13:00.720><c> will</c><00:13:01.519><c> show</c><00:13:01.760><c> me</c><00:13:01.920><c> the</c><00:13:02.000><c> bind</c><00:13:02.240><c> successful</c><00:13:02.800><c> and</c>
+
+00:13:02.870 --> 00:13:02.880 align:start position:0%
+it will show me the bind successful and
+ 
+
+00:13:02.880 --> 00:13:04.310 align:start position:0%
+it will show me the bind successful and
+the<00:13:02.959><c> lesson</c><00:13:03.279><c> successful</c>
+
+00:13:04.310 --> 00:13:04.320 align:start position:0%
+the lesson successful
+ 
+
+00:13:04.320 --> 00:13:07.590 align:start position:0%
+the lesson successful
+now<00:13:04.560><c> let's</c><00:13:04.800><c> see</c><00:13:04.959><c> the</c><00:13:05.200><c> other</c><00:13:05.440><c> instance</c>
+
+00:13:07.590 --> 00:13:07.600 align:start position:0%
+now let's see the other instance
+ 
+
+00:13:07.600 --> 00:13:11.430 align:start position:0%
+now let's see the other instance
+open<00:13:07.920><c> the</c><00:13:08.000><c> command</c><00:13:08.399><c> prompt</c><00:13:08.800><c> and</c><00:13:08.959><c> just</c><00:13:09.360><c> do</c>
+
+00:13:11.430 --> 00:13:11.440 align:start position:0%
+open the command prompt and just do
+ 
+
+00:13:11.440 --> 00:13:13.430 align:start position:0%
+open the command prompt and just do
+the<00:13:11.600><c> socket</c><00:13:12.000><c> server.exe</c><00:13:12.880><c> and</c><00:13:12.959><c> you</c><00:13:13.040><c> can</c><00:13:13.200><c> see</c>
+
+00:13:13.430 --> 00:13:13.440 align:start position:0%
+the socket server.exe and you can see
+ 
+
+00:13:13.440 --> 00:13:15.110 align:start position:0%
+the socket server.exe and you can see
+that<00:13:13.600><c> the</c><00:13:13.760><c> second</c><00:13:14.079><c> instance</c><00:13:14.560><c> as</c><00:13:14.720><c> well</c>
+
+00:13:15.110 --> 00:13:15.120 align:start position:0%
+that the second instance as well
+ 
+
+00:13:15.120 --> 00:13:16.870 align:start position:0%
+that the second instance as well
+is<00:13:15.200><c> giving</c><00:13:15.519><c> me</c><00:13:15.680><c> bind</c><00:13:15.920><c> successful</c><00:13:16.480><c> and</c><00:13:16.639><c> listen</c>
+
+00:13:16.870 --> 00:13:16.880 align:start position:0%
+is giving me bind successful and listen
+ 
+
+00:13:16.880 --> 00:13:18.310 align:start position:0%
+is giving me bind successful and listen
+successful<00:13:17.839><c> so</c>
+
+00:13:18.310 --> 00:13:18.320 align:start position:0%
+successful so
+ 
+
+00:13:18.320 --> 00:13:20.790 align:start position:0%
+successful so
+this<00:13:18.560><c> was</c><00:13:18.800><c> one</c><00:13:19.040><c> of</c><00:13:19.200><c> the</c><00:13:19.360><c> uses</c><00:13:20.160><c> of</c><00:13:20.320><c> this</c><00:13:20.560><c> set</c>
+
+00:13:20.790 --> 00:13:20.800 align:start position:0%
+this was one of the uses of this set
+ 
+
+00:13:20.800 --> 00:13:21.750 align:start position:0%
+this was one of the uses of this set
+sock<00:13:21.120><c> opt</c>
+
+00:13:21.750 --> 00:13:21.760 align:start position:0%
+sock opt
+ 
+
+00:13:21.760 --> 00:13:24.310 align:start position:0%
+sock opt
+similarly<00:13:22.320><c> there</c><00:13:22.560><c> are</c><00:13:22.639><c> many</c><00:13:23.040><c> other</c><00:13:23.279><c> uses</c>
+
+00:13:24.310 --> 00:13:24.320 align:start position:0%
+similarly there are many other uses
+ 
+
+00:13:24.320 --> 00:13:25.190 align:start position:0%
+similarly there are many other uses
+right
+
+00:13:25.190 --> 00:13:25.200 align:start position:0%
+right
+ 
+
+00:13:25.200 --> 00:13:28.069 align:start position:0%
+right
+if<00:13:25.440><c> i</c><00:13:25.760><c> go</c><00:13:25.920><c> to</c><00:13:26.079><c> the</c><00:13:26.720><c> definition</c><00:13:27.360><c> of</c><00:13:27.440><c> this</c><00:13:27.680><c> reuse</c>
+
+00:13:28.069 --> 00:13:28.079 align:start position:0%
+if i go to the definition of this reuse
+ 
+
+00:13:28.079 --> 00:13:29.750 align:start position:0%
+if i go to the definition of this reuse
+editor<00:13:28.399><c> you</c><00:13:28.560><c> can</c><00:13:28.720><c> see</c><00:13:28.880><c> that</c><00:13:29.120><c> there</c><00:13:29.279><c> are</c><00:13:29.440><c> many</c>
+
+00:13:29.750 --> 00:13:29.760 align:start position:0%
+editor you can see that there are many
+ 
+
+00:13:29.760 --> 00:13:31.590 align:start position:0%
+editor you can see that there are many
+other<00:13:30.000><c> values</c>
+
+00:13:31.590 --> 00:13:31.600 align:start position:0%
+other values
+ 
+
+00:13:31.600 --> 00:13:34.310 align:start position:0%
+other values
+for<00:13:31.839><c> the</c><00:13:32.160><c> option</c><00:13:32.560><c> flag</c><00:13:33.040><c> per</c><00:13:33.279><c> socket</c><00:13:34.000><c> you</c><00:13:34.160><c> can</c>
+
+00:13:34.310 --> 00:13:34.320 align:start position:0%
+for the option flag per socket you can
+ 
+
+00:13:34.320 --> 00:13:36.069 align:start position:0%
+for the option flag per socket you can
+debug<00:13:34.720><c> the</c><00:13:34.800><c> connection</c><00:13:35.279><c> you</c><00:13:35.360><c> can</c><00:13:35.600><c> reuse</c><00:13:35.920><c> the</c>
+
+00:13:36.069 --> 00:13:36.079 align:start position:0%
+debug the connection you can reuse the
+ 
+
+00:13:36.079 --> 00:13:37.670 align:start position:0%
+debug the connection you can reuse the
+connection<00:13:36.399><c> that</c><00:13:36.639><c> i</c><00:13:36.720><c> have</c>
+
+00:13:37.670 --> 00:13:37.680 align:start position:0%
+connection that i have
+ 
+
+00:13:37.680 --> 00:13:39.269 align:start position:0%
+connection that i have
+you<00:13:37.760><c> can</c><00:13:37.920><c> reuse</c><00:13:38.240><c> the</c><00:13:38.560><c> port</c><00:13:38.800><c> address</c><00:13:39.120><c> that</c><00:13:39.199><c> i</c>
+
+00:13:39.269 --> 00:13:39.279 align:start position:0%
+you can reuse the port address that i
+ 
+
+00:13:39.279 --> 00:13:41.350 align:start position:0%
+you can reuse the port address that i
+have<00:13:39.440><c> just</c><00:13:39.680><c> shown</c><00:13:39.920><c> you</c><00:13:40.399><c> you</c><00:13:40.560><c> can</c>
+
+00:13:41.350 --> 00:13:41.360 align:start position:0%
+have just shown you you can
+ 
+
+00:13:41.360 --> 00:13:42.949 align:start position:0%
+have just shown you you can
+provide<00:13:41.760><c> an</c><00:13:41.920><c> option</c><00:13:42.160><c> to</c><00:13:42.320><c> keep</c><00:13:42.560><c> alive</c><00:13:42.800><c> the</c>
+
+00:13:42.949 --> 00:13:42.959 align:start position:0%
+provide an option to keep alive the
+ 
+
+00:13:42.959 --> 00:13:44.790 align:start position:0%
+provide an option to keep alive the
+connections<00:13:43.600><c> you</c><00:13:43.760><c> can</c><00:13:43.920><c> provide</c><00:13:44.320><c> an</c><00:13:44.480><c> option</c><00:13:44.720><c> to</c>
+
+00:13:44.790 --> 00:13:44.800 align:start position:0%
+connections you can provide an option to
+ 
+
+00:13:44.800 --> 00:13:47.030 align:start position:0%
+connections you can provide an option to
+broadcast<00:13:45.360><c> the</c><00:13:45.440><c> things</c><00:13:45.760><c> you</c><00:13:45.920><c> can</c>
+
+00:13:47.030 --> 00:13:47.040 align:start position:0%
+broadcast the things you can
+ 
+
+00:13:47.040 --> 00:13:49.430 align:start position:0%
+broadcast the things you can
+allow<00:13:47.360><c> the</c><00:13:47.680><c> uh</c><00:13:48.320><c> socket</c><00:13:48.639><c> to</c><00:13:48.800><c> use</c><00:13:48.959><c> the</c><00:13:49.120><c> low</c>
+
+00:13:49.430 --> 00:13:49.440 align:start position:0%
+allow the uh socket to use the low
+ 
+
+00:13:49.440 --> 00:13:50.710 align:start position:0%
+allow the uh socket to use the low
+loopback
+
+00:13:50.710 --> 00:13:50.720 align:start position:0%
+loopback
+ 
+
+00:13:50.720 --> 00:13:53.030 align:start position:0%
+loopback
+right<00:13:51.120><c> bypass</c><00:13:51.519><c> hardware</c><00:13:52.000><c> and</c><00:13:52.079><c> possible</c><00:13:52.720><c> if</c>
+
+00:13:53.030 --> 00:13:53.040 align:start position:0%
+right bypass hardware and possible if
+ 
+
+00:13:53.040 --> 00:13:54.629 align:start position:0%
+right bypass hardware and possible if
+when<00:13:53.279><c> possible</c>
+
+00:13:54.629 --> 00:13:54.639 align:start position:0%
+when possible
+ 
+
+00:13:54.639 --> 00:13:57.269 align:start position:0%
+when possible
+and<00:13:55.199><c> then</c><00:13:55.839><c> out</c><00:13:56.079><c> of</c><00:13:56.240><c> bound</c><00:13:56.560><c> data</c><00:13:56.880><c> if</c><00:13:56.959><c> you</c><00:13:57.040><c> want</c>
+
+00:13:57.269 --> 00:13:57.279 align:start position:0%
+and then out of bound data if you want
+ 
+
+00:13:57.279 --> 00:13:58.790 align:start position:0%
+and then out of bound data if you want
+to<00:13:57.360><c> receive</c><00:13:57.680><c> then</c><00:13:57.920><c> you</c><00:13:58.079><c> need</c><00:13:58.240><c> to</c><00:13:58.320><c> provide</c><00:13:58.639><c> this</c>
+
+00:13:58.790 --> 00:13:58.800 align:start position:0%
+to receive then you need to provide this
+ 
+
+00:13:58.800 --> 00:13:59.350 align:start position:0%
+to receive then you need to provide this
+one<00:13:59.040><c> so</c>
+
+00:13:59.350 --> 00:13:59.360 align:start position:0%
+one so
+ 
+
+00:13:59.360 --> 00:14:01.590 align:start position:0%
+one so
+anything<00:14:00.320><c> you</c><00:14:00.560><c> if</c><00:14:00.639><c> you</c><00:14:00.720><c> want</c><00:14:00.959><c> to</c><00:14:01.040><c> enable</c><00:14:01.440><c> or</c>
+
+00:14:01.590 --> 00:14:01.600 align:start position:0%
+anything you if you want to enable or
+ 
+
+00:14:01.600 --> 00:14:03.030 align:start position:0%
+anything you if you want to enable or
+disable<00:14:02.000><c> explicitly</c>
+
+00:14:03.030 --> 00:14:03.040 align:start position:0%
+disable explicitly
+ 
+
+00:14:03.040 --> 00:14:05.829 align:start position:0%
+disable explicitly
+you<00:14:03.279><c> can</c><00:14:03.519><c> use</c><00:14:03.760><c> set</c><00:14:04.079><c> stock</c><00:14:04.399><c> opt</c><00:14:05.279><c> right</c><00:14:05.519><c> so</c><00:14:05.680><c> i</c>
+
+00:14:05.829 --> 00:14:05.839 align:start position:0%
+you can use set stock opt right so i
+ 
+
+00:14:05.839 --> 00:14:07.269 align:start position:0%
+you can use set stock opt right so i
+have<00:14:06.079><c> just</c><00:14:06.399><c> shown</c><00:14:06.639><c> you</c>
+
+00:14:07.269 --> 00:14:07.279 align:start position:0%
+have just shown you
+ 
+
+00:14:07.279 --> 00:14:09.750 align:start position:0%
+have just shown you
+one<00:14:07.519><c> use</c><00:14:08.079><c> which</c><00:14:08.320><c> is</c><00:14:08.399><c> mostly</c><00:14:08.880><c> done</c><00:14:09.120><c> by</c><00:14:09.440><c> most</c><00:14:09.680><c> of</c>
+
+00:14:09.750 --> 00:14:09.760 align:start position:0%
+one use which is mostly done by most of
+ 
+
+00:14:09.760 --> 00:14:11.189 align:start position:0%
+one use which is mostly done by most of
+the<00:14:09.920><c> applications</c>
+
+00:14:11.189 --> 00:14:11.199 align:start position:0%
+the applications
+ 
+
+00:14:11.199 --> 00:14:13.590 align:start position:0%
+the applications
+uh<00:14:11.600><c> by</c><00:14:11.760><c> the</c><00:14:11.920><c> programmers</c><00:14:12.480><c> right</c><00:14:13.040><c> so</c><00:14:13.199><c> i</c><00:14:13.360><c> hope</c>
+
+00:14:13.590 --> 00:14:13.600 align:start position:0%
+uh by the programmers right so i hope
+ 
+
+00:14:13.600 --> 00:14:14.710 align:start position:0%
+uh by the programmers right so i hope
+you<00:14:13.760><c> are</c><00:14:13.839><c> able</c><00:14:14.079><c> to</c><00:14:14.160><c> understand</c><00:14:14.560><c> the</c><00:14:14.720><c> state</c>
+
+00:14:14.710 --> 00:14:14.720 align:start position:0%
+you are able to understand the state
+ 
+
+00:14:14.720 --> 00:14:15.430 align:start position:0%
+you are able to understand the state
+states
+
+00:14:15.430 --> 00:14:15.440 align:start position:0%
+states
+ 
+
+00:14:15.440 --> 00:14:18.310 align:start position:0%
+states
+option<00:14:15.680><c> here</c><00:14:16.560><c> right</c><00:14:17.279><c> if</c><00:14:17.440><c> i</c><00:14:17.760><c> let's</c><00:14:17.920><c> see</c><00:14:18.079><c> with</c>
+
+00:14:18.310 --> 00:14:18.320 align:start position:0%
+option here right if i let's see with
+ 
+
+00:14:18.320 --> 00:14:19.829 align:start position:0%
+option here right if i let's see with
+zero<00:14:18.639><c> as</c><00:14:18.720><c> well</c>
+
+00:14:19.829 --> 00:14:19.839 align:start position:0%
+zero as well
+ 
+
+00:14:19.839 --> 00:14:21.350 align:start position:0%
+zero as well
+right<00:14:20.000><c> so</c><00:14:20.160><c> with</c><00:14:20.399><c> zero</c><00:14:20.720><c> as</c><00:14:20.800><c> well</c><00:14:20.959><c> it</c><00:14:21.120><c> will</c><00:14:21.279><c> be</c>
+
+00:14:21.350 --> 00:14:21.360 align:start position:0%
+right so with zero as well it will be
+ 
+
+00:14:21.360 --> 00:14:23.910 align:start position:0%
+right so with zero as well it will be
+able<00:14:21.600><c> to</c><00:14:22.160><c> run</c><00:14:22.399><c> perfectly</c><00:14:22.880><c> fine</c><00:14:23.199><c> because</c>
+
+00:14:23.910 --> 00:14:23.920 align:start position:0%
+able to run perfectly fine because
+ 
+
+00:14:23.920 --> 00:14:25.670 align:start position:0%
+able to run perfectly fine because
+we<00:14:24.079><c> are</c><00:14:24.240><c> not</c><00:14:24.399><c> going</c><00:14:24.560><c> to</c><00:14:24.720><c> connect</c><00:14:25.279><c> anything</c>
+
+00:14:25.670 --> 00:14:25.680 align:start position:0%
+we are not going to connect anything
+ 
+
+00:14:25.680 --> 00:14:27.269 align:start position:0%
+we are not going to connect anything
+that<00:14:25.920><c> connection</c><00:14:26.399><c> thing</c>
+
+00:14:27.269 --> 00:14:27.279 align:start position:0%
+that connection thing
+ 
+
+00:14:27.279 --> 00:14:29.509 align:start position:0%
+that connection thing
+from<00:14:27.440><c> the</c><00:14:27.519><c> client</c><00:14:27.839><c> we</c><00:14:28.000><c> will</c><00:14:28.240><c> display</c><00:14:28.720><c> we</c><00:14:28.880><c> will</c>
+
+00:14:29.509 --> 00:14:29.519 align:start position:0%
+from the client we will display we will
+ 
+
+00:14:29.519 --> 00:14:31.269 align:start position:0%
+from the client we will display we will
+demonstrate<00:14:30.160><c> in</c><00:14:30.320><c> some</c><00:14:30.560><c> other</c><00:14:30.720><c> video</c><00:14:31.040><c> in</c><00:14:31.199><c> the</c>
+
+00:14:31.269 --> 00:14:31.279 align:start position:0%
+demonstrate in some other video in the
+ 
+
+00:14:31.279 --> 00:14:32.389 align:start position:0%
+demonstrate in some other video in the
+coming<00:14:31.519><c> videos</c>
+
+00:14:32.389 --> 00:14:32.399 align:start position:0%
+coming videos
+ 
+
+00:14:32.399 --> 00:14:35.110 align:start position:0%
+coming videos
+okay<00:14:32.639><c> so</c><00:14:32.800><c> let's</c><00:14:32.959><c> see</c><00:14:33.199><c> again</c><00:14:33.839><c> what</c><00:14:34.000><c> happens</c><00:14:34.880><c> so</c>
+
+00:14:35.110 --> 00:14:35.120 align:start position:0%
+okay so let's see again what happens so
+ 
+
+00:14:35.120 --> 00:14:36.470 align:start position:0%
+okay so let's see again what happens so
+the<00:14:35.199><c> bind</c><00:14:35.519><c> is</c><00:14:35.600><c> successful</c><00:14:36.079><c> listen</c><00:14:36.399><c> is</c>
+
+00:14:36.470 --> 00:14:36.480 align:start position:0%
+the bind is successful listen is
+ 
+
+00:14:36.480 --> 00:14:37.430 align:start position:0%
+the bind is successful listen is
+successful
+
+00:14:37.430 --> 00:14:37.440 align:start position:0%
+successful
+ 
+
+00:14:37.440 --> 00:14:39.509 align:start position:0%
+successful
+and<00:14:37.680><c> let's</c><00:14:38.000><c> come</c><00:14:38.160><c> to</c><00:14:38.320><c> the</c><00:14:38.560><c> debug</c><00:14:38.959><c> folder</c><00:14:39.279><c> where</c>
+
+00:14:39.509 --> 00:14:39.519 align:start position:0%
+and let's come to the debug folder where
+ 
+
+00:14:39.519 --> 00:14:41.110 align:start position:0%
+and let's come to the debug folder where
+my<00:14:39.760><c> exe</c><00:14:40.160><c> is</c>
+
+00:14:41.110 --> 00:14:41.120 align:start position:0%
+my exe is
+ 
+
+00:14:41.120 --> 00:14:44.710 align:start position:0%
+my exe is
+created<00:14:41.600><c> so</c><00:14:41.920><c> let's</c><00:14:42.639><c> see</c><00:14:43.519><c> again</c><00:14:43.920><c> binance</c>
+
+00:14:44.710 --> 00:14:44.720 align:start position:0%
+created so let's see again binance
+ 
+
+00:14:44.720 --> 00:14:47.990 align:start position:0%
+created so let's see again binance
+lesson<00:14:45.040><c> is</c><00:14:45.120><c> successful</c><00:14:46.639><c> right</c><00:14:47.279><c> so</c><00:14:47.440><c> i</c><00:14:47.600><c> hope</c><00:14:47.839><c> you</c>
+
+00:14:47.990 --> 00:14:48.000 align:start position:0%
+lesson is successful right so i hope you
+ 
+
+00:14:48.000 --> 00:14:49.030 align:start position:0%
+lesson is successful right so i hope you
+understood<00:14:48.480><c> this</c>
+
+00:14:49.030 --> 00:14:49.040 align:start position:0%
+understood this
+ 
+
+00:14:49.040 --> 00:14:50.550 align:start position:0%
+understood this
+and<00:14:49.279><c> in</c><00:14:49.440><c> the</c><00:14:49.519><c> next</c><00:14:49.760><c> video</c><00:14:50.079><c> in</c><00:14:50.160><c> the</c><00:14:50.320><c> coming</c>
+
+00:14:50.550 --> 00:14:50.560 align:start position:0%
+and in the next video in the coming
+ 
+
+00:14:50.560 --> 00:14:52.230 align:start position:0%
+and in the next video in the coming
+videos<00:14:50.959><c> or</c><00:14:51.120><c> in</c><00:14:51.199><c> the</c><00:14:51.279><c> next</c><00:14:51.519><c> video</c><00:14:51.839><c> itself</c><00:14:52.160><c> i</c>
+
+00:14:52.230 --> 00:14:52.240 align:start position:0%
+videos or in the next video itself i
+ 
+
+00:14:52.240 --> 00:14:53.509 align:start position:0%
+videos or in the next video itself i
+will<00:14:52.480><c> try</c><00:14:52.720><c> to</c>
+
+00:14:53.509 --> 00:14:53.519 align:start position:0%
+will try to
+ 
+
+00:14:53.519 --> 00:14:55.430 align:start position:0%
+will try to
+demonstrate<00:14:54.079><c> this</c><00:14:54.240><c> one</c><00:14:54.480><c> as</c><00:14:54.639><c> well</c><00:14:54.959><c> when</c><00:14:55.199><c> i</c><00:14:55.279><c> will</c>
+
+00:14:55.430 --> 00:14:55.440 align:start position:0%
+demonstrate this one as well when i will
+ 
+
+00:14:55.440 --> 00:14:57.350 align:start position:0%
+demonstrate this one as well when i will
+provided<00:14:55.920><c> zero</c><00:14:56.240><c> then</c><00:14:56.480><c> a</c><00:14:56.639><c> new</c><00:14:56.800><c> connection</c><00:14:57.199><c> from</c>
+
+00:14:57.350 --> 00:14:57.360 align:start position:0%
+provided zero then a new connection from
+ 
+
+00:14:57.360 --> 00:14:58.470 align:start position:0%
+provided zero then a new connection from
+the<00:14:57.519><c> client</c><00:14:57.839><c> it</c><00:14:57.920><c> should</c><00:14:58.160><c> not</c>
+
+00:14:58.470 --> 00:14:58.480 align:start position:0%
+the client it should not
+ 
+
+00:14:58.480 --> 00:15:00.550 align:start position:0%
+the client it should not
+connect<00:14:58.880><c> it</c><00:14:59.040><c> connect</c><00:14:59.360><c> to</c><00:14:59.519><c> it</c><00:14:59.920><c> and</c><00:15:00.160><c> if</c><00:15:00.320><c> i</c><00:15:00.399><c> will</c>
+
+00:15:00.550 --> 00:15:00.560 align:start position:0%
+connect it connect to it and if i will
+ 
+
+00:15:00.560 --> 00:15:02.230 align:start position:0%
+connect it connect to it and if i will
+provide<00:15:00.880><c> it</c><00:15:01.040><c> one</c><00:15:01.279><c> then</c><00:15:01.440><c> the</c><00:15:01.680><c> other</c><00:15:01.920><c> server</c>
+
+00:15:02.230 --> 00:15:02.240 align:start position:0%
+provide it one then the other server
+ 
+
+00:15:02.240 --> 00:15:02.790 align:start position:0%
+provide it one then the other server
+will<00:15:02.480><c> it</c>
+
+00:15:02.790 --> 00:15:02.800 align:start position:0%
+will it
+ 
+
+00:15:02.800 --> 00:15:04.710 align:start position:0%
+will it
+will<00:15:02.959><c> be</c><00:15:03.120><c> able</c><00:15:03.360><c> to</c><00:15:03.519><c> connect</c><00:15:03.839><c> to</c><00:15:04.320><c> the</c><00:15:04.480><c> new</c>
+
+00:15:04.710 --> 00:15:04.720 align:start position:0%
+will be able to connect to the new
+ 
+
+00:15:04.720 --> 00:15:06.550 align:start position:0%
+will be able to connect to the new
+clients<00:15:05.680><c> on</c><00:15:05.839><c> the</c><00:15:05.920><c> same</c><00:15:06.160><c> port</c>
+
+00:15:06.550 --> 00:15:06.560 align:start position:0%
+clients on the same port
+ 
+
+00:15:06.560 --> 00:15:08.389 align:start position:0%
+clients on the same port
+right<00:15:07.040><c> so</c><00:15:07.279><c> that</c><00:15:07.519><c> thing</c><00:15:07.680><c> we</c><00:15:07.839><c> will</c><00:15:08.000><c> discuss</c><00:15:08.320><c> in</c>
+
+00:15:08.389 --> 00:15:08.399 align:start position:0%
+right so that thing we will discuss in
+ 
+
+00:15:08.399 --> 00:15:10.710 align:start position:0%
+right so that thing we will discuss in
+the<00:15:08.480><c> next</c><00:15:08.720><c> video</c><00:15:09.519><c> so</c><00:15:09.760><c> till</c><00:15:10.000><c> then</c><00:15:10.240><c> have</c><00:15:10.399><c> a</c><00:15:10.480><c> nice</c>
+
+00:15:10.710 --> 00:15:10.720 align:start position:0%
+the next video so till then have a nice
+ 
+
+00:15:10.720 --> 00:15:12.470 align:start position:0%
+the next video so till then have a nice
+day<00:15:10.880><c> bye</c><00:15:11.040><c> bye</c><00:15:11.279><c> and</c><00:15:11.360><c> please</c><00:15:11.680><c> like</c><00:15:11.920><c> subscribe</c><00:15:12.320><c> my</c>
+
+00:15:12.470 --> 00:15:12.480 align:start position:0%
+day bye bye and please like subscribe my
+ 
+
+00:15:12.480 --> 00:15:14.230 align:start position:0%
+day bye bye and please like subscribe my
+channel<00:15:12.880><c> and</c><00:15:13.040><c> give</c><00:15:13.199><c> me</c><00:15:13.360><c> the</c><00:15:13.519><c> feedback</c><00:15:14.000><c> if</c><00:15:14.160><c> you</c>
+
+00:15:14.230 --> 00:15:14.240 align:start position:0%
+channel and give me the feedback if you
+ 
+
+00:15:14.240 --> 00:15:15.990 align:start position:0%
+channel and give me the feedback if you
+need<00:15:14.480><c> something</c><00:15:14.800><c> else</c><00:15:15.040><c> to</c><00:15:15.120><c> understand</c>
+
+00:15:15.990 --> 00:15:16.000 align:start position:0%
+need something else to understand
+ 
+
+00:15:16.000 --> 00:15:17.910 align:start position:0%
+need something else to understand
+and<00:15:16.240><c> please</c><00:15:16.480><c> share</c><00:15:16.959><c> share</c><00:15:17.199><c> these</c><00:15:17.360><c> videos</c><00:15:17.760><c> with</c>
+
+00:15:17.910 --> 00:15:17.920 align:start position:0%
+and please share share these videos with
+ 
+
+00:15:17.920 --> 00:15:19.590 align:start position:0%
+and please share share these videos with
+your<00:15:18.160><c> friends</c><00:15:18.480><c> if</c><00:15:18.639><c> you</c><00:15:18.800><c> find</c><00:15:19.120><c> that</c><00:15:19.360><c> these</c>
+
+00:15:19.590 --> 00:15:19.600 align:start position:0%
+your friends if you find that these
+ 
+
+00:15:19.600 --> 00:15:20.710 align:start position:0%
+your friends if you find that these
+videos<00:15:20.000><c> are</c><00:15:20.079><c> really</c><00:15:20.399><c> good</c>
+
+00:15:20.710 --> 00:15:20.720 align:start position:0%
+videos are really good
+ 
+
+00:15:20.720 --> 00:15:23.509 align:start position:0%
+videos are really good
+good<00:15:21.040><c> and</c><00:15:21.199><c> useful</c><00:15:22.000><c> right</c><00:15:22.320><c> so</c><00:15:22.959><c> we</c><00:15:23.120><c> will</c><00:15:23.279><c> meet</c>
+
+00:15:23.509 --> 00:15:23.519 align:start position:0%
+good and useful right so we will meet
+ 
+
+00:15:23.519 --> 00:15:24.069 align:start position:0%
+good and useful right so we will meet
+soon
+
+00:15:24.069 --> 00:15:24.079 align:start position:0%
+soon
+ 
+
+00:15:24.079 --> 00:15:27.360 align:start position:0%
+soon
+till<00:15:24.320><c> then</c><00:15:24.480><c> have</c><00:15:24.639><c> a</c><00:15:24.720><c> nice</c><00:15:25.040><c> day</c><00:15:25.279><c> and</c>
+

@@ -1,0 +1,125 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+
+}
+#error{
+    position:absolute ;
+    padding:10px;
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', monospace ;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-fill-color: black;
+    color:black;
+    top:80px;
+    left:600px;
+    background-color: aqua;
+}
+
+#signdiv{
+
+    width:100%;
+    height:970px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-image: url("/static/signup/css/bg-images/bg1.jpg") ;
+}
+
+#sign-up-form{
+   
+    position:relative;
+    top:120px;
+    left:670px;
+    width:650px;
+    height:550px;
+    padding:0px;
+}
+#sign-up-form #form{
+    
+    width:100%;
+    height:100%;
+}
+#sign-up-form #form #table{
+    border:2px solid grey ;
+    border-radius:50px;
+    position: relative ;
+    width:fit-content;
+    padding:30px;
+    top:100px;
+    height:300px;
+    left:150px;
+    
+}
+#sign-up-form #form #table tr td
+{
+    
+}
+
+#sign-up-form #form #table tr td label{
+   
+    padding:10px;
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', monospace ;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-fill-color: black;
+    color:black;
+    margin-right: 30px;
+    text-align: left;
+}
+#sign-up-form #form #table tr td #un{
+   
+    padding:10px;
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', monospace ;
+    -webkit-text-stroke-color: rgba(154, 231, 236, 0.493);
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.493);
+    color:rgb(0, 0, 0);
+    width:200px;
+    border-radius:30px;
+    border-style: none;
+    text-align: center;
+}
+
+#sign-up-form #form #table tr td #em{
+    padding:10px;
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', monospace ;
+    -webkit-text-stroke-color: rgba(154, 231, 236, 0.493);
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.493);
+    color:rgb(0, 0, 0);
+    width:200px;
+    border-radius:30px;
+    border-style: none;
+    text-align: center;
+
+}
+#sign-up-form #form #table tr td #submit{
+    padding:10px;
+    font-size:20px;
+    font-family:'Gill Sans', monospace ;
+    -webkit-text-stroke-color: rgba(247, 247, 247, 0.932);
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.493);
+    color:rgb(0, 0, 0);
+    width:fit-content;
+    border-radius:80px;
+    border-style: none;
+    background-color: black;
+    letter-spacing: 2px;
+}
+
+#sign-up-form #form #table tr #sub{
+    text-align: center;
+    position:relative;
+    left:100px;
+}
+#sign-up-form #form #table:hover{
+    box-shadow:inset 0px 0px 5px rgba(128, 128, 128, 0.884)
+}
