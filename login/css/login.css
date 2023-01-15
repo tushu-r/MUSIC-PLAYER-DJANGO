@@ -1,0 +1,209 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+}
+
+#error{
+    position:absolute ;
+    padding:10px;
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', monospace ;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-fill-color: black;
+    color:black;
+    top:80px;
+    left:600px;
+    background-color: rgb(159, 161, 161);
+}
+
+
+#block{
+    
+    
+    background-image: url("/static/login/bg-images/music11.jpg");
+    width:100%;
+    height:969px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#form{
+    position:relative;
+    top:70px;
+    left:600px;
+    width:fit-content;
+    height:fit-content;
+    padding:20px;
+}
+
+#table{
+    position:relative;
+    padding:60px;
+    width:100%;
+    height:500px;
+}
+#table tr {
+    text-align:center;
+    margin:20px;
+    width:auto;
+    text-align:center;
+}
+#table tr td label{
+    padding:10px;
+    margin:10px;
+    font-size:34px;
+    letter-spacing:2px;
+    font-weight: lighter;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    text-align:center;
+}
+#submit{
+    border-radius:100px;
+    padding:30px;
+    margin:10px;
+    font-size:27px;
+    font-family: Georgia, Times, monospace;
+    letter-spacing:2px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    text-align:center;
+    width:100px;
+    height:fit-content;
+    word-wrap:break-word;
+    border:none;
+    box-sizing: content-box;
+}
+#sub{
+    position:relative;
+    left:200px;
+}
+#un{
+    border-radius:100px;
+    padding:30px;
+    margin:10px;
+    font-size:27px;
+    font-family: Georgia, Times, monospace;
+    letter-spacing:2px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    text-align:center;
+    width:300px;
+
+    height:10px;
+    word-wrap:break-word;
+    border:1px solid grey;
+    box-sizing: content-box;
+
+}
+#email{
+    border-radius:100px;
+    padding:30px;
+    margin:10px;
+    font-size:27px;
+    font-family: Georgia, Times, monospace;
+    letter-spacing:2px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    text-align:center;
+    width:300px;
+
+    height:10px;
+    word-wrap:break-word;
+    border:1px solid grey;
+    box-sizing: content-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
